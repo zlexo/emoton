@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { execFileSync } from "node:child_process";
+import { execFileSync, spawnSync } from "node:child_process";
 import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { analyzeAudio, clipMotion, liveliest, motionOf, type ClipMotion } from "../pipeline/beats.ts";
@@ -11,6 +11,8 @@ import { editFromSong, type ClipInfo } from "../src/core/short/edit-song.ts";
 import { estimatedVoice } from "../src/core/short/estimate.ts";
 import { checkShort, resolveShort } from "../src/core/short/resolve.ts";
 import { lib, temp } from "./fixtures/helpers.ts";
+
+const noFfmpeg = spawnSync("ffmpeg", ["-version"]).status !== 0;
 
 const quiet = { signal: new AbortController().signal, progress() {}, log() {} };
 
@@ -58,7 +60,7 @@ test("a clip's liveliest stretch is where it moves most, and repeats look elsewh
   assert.equal(liveliest({ ...m, motion: m.motion.slice(0, 8) }, 2), 0, "a clip shorter than the stretch starts at 0");
 });
 
-test("clip motion from a real file: a still second, then a moving one", () => {
+test("clip motion from a real file: a still second, then a moving one", { skip: noFfmpeg }, () => {
   const t = temp();
   try {
     const f = join(t.base, "c.mp4");
@@ -100,7 +102,7 @@ test("an edit cuts a bar at a time up to the drop, then every two beats with a p
   assert.equal(early.scenes.filter((x) => x.id.startsWith("b")).length, 2);
 });
 
-test("an edit's draft job: it needs a song and clips; it cuts them to the song and says what it heard", async () => {
+test("an edit's draft job: it needs a song and clips; it cuts them to the song and says what it heard", { skip: noFfmpeg }, async () => {
   const t = temp();
   try {
     const L = lib(t);

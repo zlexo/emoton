@@ -1,6 +1,6 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { execFileSync } from "node:child_process";
+import { execFileSync, spawnSync } from "node:child_process";
 import { mkdirSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import { createLibrary } from "../library/index.ts";
@@ -12,6 +12,7 @@ import { checkShort, resolveShort, type VoiceTiming } from "../src/core/short/re
 import { DEFAULTS } from "./fixtures/helpers.ts";
 import { cleanup, makeTmp, startTestServer } from "./server-fake-library.ts";
 
+const noFfmpeg = spawnSync("ffmpeg", ["-version"]).status !== 0;
 const fx = (n: string) => JSON.parse(readFileSync(new URL(`fixtures/codetyper/${n}`, import.meta.url), "utf8"));
 const voice = fx("perdix-ep3.timing.json") as VoiceTiming;
 const ep3 = () => Short.parse(fromDevlogJob(fx("perdix-ep3.job.json"), { build: "c0bece9" }));
@@ -47,7 +48,7 @@ test("a scene can show a clip instead of its own visual, dropping what it carrie
   assert.equal(useClip(d, "nope", "assets/clips/run.mp4"), d, "an unknown scene: the same document");
 });
 
-test("POST clips: videos copied into the Short under unique names, others refused; a clip in use is flagged for a proxy until it has one", async () => {
+test("POST clips: videos copied into the Short under unique names, others refused; a clip in use is flagged for a proxy until it has one", { skip: noFfmpeg }, async () => {
   const tmp = makeTmp();
   mkdirSync(tmp.libraryRoot, { recursive: true });
   const s = await startTestServer({ tmp, server: { createLibrary } });

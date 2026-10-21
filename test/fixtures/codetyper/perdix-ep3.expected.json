@@ -1,0 +1,482 @@
+{
+ "props": {
+  "segs": [
+   {
+    "src": "gen/perdix-ep3-world.mp4",
+    "from": 0,
+    "seconds": 5.813,
+    "cont": true,
+    "zoom": [
+     1,
+     1.02
+    ]
+   },
+   {
+    "src": "gen/perdix-ep3-born.mp4",
+    "from": 0,
+    "seconds": 17.556,
+    "cont": true,
+    "zoom": [
+     1,
+     1.02
+    ]
+   },
+   {
+    "src": "gen/perdix-ep3-walk.mp4",
+    "from": 0,
+    "seconds": 7.028,
+    "cont": true,
+    "zoom": [
+     1,
+     1.02
+    ]
+   },
+   {
+    "src": "gen/perdix-ep3-pov.mp4",
+    "from": 0,
+    "seconds": 2.219,
+    "cont": true,
+    "zoom": [
+     1,
+     1.02
+    ]
+   },
+   {
+    "src": "gen/perdix-ep3-stuck.mp4",
+    "from": 0,
+    "seconds": 9.018,
+    "cont": true,
+    "zoom": [
+     1,
+     1.02
+    ]
+   },
+   {
+    "src": "gen/perdix-ep3-horizon.mp4",
+    "from": 0,
+    "seconds": 11.019,
+    "cont": true,
+    "zoom": [
+     1,
+     1.02
+    ]
+   }
+  ],
+  "end": {
+   "big": "PART 3",
+   "small": "building Minecraft from scratch",
+   "seconds": 3
+  },
+  "subs": [
+   {
+    "text": "Last time",
+    "from": 0.318,
+    "to": 1.043
+   },
+   {
+    "text": "this world got",
+    "from": 1.043,
+    "to": 1.693
+   },
+   {
+    "text": "its textures",
+    "from": 1.693,
+    "to": 2.818
+   },
+   {
+    "text": "Today",
+    "from": 2.818,
+    "to": 3.368
+   },
+   {
+    "text": "it gets someone",
+    "from": 3.368,
+    "to": 3.943
+   },
+   {
+    "text": "to live in",
+    "from": 3.943,
+    "to": 4.343
+   },
+   {
+    "text": "it",
+    "from": 4.343,
+    "to": 4.449
+   },
+   {
+    "text": "So I added",
+    "from": 4.683,
+    "to": 5.108
+   },
+   {
+    "text": "a player",
+    "from": 5.108,
+    "to": 5.613
+   },
+   {
+    "text": "He spawned magenta",
+    "from": 6.063,
+    "to": 7.456
+   },
+   {
+    "text": "Like everything I",
+    "from": 7.456,
+    "to": 8.181
+   },
+   {
+    "text": "make",
+    "from": 8.181,
+    "to": 8.556
+   },
+   {
+    "text": "at first",
+    "from": 8.556,
+    "to": 9.087
+   },
+   {
+    "text": "Let's get a",
+    "from": 9.557,
+    "to": 9.9
+   },
+   {
+    "text": "closer look",
+    "from": 9.9,
+    "to": 10.626
+   },
+   {
+    "text": "No face",
+    "from": 10.864,
+    "to": 11.664
+   },
+   {
+    "text": "No name",
+    "from": 11.664,
+    "to": 12.314
+   },
+   {
+    "text": "No idea where",
+    "from": 12.314,
+    "to": 13.039
+   },
+   {
+    "text": "he is",
+    "from": 13.039,
+    "to": 13.864
+   },
+   {
+    "text": "Honestly?",
+    "from": 13.864,
+    "to": 14.764
+   },
+   {
+    "text": "Relatable",
+    "from": 14.764,
+    "to": 15.348
+   },
+   {
+    "text": "Every legend needs",
+    "from": 15.586,
+    "to": 16.586
+   },
+   {
+    "text": "a name",
+    "from": 16.586,
+    "to": 17.386
+   },
+   {
+    "text": "I named him",
+    "from": 17.386,
+    "to": 18.036
+   },
+   {
+    "text": "after the engine",
+    "from": 18.036,
+    "to": 19.161
+   },
+   {
+    "text": "because creativity is",
+    "from": 19.161,
+    "to": 20.361
+   },
+   {
+    "text": "expensive",
+    "from": 20.361,
+    "to": 21.118
+   },
+   {
+    "text": "Perdix",
+    "from": 21.338,
+    "to": 21.906
+   },
+   {
+    "text": "And a face",
+    "from": 22.376,
+    "to": 23.069
+   },
+   {
+    "text": "Then I taught",
+    "from": 23.619,
+    "to": 24.062
+   },
+   {
+    "text": "him to walk",
+    "from": 24.062,
+    "to": 24.837
+   },
+   {
+    "text": "at Minecraft's exact",
+    "from": 24.837,
+    "to": 25.812
+   },
+   {
+    "text": "speeds",
+    "from": 25.812,
+    "to": 26.368
+   },
+   {
+    "text": "Walk",
+    "from": 26.606,
+    "to": 27.098
+   },
+   {
+    "text": "Sprint",
+    "from": 27.755,
+    "to": 28.318
+   },
+   {
+    "text": "Sprint-jump",
+    "from": 28.95,
+    "to": 29.697
+   },
+   {
+    "text": "This is what",
+    "from": 30.647,
+    "to": 31.065
+   },
+   {
+    "text": "he sees",
+    "from": 31.065,
+    "to": 31.616
+   },
+   {
+    "text": "And then",
+    "from": 32.866,
+    "to": 33.259
+   },
+   {
+    "text": "he met a",
+    "from": 33.259,
+    "to": 33.559
+   },
+   {
+    "text": "block",
+    "from": 33.559,
+    "to": 34.334
+   },
+   {
+    "text": "One block",
+    "from": 34.334,
+    "to": 35.039
+   },
+   {
+    "text": "He just stands",
+    "from": 35.268,
+    "to": 35.968
+   },
+   {
+    "text": "there",
+    "from": 35.968,
+    "to": 36.493
+   },
+   {
+    "text": "His legs don't",
+    "from": 36.493,
+    "to": 37.193
+   },
+   {
+    "text": "even move",
+    "from": 37.193,
+    "to": 38.193
+   },
+   {
+    "text": "Minecraft only swings",
+    "from": 38.193,
+    "to": 39.368
+   },
+   {
+    "text": "your legs when",
+    "from": 39.368,
+    "to": 40.018
+   },
+   {
+    "text": "you actually get",
+    "from": 40.018,
+    "to": 40.843
+   },
+   {
+    "text": "somewhere",
+    "from": 40.843,
+    "to": 41.334
+   },
+   {
+    "text": "Lucky for him",
+    "from": 41.902,
+    "to": 42.752
+   },
+   {
+    "text": "this world never",
+    "from": 42.752,
+    "to": 43.577
+   },
+   {
+    "text": "ends",
+    "from": 43.577,
+    "to": 44.277
+   },
+   {
+    "text": "He has forever",
+    "from": 44.277,
+    "to": 44.977
+   },
+   {
+    "text": "to figure it",
+    "from": 44.977,
+    "to": 45.452
+   },
+   {
+    "text": "out",
+    "from": 45.452,
+    "to": 45.652
+   },
+   {
+    "text": "What should Perdix",
+    "from": 45.884,
+    "to": 46.584
+   },
+   {
+    "text": "learn next?",
+    "from": 46.584,
+    "to": 47.409
+   },
+   {
+    "text": "Tell me in",
+    "from": 47.409,
+    "to": 47.734
+   },
+   {
+    "text": "the comments",
+    "from": 47.734,
+    "to": 48.559
+   },
+   {
+    "text": "Follow",
+    "from": 48.559,
+    "to": 49.002
+   }
+  ],
+  "punches": [
+   9.107,
+   21.926,
+   23.089,
+   41.354
+  ],
+  "overlays": [],
+  "voice": {
+   "src": "gen/perdix-ep3-voice.wav",
+   "volume": 1
+  },
+  "music": {
+   "src": "gen/perdix-ep3-score.wav",
+   "volume": 0.13
+  },
+  "sfx": {
+   "src": "gen/perdix-ep3-sfx.wav",
+   "volume": 0.7
+  }
+ },
+ "shots": {
+  "born": {
+   "kind": "perdix-born",
+   "frames": 1062,
+   "env": {
+    "PERDIX_X": "60.5",
+    "PERDIX_Z": "40.5",
+    "PERDIX_YAW": "0.785",
+    "CX0": "-4",
+    "CX1": "12",
+    "CZ0": "-4",
+    "CZ1": "10",
+    "PUSH": "4.813",
+    "FAR": "12",
+    "NEAR": "1.6",
+    "TAG_AT": "15.525",
+    "SKIN_AT": "16.563"
+   }
+  },
+  "horizon": {
+   "kind": "stream",
+   "frames": 670,
+   "env": {
+    "GROW": "0.5",
+    "VIEW": "12",
+    "RISE": "40"
+   }
+  },
+  "pov": {
+   "kind": "walk",
+   "frames": 142,
+   "env": {
+    "WALK_X": "60.5",
+    "WALK_Z": "40.5",
+    "WALK_YAW": "-1.5708",
+    "SPRINT_FROM": "0",
+    "JUMP_FROM": "0.35",
+    "CX0": "-4",
+    "CX1": "24",
+    "CZ0": "-4",
+    "CZ1": "10"
+   }
+  },
+  "stuck": {
+   "kind": "perdix-stuck",
+   "frames": 550,
+   "env": {
+    "PERDIX_X": "256.5",
+    "PERDIX_Z": "-299.5",
+    "PERDIX_YAW": "1.5708",
+    "SIDE": "-5",
+    "BACK": "-0.5",
+    "UP": "2",
+    "LEAD": "0.3",
+    "CX0": "4",
+    "CX1": "14",
+    "CZ0": "-14",
+    "CZ1": "-6"
+   }
+  },
+  "walk": {
+   "kind": "perdix-walk",
+   "frames": 430,
+   "env": {
+    "PERDIX_X": "60.5",
+    "PERDIX_Z": "40.5",
+    "PERDIX_YAW": "-1.5708",
+    "CX0": "-4",
+    "CX1": "20",
+    "CZ0": "-4",
+    "CZ1": "10",
+    "WALK_FROM": "3.219",
+    "SPRINT_FROM": "4.349",
+    "JUMP_FROM": "5.569"
+   }
+  },
+  "world": {
+   "kind": "stream",
+   "frames": 357,
+   "env": {
+    "GROW": "1.6",
+    "VIEW": "8"
+   }
+  }
+ }
+}

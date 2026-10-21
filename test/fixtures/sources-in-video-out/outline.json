@@ -1,0 +1,155 @@
+{
+  "title": "Sources in, video out",
+  "hook": "You give a language model three PDFs and ask for an animated explainer. How could you check that every picture renders, every sentence traces back to a page, and each visual appears exactly when the voice reaches it?",
+  "chapters": [
+    {
+      "title": "Five stages, one diagram",
+      "goal": "The viewer can follow one source page through ingest, outline, storyboard, voice and render, and name the file each stage produces.",
+      "claims": [
+        {
+          "text": "Ingest turns PDFs, text and URLs into chunks.json, with one chunk per PDF page (id notes:p6) or one per 2,500 characters of text (id readme:s2).",
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "text": "The outline stage has the model write chapters of claims, and every claim must cite real chunk ids.",
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "text": "The storyboard stage has the model fill a fixed schema, one chapter at a time.",
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "text": "The voice stage speaks the narration with local Kokoro TTS, one sentence at a time, and the render stage uses Remotion to make one MP4 per chapter, then joins them with chapter markers.",
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "text": "state.json records a hash of each stage's inputs, so a command runs only what is missing or stale, and rewriting one chapter leaves the other chapters byte-identical.",
+          "cite": [
+            "readme:s1",
+            "readme:s2"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fill a storyboard, not code",
+      "goal": "The viewer can predict, then see, that the model never writes animation code, and can read a diagram primitive's nodes, edges and steps.",
+      "claims": [
+        {
+          "text": "Many people expect the model to write animation code, but Emoton's model never does: it fills a declarative storyboard instead.",
+          "cite": [
+            "readme:s1",
+            "schema:s1"
+          ]
+        },
+        {
+          "text": "The README names seven primitives that always render: title, bullets, diagram, sequence, equation, code and graph.",
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "text": "A diagram is defined as nodes, edges and an ordered list of steps, and each step can show, hide, highlight or relabel ids.",
+          "cite": [
+            "schema:s1"
+          ]
+        },
+        {
+          "text": "In the README's example, step one shows the sources node and step two shows the storyboard node and the outline edge between them.",
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "text": "Setting continue to true keeps the previous beat's diagram on screen so the next beat builds on it.",
+          "cite": [
+            "schema:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bad output goes back",
+      "goal": "The viewer can say what the validator catches, why some limits are checked only afterwards, and how each claim stays tied to a source chunk.",
+      "claims": [
+        {
+          "text": "A validator checks every answer, and invalid output goes back to the writer along with the list of errors.",
+          "cite": [
+            "readme:s1",
+            "schema:s6"
+          ]
+        },
+        {
+          "text": "Structured-output backends support only part of JSON Schema, so the size limits are removed from the schema the writer sees, and zod still enforces every limit afterwards.",
+          "cite": [
+            "schema:s6"
+          ]
+        },
+        {
+          "text": "A cross-check catches what the schema cannot express, such as an edge that points at an unknown node, or continue set to true when the previous beat is not a diagram.",
+          "cite": [
+            "schema:s5"
+          ]
+        },
+        {
+          "text": "Every outline claim cites one to four chunk ids, and every beat can list the chunk ids that back it.",
+          "cite": [
+            "schema:s3"
+          ]
+        },
+        {
+          "text": "The prompt and accept commands let any writer, a person or an agent, produce the JSON, and accept runs the same validation.",
+          "cite": [
+            "readme:s2"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sentence k reveals item k",
+      "goal": "The viewer can apply the one timing rule to a beat and explain why keeping visuals in sync needs no alignment model, which ties back to the opening question.",
+      "claims": [
+        {
+          "text": "Every primitive has an ordered list of reveal items, and item k appears when sentence k of the beat starts.",
+          "cite": [
+            "schema:s1",
+            "readme:s1"
+          ]
+        },
+        {
+          "text": "Items beyond the last sentence are spread across the last sentence.",
+          "cite": [
+            "schema:s1"
+          ]
+        },
+        {
+          "text": "The voice stage speaks each sentence separately, so every sentence start is known exactly and keeping the visuals in sync needs no alignment model.",
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "text": "The voice stage records the start and end time of each sentence in seconds, and the renderer reads those timings.",
+          "cite": [
+            "schema:s4"
+          ]
+        },
+        {
+          "text": "So the answer to the opening question is that primitives which always render, a validator that sends back errors, cited chunk ids and one timing rule make each part of the video something you can check.",
+          "cite": [
+            "readme:s1",
+            "schema:s3"
+          ]
+        }
+      ]
+    }
+  ]
+}

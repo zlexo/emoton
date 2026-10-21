@@ -1,0 +1,1097 @@
+{
+  "leadIn": 1.8,
+  "duration": 68.751,
+  "audio": "audio/ch3.wav",
+  "beats": [
+    {
+      "start": 1.8,
+      "end": 7.776,
+      "sentences": [
+        {
+          "start": 1.8,
+          "end": 3.695,
+          "text": "Here is a beat a writer might send.",
+          "words": [
+            {
+              "text": "Here",
+              "start": 1.85,
+              "end": 2.025
+            },
+            {
+              "text": "is",
+              "start": 2.05,
+              "end": 2.125
+            },
+            {
+              "text": "a",
+              "start": 2.15,
+              "end": 2.175
+            },
+            {
+              "text": "beat",
+              "start": 2.225,
+              "end": 2.525
+            },
+            {
+              "text": "a",
+              "start": 2.6,
+              "end": 2.65
+            },
+            {
+              "text": "writer",
+              "start": 2.7,
+              "end": 3.025
+            },
+            {
+              "text": "might",
+              "start": 3.075,
+              "end": 3.275
+            },
+            {
+              "text": "send.",
+              "start": 3.325,
+              "end": 3.655
+            }
+          ]
+        },
+        {
+          "start": 3.995,
+          "end": 7.776,
+          "text": "Its edge points at a node called sb, but no node has that id.",
+          "words": [
+            {
+              "text": "Its",
+              "start": 4.028,
+              "end": 4.178
+            },
+            {
+              "text": "edge",
+              "start": 4.228,
+              "end": 4.478
+            },
+            {
+              "text": "points",
+              "start": 4.528,
+              "end": 4.778
+            },
+            {
+              "text": "at",
+              "start": 4.803,
+              "end": 4.828
+            },
+            {
+              "text": "a",
+              "start": 4.828,
+              "end": 4.903
+            },
+            {
+              "text": "node",
+              "start": 4.953,
+              "end": 5.203
+            },
+            {
+              "text": "called",
+              "start": 5.253,
+              "end": 5.478
+            },
+            {
+              "text": "sb,",
+              "start": 5.528,
+              "end": 6.253
+            },
+            {
+              "text": "but",
+              "start": 6.378,
+              "end": 6.478
+            },
+            {
+              "text": "no",
+              "start": 6.553,
+              "end": 6.728
+            },
+            {
+              "text": "node",
+              "start": 6.778,
+              "end": 6.978
+            },
+            {
+              "text": "has",
+              "start": 7.003,
+              "end": 7.103
+            },
+            {
+              "text": "that",
+              "start": 7.153,
+              "end": 7.303
+            },
+            {
+              "text": "id.",
+              "start": 7.353,
+              "end": 7.736
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 8.426,
+      "end": 16.47,
+      "sentences": [
+        {
+          "start": 8.426,
+          "end": 12.878,
+          "text": "A validator checks every answer, and only valid ones become the storyboard.",
+          "words": [
+            {
+              "text": "A",
+              "start": 8.458,
+              "end": 8.508
+            },
+            {
+              "text": "validator",
+              "start": 8.558,
+              "end": 9.108
+            },
+            {
+              "text": "checks",
+              "start": 9.183,
+              "end": 9.458
+            },
+            {
+              "text": "every",
+              "start": 9.533,
+              "end": 9.783
+            },
+            {
+              "text": "answer,",
+              "start": 9.833,
+              "end": 10.533
+            },
+            {
+              "text": "and",
+              "start": 10.683,
+              "end": 10.758
+            },
+            {
+              "text": "only",
+              "start": 10.808,
+              "end": 11.058
+            },
+            {
+              "text": "valid",
+              "start": 11.133,
+              "end": 11.433
+            },
+            {
+              "text": "ones",
+              "start": 11.483,
+              "end": 11.733
+            },
+            {
+              "text": "become",
+              "start": 11.783,
+              "end": 12.083
+            },
+            {
+              "text": "the",
+              "start": 12.108,
+              "end": 12.158
+            },
+            {
+              "text": "storyboard.",
+              "start": 12.208,
+              "end": 12.838
+            }
+          ]
+        },
+        {
+          "start": 13.178,
+          "end": 16.47,
+          "text": "Invalid output goes back to the writer with the list of errors.",
+          "words": [
+            {
+              "text": "Invalid",
+              "start": 13.215,
+              "end": 13.665
+            },
+            {
+              "text": "output",
+              "start": 13.74,
+              "end": 14.165
+            },
+            {
+              "text": "goes",
+              "start": 14.215,
+              "end": 14.415
+            },
+            {
+              "text": "back",
+              "start": 14.465,
+              "end": 14.69
+            },
+            {
+              "text": "to",
+              "start": 14.74,
+              "end": 14.79
+            },
+            {
+              "text": "the",
+              "start": 14.815,
+              "end": 14.865
+            },
+            {
+              "text": "writer",
+              "start": 14.915,
+              "end": 15.39
+            },
+            {
+              "text": "with",
+              "start": 15.465,
+              "end": 15.59
+            },
+            {
+              "text": "the",
+              "start": 15.59,
+              "end": 15.64
+            },
+            {
+              "text": "list",
+              "start": 15.69,
+              "end": 15.865
+            },
+            {
+              "text": "of",
+              "start": 15.89,
+              "end": 15.94
+            },
+            {
+              "text": "errors.",
+              "start": 15.99,
+              "end": 16.43
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 17.12,
+      "end": 23.399,
+      "sentences": [
+        {
+          "start": 17.12,
+          "end": 19.343,
+          "text": "The writer also gets a JSON Schema.",
+          "words": [
+            {
+              "text": "The",
+              "start": 17.146,
+              "end": 17.221
+            },
+            {
+              "text": "writer",
+              "start": 17.271,
+              "end": 17.621
+            },
+            {
+              "text": "also",
+              "start": 17.821,
+              "end": 18.096
+            },
+            {
+              "text": "gets",
+              "start": 18.146,
+              "end": 18.321
+            },
+            {
+              "text": "a",
+              "start": 18.346,
+              "end": 18.371
+            },
+            {
+              "text": "JSON",
+              "start": 18.421,
+              "end": 18.871
+            },
+            {
+              "text": "Schema.",
+              "start": 18.921,
+              "end": 19.303
+            }
+          ]
+        },
+        {
+          "start": 19.643,
+          "end": 23.399,
+          "text": "So could a beat with seven sentences still slip through? Predict first.",
+          "words": [
+            {
+              "text": "So",
+              "start": 19.697,
+              "end": 19.797
+            },
+            {
+              "text": "could",
+              "start": 19.847,
+              "end": 19.922
+            },
+            {
+              "text": "a",
+              "start": 19.947,
+              "end": 19.972
+            },
+            {
+              "text": "beat",
+              "start": 20.047,
+              "end": 20.297
+            },
+            {
+              "text": "with",
+              "start": 20.322,
+              "end": 20.447
+            },
+            {
+              "text": "seven",
+              "start": 20.522,
+              "end": 20.822
+            },
+            {
+              "text": "sentences",
+              "start": 20.872,
+              "end": 21.397
+            },
+            {
+              "text": "still",
+              "start": 21.447,
+              "end": 21.672
+            },
+            {
+              "text": "slip",
+              "start": 21.722,
+              "end": 21.922
+            },
+            {
+              "text": "through?",
+              "start": 21.972,
+              "end": 22.422
+            },
+            {
+              "text": "Predict",
+              "start": 22.597,
+              "end": 22.922
+            },
+            {
+              "text": "first.",
+              "start": 22.972,
+              "end": 23.359
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 24.049,
+      "end": 35.068,
+      "sentences": [
+        {
+          "start": 24.049,
+          "end": 25.274,
+          "text": "It slips through the schema.",
+          "words": [
+            {
+              "text": "It",
+              "start": 24.102,
+              "end": 24.202
+            },
+            {
+              "text": "slips",
+              "start": 24.252,
+              "end": 24.502
+            },
+            {
+              "text": "through",
+              "start": 24.552,
+              "end": 24.677
+            },
+            {
+              "text": "the",
+              "start": 24.702,
+              "end": 24.752
+            },
+            {
+              "text": "schema.",
+              "start": 24.802,
+              "end": 25.234
+            }
+          ]
+        },
+        {
+          "start": 25.574,
+          "end": 32.26,
+          "text": "Structured output backends support only part of JSON Schema, so the writer's copy has no size limits.",
+          "words": [
+            {
+              "text": "Structured",
+              "start": 25.645,
+              "end": 26.12
+            },
+            {
+              "text": "output",
+              "start": 26.17,
+              "end": 26.545
+            },
+            {
+              "text": "backends",
+              "start": 26.595,
+              "end": 27.345
+            },
+            {
+              "text": "support",
+              "start": 27.445,
+              "end": 27.845
+            },
+            {
+              "text": "only",
+              "start": 27.895,
+              "end": 28.145
+            },
+            {
+              "text": "part",
+              "start": 28.195,
+              "end": 28.395
+            },
+            {
+              "text": "of",
+              "start": 28.42,
+              "end": 28.47
+            },
+            {
+              "text": "JSON",
+              "start": 28.52,
+              "end": 28.945
+            },
+            {
+              "text": "Schema,",
+              "start": 28.995,
+              "end": 29.645
+            },
+            {
+              "text": "so",
+              "start": 29.82,
+              "end": 29.92
+            },
+            {
+              "text": "the",
+              "start": 29.945,
+              "end": 29.995
+            },
+            {
+              "text": "writer's",
+              "start": 30.045,
+              "end": 30.445
+            },
+            {
+              "text": "copy",
+              "start": 30.495,
+              "end": 30.87
+            },
+            {
+              "text": "has",
+              "start": 30.92,
+              "end": 31.07
+            },
+            {
+              "text": "no",
+              "start": 31.145,
+              "end": 31.32
+            },
+            {
+              "text": "size",
+              "start": 31.395,
+              "end": 31.745
+            },
+            {
+              "text": "limits.",
+              "start": 31.795,
+              "end": 32.22
+            }
+          ]
+        },
+        {
+          "start": 32.56,
+          "end": 35.068,
+          "text": "Zod still enforces every limit afterwards.",
+          "words": [
+            {
+              "text": "Zod",
+              "start": 32.632,
+              "end": 32.907
+            },
+            {
+              "text": "still",
+              "start": 32.957,
+              "end": 33.132
+            },
+            {
+              "text": "enforces",
+              "start": 33.157,
+              "end": 33.782
+            },
+            {
+              "text": "every",
+              "start": 33.857,
+              "end": 34.107
+            },
+            {
+              "text": "limit",
+              "start": 34.157,
+              "end": 34.357
+            },
+            {
+              "text": "afterwards.",
+              "start": 34.407,
+              "end": 35.028
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 36.468,
+      "end": 45.146,
+      "sentences": [
+        {
+          "start": 36.468,
+          "end": 38.433,
+          "text": "Some rules no schema can express.",
+          "words": [
+            {
+              "text": "Some",
+              "start": 36.54,
+              "end": 36.715
+            },
+            {
+              "text": "rules",
+              "start": 36.765,
+              "end": 37.09
+            },
+            {
+              "text": "no",
+              "start": 37.165,
+              "end": 37.34
+            },
+            {
+              "text": "schema",
+              "start": 37.39,
+              "end": 37.715
+            },
+            {
+              "text": "can",
+              "start": 37.765,
+              "end": 37.84
+            },
+            {
+              "text": "express.",
+              "start": 37.865,
+              "end": 38.393
+            }
+          ]
+        },
+        {
+          "start": 38.733,
+          "end": 40.92,
+          "text": "Like our edge pointing at an unknown node.",
+          "words": [
+            {
+              "text": "Like",
+              "start": 38.753,
+              "end": 38.878
+            },
+            {
+              "text": "our",
+              "start": 38.903,
+              "end": 39.003
+            },
+            {
+              "text": "edge",
+              "start": 39.078,
+              "end": 39.303
+            },
+            {
+              "text": "pointing",
+              "start": 39.353,
+              "end": 39.803
+            },
+            {
+              "text": "at",
+              "start": 39.878,
+              "end": 39.928
+            },
+            {
+              "text": "an",
+              "start": 39.953,
+              "end": 40.028
+            },
+            {
+              "text": "unknown",
+              "start": 40.103,
+              "end": 40.478
+            },
+            {
+              "text": "node.",
+              "start": 40.528,
+              "end": 40.88
+            }
+          ]
+        },
+        {
+          "start": 41.22,
+          "end": 45.146,
+          "text": "Or continue set to true when the previous beat is not a diagram.",
+          "words": [
+            {
+              "text": "Or",
+              "start": 41.256,
+              "end": 41.431
+            },
+            {
+              "text": "continue",
+              "start": 41.481,
+              "end": 41.981
+            },
+            {
+              "text": "set",
+              "start": 42.031,
+              "end": 42.181
+            },
+            {
+              "text": "to",
+              "start": 42.231,
+              "end": 42.306
+            },
+            {
+              "text": "true",
+              "start": 42.381,
+              "end": 42.981
+            },
+            {
+              "text": "when",
+              "start": 43.056,
+              "end": 43.131
+            },
+            {
+              "text": "the",
+              "start": 43.156,
+              "end": 43.206
+            },
+            {
+              "text": "previous",
+              "start": 43.256,
+              "end": 43.706
+            },
+            {
+              "text": "beat",
+              "start": 43.756,
+              "end": 44.056
+            },
+            {
+              "text": "is",
+              "start": 44.131,
+              "end": 44.231
+            },
+            {
+              "text": "not",
+              "start": 44.281,
+              "end": 44.406
+            },
+            {
+              "text": "a",
+              "start": 44.406,
+              "end": 44.481
+            },
+            {
+              "text": "diagram.",
+              "start": 44.531,
+              "end": 45.106
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 45.796,
+      "end": 51.648,
+      "sentences": [
+        {
+          "start": 45.796,
+          "end": 48.757,
+          "text": "Every outline claim cites one to four chunk ids.",
+          "words": [
+            {
+              "text": "Every",
+              "start": 45.823,
+              "end": 46.073
+            },
+            {
+              "text": "outline",
+              "start": 46.148,
+              "end": 46.623
+            },
+            {
+              "text": "claim",
+              "start": 46.673,
+              "end": 46.898
+            },
+            {
+              "text": "cites",
+              "start": 46.973,
+              "end": 47.273
+            },
+            {
+              "text": "one",
+              "start": 47.323,
+              "end": 47.423
+            },
+            {
+              "text": "to",
+              "start": 47.448,
+              "end": 47.523
+            },
+            {
+              "text": "four",
+              "start": 47.598,
+              "end": 47.798
+            },
+            {
+              "text": "chunk",
+              "start": 47.848,
+              "end": 48.123
+            },
+            {
+              "text": "ids.",
+              "start": 48.173,
+              "end": 48.717
+            }
+          ]
+        },
+        {
+          "start": 49.057,
+          "end": 51.648,
+          "text": "And every beat can list the chunk ids that back it.",
+          "words": [
+            {
+              "text": "And",
+              "start": 49.086,
+              "end": 49.211
+            },
+            {
+              "text": "every",
+              "start": 49.286,
+              "end": 49.536
+            },
+            {
+              "text": "beat",
+              "start": 49.611,
+              "end": 49.886
+            },
+            {
+              "text": "can",
+              "start": 49.936,
+              "end": 50.011
+            },
+            {
+              "text": "list",
+              "start": 50.061,
+              "end": 50.261
+            },
+            {
+              "text": "the",
+              "start": 50.286,
+              "end": 50.336
+            },
+            {
+              "text": "chunk",
+              "start": 50.386,
+              "end": 50.636
+            },
+            {
+              "text": "ids",
+              "start": 50.686,
+              "end": 51.111
+            },
+            {
+              "text": "that",
+              "start": 51.136,
+              "end": 51.236
+            },
+            {
+              "text": "back",
+              "start": 51.286,
+              "end": 51.511
+            },
+            {
+              "text": "it.",
+              "start": 51.561,
+              "end": 51.608
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 52.298,
+      "end": 58.475,
+      "sentences": [
+        {
+          "start": 52.298,
+          "end": 56.701,
+          "text": "A beat sets continue to true right after a code visual. Which check catches it?",
+          "words": [
+            {
+              "text": "A",
+              "start": 52.345,
+              "end": 52.395
+            },
+            {
+              "text": "beat",
+              "start": 52.47,
+              "end": 52.72
+            },
+            {
+              "text": "sets",
+              "start": 52.77,
+              "end": 53.02
+            },
+            {
+              "text": "continue",
+              "start": 53.07,
+              "end": 53.495
+            },
+            {
+              "text": "to",
+              "start": 53.52,
+              "end": 53.57
+            },
+            {
+              "text": "true",
+              "start": 53.62,
+              "end": 53.795
+            },
+            {
+              "text": "right",
+              "start": 53.87,
+              "end": 54.12
+            },
+            {
+              "text": "after",
+              "start": 54.17,
+              "end": 54.37
+            },
+            {
+              "text": "a",
+              "start": 54.42,
+              "end": 54.445
+            },
+            {
+              "text": "code",
+              "start": 54.495,
+              "end": 54.72
+            },
+            {
+              "text": "visual.",
+              "start": 54.77,
+              "end": 55.445
+            },
+            {
+              "text": "Which",
+              "start": 55.57,
+              "end": 55.77
+            },
+            {
+              "text": "check",
+              "start": 55.82,
+              "end": 56.045
+            },
+            {
+              "text": "catches",
+              "start": 56.095,
+              "end": 56.47
+            },
+            {
+              "text": "it?",
+              "start": 56.545,
+              "end": 56.661
+            }
+          ]
+        },
+        {
+          "start": 57.001,
+          "end": 58.475,
+          "text": "Pause the video and try it.",
+          "words": [
+            {
+              "text": "Pause",
+              "start": 57.033,
+              "end": 57.308
+            },
+            {
+              "text": "the",
+              "start": 57.333,
+              "end": 57.383
+            },
+            {
+              "text": "video",
+              "start": 57.433,
+              "end": 57.783
+            },
+            {
+              "text": "and",
+              "start": 57.833,
+              "end": 57.908
+            },
+            {
+              "text": "try",
+              "start": 57.958,
+              "end": 58.233
+            },
+            {
+              "text": "it.",
+              "start": 58.283,
+              "end": 58.435
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 59.125,
+      "end": 62.861,
+      "sentences": [
+        {
+          "start": 59.125,
+          "end": 62.861,
+          "text": "The cross-check: a schema sees one beat, never the beat before it.",
+          "words": [
+            {
+              "text": "The",
+              "start": 59.15,
+              "end": 59.2
+            },
+            {
+              "text": "cross-check:",
+              "start": 59.25,
+              "end": 60.1
+            },
+            {
+              "text": "a",
+              "start": 60.25,
+              "end": 60.3
+            },
+            {
+              "text": "schema",
+              "start": 60.375,
+              "end": 60.75
+            },
+            {
+              "text": "sees",
+              "start": 60.8,
+              "end": 61.025
+            },
+            {
+              "text": "one",
+              "start": 61.075,
+              "end": 61.25
+            },
+            {
+              "text": "beat,",
+              "start": 61.3,
+              "end": 61.6
+            },
+            {
+              "text": "never",
+              "start": 61.725,
+              "end": 61.95
+            },
+            {
+              "text": "the",
+              "start": 61.975,
+              "end": 62.025
+            },
+            {
+              "text": "beat",
+              "start": 62.075,
+              "end": 62.25
+            },
+            {
+              "text": "before",
+              "start": 62.275,
+              "end": 62.65
+            },
+            {
+              "text": "it.",
+              "start": 62.7,
+              "end": 62.821
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 63.511,
+      "end": 66.901,
+      "sentences": [
+        {
+          "start": 63.511,
+          "end": 66.901,
+          "text": "Nothing reaches the storyboard until it passes every check.",
+          "words": [
+            {
+              "text": "Nothing",
+              "start": 63.587,
+              "end": 63.937
+            },
+            {
+              "text": "reaches",
+              "start": 63.987,
+              "end": 64.337
+            },
+            {
+              "text": "the",
+              "start": 64.362,
+              "end": 64.412
+            },
+            {
+              "text": "storyboard",
+              "start": 64.462,
+              "end": 65.312
+            },
+            {
+              "text": "until",
+              "start": 65.412,
+              "end": 65.612
+            },
+            {
+              "text": "it",
+              "start": 65.637,
+              "end": 65.687
+            },
+            {
+              "text": "passes",
+              "start": 65.737,
+              "end": 66.162
+            },
+            {
+              "text": "every",
+              "start": 66.237,
+              "end": 66.487
+            },
+            {
+              "text": "check.",
+              "start": 66.537,
+              "end": 66.861
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

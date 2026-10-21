@@ -1,0 +1,460 @@
+{
+ "props": {
+  "segs": [
+   {
+    "src": "gen/perdix-ep2-wire.mp4",
+    "from": 0,
+    "seconds": 10.671,
+    "cont": true,
+    "zoom": [
+     1,
+     1.02
+    ]
+   },
+   {
+    "src": "gen/perdix-ep2-missing.mp4",
+    "from": 0,
+    "seconds": 9.479,
+    "cont": true,
+    "zoom": [
+     1,
+     1.02
+    ]
+   },
+   {
+    "src": "gen/perdix-ep2-placeholder.mp4",
+    "from": 0,
+    "seconds": 13.369,
+    "cont": true,
+    "zoom": [
+     1,
+     1.02
+    ]
+   },
+   {
+    "src": "gen/perdix-ep2-code-yoink.mp4",
+    "seconds": 5,
+    "zoom": [
+     1,
+     1
+    ]
+   },
+   {
+    "src": "gen/perdix-ep2-real.mp4",
+    "from": 0,
+    "seconds": 25.301,
+    "cont": false,
+    "drop": true,
+    "zoom": [
+     1,
+     1.02
+    ]
+   }
+  ],
+  "end": {
+   "big": "PART 2",
+   "small": "building Minecraft from scratch",
+   "seconds": 3
+  },
+  "subs": [
+   {
+    "text": "Last time",
+    "from": 0.318,
+    "to": 1.093
+   },
+   {
+    "text": "I built a",
+    "from": 1.093,
+    "to": 1.518
+   },
+   {
+    "text": "chunk out of",
+    "from": 1.518,
+    "to": 2.168
+   },
+   {
+    "text": "two hundred and",
+    "from": 2.168,
+    "to": 2.968
+   },
+   {
+    "text": "seventy-five faces",
+    "from": 2.968,
+    "to": 4.164
+   },
+   {
+    "text": "It looked like",
+    "from": 4.402,
+    "to": 4.927
+   },
+   {
+    "text": "this",
+    "from": 4.927,
+    "to": 5.602
+   },
+   {
+    "text": "Like the blueprint",
+    "from": 5.602,
+    "to": 6.252
+   },
+   {
+    "text": "for a house",
+    "from": 6.252,
+    "to": 6.852
+   },
+   {
+    "text": "nobody will ever",
+    "from": 6.852,
+    "to": 7.702
+   },
+   {
+    "text": "build",
+    "from": 7.702,
+    "to": 8.119
+   },
+   {
+    "text": "Today",
+    "from": 8.604,
+    "to": 9.179
+   },
+   {
+    "text": "making it look",
+    "from": 9.179,
+    "to": 9.629
+   },
+   {
+    "text": "like Minecraft",
+    "from": 9.629,
+    "to": 10.471
+   },
+   {
+    "text": "Step one",
+    "from": 10.936,
+    "to": 11.661
+   },
+   {
+    "text": "turn textures on",
+    "from": 11.661,
+    "to": 12.761
+   },
+   {
+    "text": "without any textures",
+    "from": 12.761,
+    "to": 13.78
+   },
+   {
+    "text": "You get this",
+    "from": 14.018,
+    "to": 14.868
+   },
+   {
+    "text": "The magenta checkerboard",
+    "from": 14.868,
+    "to": 16.518
+   },
+   {
+    "text": "The universal sign",
+    "from": 16.518,
+    "to": 17.593
+   },
+   {
+    "text": "for",
+    "from": 17.593,
+    "to": 18.218
+   },
+   {
+    "text": "something has gone",
+    "from": 18.218,
+    "to": 19.018
+   },
+   {
+    "text": "horribly wrong",
+    "from": 19.018,
+    "to": 19.85
+   },
+   {
+    "text": "So I generated",
+    "from": 20.456,
+    "to": 21.331
+   },
+   {
+    "text": "my own",
+    "from": 21.331,
+    "to": 22.281
+   },
+   {
+    "text": "Eleven textures",
+    "from": 22.281,
+    "to": 23.481
+   },
+   {
+    "text": "sixteen by sixteen",
+    "from": 23.481,
+    "to": 24.58
+   },
+   {
+    "text": "pixels",
+    "from": 24.58,
+    "to": 25.231
+   },
+   {
+    "text": "sixty-four colours to",
+    "from": 25.231,
+    "to": 26.38
+   },
+   {
+    "text": "pick from",
+    "from": 26.38,
+    "to": 26.921
+   },
+   {
+    "text": "They look like",
+    "from": 27.141,
+    "to": 27.609
+   },
+   {
+    "text": "Minecraft if you",
+    "from": 27.609,
+    "to": 28.309
+   },
+   {
+    "text": "squint",
+    "from": 28.309,
+    "to": 29.109
+   },
+   {
+    "text": "Hard",
+    "from": 29.109,
+    "to": 29.834
+   },
+   {
+    "text": "With your eyes",
+    "from": 29.834,
+    "to": 30.384
+   },
+   {
+    "text": "closed",
+    "from": 30.384,
+    "to": 30.867
+   },
+   {
+    "text": "So now",
+    "from": 31.351,
+    "to": 31.926
+   },
+   {
+    "text": "I'm gonna yoink",
+    "from": 31.926,
+    "to": 32.526
+   },
+   {
+    "text": "the real ones",
+    "from": 32.526,
+    "to": 33.219
+   },
+   {
+    "text": "Is that legal?",
+    "from": 39.437,
+    "to": 40.562
+   },
+   {
+    "text": "Well",
+    "from": 40.562,
+    "to": 40.987
+   },
+   {
+    "text": "Perdix only reads",
+    "from": 40.987,
+    "to": 42.062
+   },
+   {
+    "text": "them out of",
+    "from": 42.062,
+    "to": 42.387
+   },
+   {
+    "text": "your own copy",
+    "from": 42.387,
+    "to": 43.137
+   },
+   {
+    "text": "of Minecraft",
+    "from": 43.137,
+    "to": 44.112
+   },
+   {
+    "text": "every time it",
+    "from": 44.112,
+    "to": 44.812
+   },
+   {
+    "text": "starts",
+    "from": 44.812,
+    "to": 45.4
+   },
+   {
+    "text": "I never ship",
+    "from": 45.638,
+    "to": 46.288
+   },
+   {
+    "text": "a single one",
+    "from": 46.288,
+    "to": 47.288
+   },
+   {
+    "text": "So technically",
+    "from": 47.288,
+    "to": 48.238
+   },
+   {
+    "text": "you're the one",
+    "from": 48.238,
+    "to": 48.788
+   },
+   {
+    "text": "yoinking",
+    "from": 48.788,
+    "to": 49.738
+   },
+   {
+    "text": "I'm just the",
+    "from": 49.738,
+    "to": 50.263
+   },
+   {
+    "text": "getaway driver",
+    "from": 50.263,
+    "to": 51.205
+   },
+   {
+    "text": "Same blocks",
+    "from": 51.715,
+    "to": 52.69
+   },
+   {
+    "text": "Same faces",
+    "from": 52.69,
+    "to": 53.89
+   },
+   {
+    "text": "They just finally",
+    "from": 53.89,
+    "to": 54.64
+   },
+   {
+    "text": "look like they",
+    "from": 54.64,
+    "to": 55.065
+   },
+   {
+    "text": "belong somewhere",
+    "from": 55.065,
+    "to": 55.933
+   },
+   {
+    "text": "Next time",
+    "from": 56.171,
+    "to": 56.896
+   },
+   {
+    "text": "teaching a player",
+    "from": 56.896,
+    "to": 57.621
+   },
+   {
+    "text": "to walk",
+    "from": 57.621,
+    "to": 58.496
+   },
+   {
+    "text": "It does not",
+    "from": 58.496,
+    "to": 58.921
+   },
+   {
+    "text": "go well",
+    "from": 58.921,
+    "to": 59.721
+   },
+   {
+    "text": "Follow",
+    "from": 59.721,
+    "to": 60.17
+   }
+  ],
+  "punches": [
+   8.139,
+   19.87,
+   30.887,
+   38.519,
+   51.225
+  ],
+  "overlays": [],
+  "voice": {
+   "src": "gen/perdix-ep2-voice.wav",
+   "volume": 1
+  },
+  "music": {
+   "src": "gen/perdix-ep2-score.wav",
+   "volume": 0.13
+  },
+  "sfx": {
+   "src": "gen/perdix-ep2-sfx.wav",
+   "volume": 0.7
+  }
+ },
+ "shots": {
+  "missing": {
+   "kind": "chunk",
+   "frames": 577,
+   "env": {
+    "TEXTURES": "0",
+    "MERGE": "1",
+    "RADIUS": "50",
+    "RISE": "28",
+    "START": "2.1506",
+    "SPIN": "0.15"
+   }
+  },
+  "placeholder": {
+   "kind": "chunk",
+   "frames": 811,
+   "env": {
+    "MINECRAFT": "0",
+    "MERGE": "1",
+    "RADIUS": "50",
+    "RISE": "28",
+    "START": "3.5725",
+    "SPIN": "0.15"
+   }
+  },
+  "real": {
+   "kind": "chunk",
+   "frames": 1527,
+   "env": {
+    "RADIUS": "50",
+    "RISE": "28",
+    "MINECRAFT": "1",
+    "MERGE": "1",
+    "START": "5.5778",
+    "SPIN": "0.15"
+   }
+  },
+  "wire": {
+   "kind": "chunk",
+   "frames": 649,
+   "env": {
+    "LINES": "1",
+    "WHITE": "1",
+    "WIREFRAME": "1",
+    "MINECRAFT": "1",
+    "MERGE": "1",
+    "RADIUS": "50",
+    "RISE": "28",
+    "START": "0.55",
+    "SPIN": "0.15"
+   }
+  }
+ }
+}

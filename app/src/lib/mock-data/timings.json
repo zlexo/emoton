@@ -1,0 +1,647 @@
+{
+  "1": {
+    "leadIn": 1.8,
+    "duration": 76.008,
+    "audio": "audio/ch1.wav",
+    "beats": [
+      {
+        "start": 1.8,
+        "end": 13.894,
+        "sentences": [
+          {
+            "start": 1.8,
+            "end": 6.125,
+            "text": "You give a language model three PDFs and ask for an animated explainer."
+          },
+          {
+            "start": 6.425,
+            "end": 10.551,
+            "text": "How could you check every picture renders and every sentence traces to a page?"
+          },
+          {
+            "start": 10.851,
+            "end": 13.894,
+            "text": "And that each visual lands exactly when the voice does?"
+          }
+        ]
+      },
+      {
+        "start": 14.544,
+        "end": 25.718,
+        "sentences": [
+          {
+            "start": 14.544,
+            "end": 17.052,
+            "text": "Follow one page: page 6 of your notes."
+          },
+          {
+            "start": 17.352,
+            "end": 21.849,
+            "text": "Ingest makes it one chunk, id notes p6, in chunks.json."
+          },
+          {
+            "start": 22.149,
+            "end": 25.718,
+            "text": "Plain text is cut every 2,500 characters."
+          }
+        ]
+      },
+      {
+        "start": 26.368,
+        "end": 34.403,
+        "sentences": [
+          {
+            "start": 26.368,
+            "end": 30.335,
+            "text": "Next, the model writes chapters of claims into outline.json."
+          },
+          {
+            "start": 30.635,
+            "end": 34.403,
+            "text": "Each claim must cite a real chunk id, like notes p6."
+          }
+        ]
+      },
+      {
+        "start": 35.053,
+        "end": 38.405,
+        "sentences": [
+          {
+            "start": 35.053,
+            "end": 38.405,
+            "text": "Then it fills a fixed storyboard schema, chapter by chapter."
+          }
+        ]
+      },
+      {
+        "start": 39.055,
+        "end": 47.513,
+        "sentences": [
+          {
+            "start": 39.055,
+            "end": 42.652,
+            "text": "Kokoro speaks the narration locally, one sentence at a time."
+          },
+          {
+            "start": 42.952,
+            "end": 47.513,
+            "text": "Remotion renders one MP4 per chapter, joined with chapter markers."
+          }
+        ]
+      },
+      {
+        "start": 48.163,
+        "end": 57.992,
+        "sentences": [
+          {
+            "start": 48.163,
+            "end": 51.535,
+            "text": "state.json records a hash of each stage's inputs."
+          },
+          {
+            "start": 51.835,
+            "end": 54.67,
+            "text": "So a command runs only what is missing or stale."
+          },
+          {
+            "start": 54.97,
+            "end": 57.992,
+            "text": "Rewrite one chapter, and the rest stay byte-identical."
+          }
+        ]
+      },
+      {
+        "start": 59.392,
+        "end": 63.916,
+        "sentences": [
+          {
+            "start": 59.392,
+            "end": 62.141,
+            "text": "Which file does outline read, and which does it write?"
+          },
+          {
+            "start": 62.441,
+            "end": 63.916,
+            "text": "Pause the video and try it."
+          }
+        ]
+      },
+      {
+        "start": 64.566,
+        "end": 70.321,
+        "sentences": [
+          {
+            "start": 64.566,
+            "end": 67.962,
+            "text": "It reads chunks.json and writes outline.json."
+          },
+          {
+            "start": 68.262,
+            "end": 70.321,
+            "text": "So every claim points back to a page."
+          }
+        ]
+      },
+      {
+        "start": 70.971,
+        "end": 74.158,
+        "sentences": [
+          {
+            "start": 70.971,
+            "end": 74.158,
+            "text": "Five stages, five files, each built from the last."
+          }
+        ]
+      }
+    ]
+  },
+  "2": {
+    "leadIn": 1.8,
+    "duration": 73.569,
+    "audio": "audio/ch2.wav",
+    "beats": [
+      {
+        "start": 1.8,
+        "end": 8.458,
+        "sentences": [
+          {
+            "start": 1.8,
+            "end": 4.006,
+            "text": "Here is the writer, a language model."
+          },
+          {
+            "start": 4.306,
+            "end": 8.458,
+            "text": "To draw a pipeline, what does it produce? Most people guess animation code."
+          }
+        ]
+      },
+      {
+        "start": 9.108,
+        "end": 14.899,
+        "sentences": [
+          {
+            "start": 9.108,
+            "end": 10.012,
+            "text": "It never does."
+          },
+          {
+            "start": 10.312,
+            "end": 12.669,
+            "text": "It fills a declarative storyboard instead."
+          },
+          {
+            "start": 12.969,
+            "end": 14.899,
+            "text": "The renderer draws that storyboard."
+          }
+        ]
+      },
+      {
+        "start": 16.299,
+        "end": 29.436,
+        "sentences": [
+          {
+            "start": 16.299,
+            "end": 22.976,
+            "text": "Every visual is one of seven primitives: title, bullets, diagram, sequence, equation, code and graph."
+          },
+          {
+            "start": 23.276,
+            "end": 29.436,
+            "text": "So the wrong belief is that animation needs generated code: here every primitive always renders."
+          }
+        ]
+      },
+      {
+        "start": 30.086,
+        "end": 38.213,
+        "sentences": [
+          {
+            "start": 30.086,
+            "end": 33.209,
+            "text": "A diagram has nodes, here sources and storyboard."
+          },
+          {
+            "start": 33.509,
+            "end": 36.193,
+            "text": "It has edges, here one arrow labeled outline."
+          },
+          {
+            "start": 36.493,
+            "end": 38.213,
+            "text": "And it has an ordered list of steps."
+          }
+        ]
+      },
+      {
+        "start": 38.863,
+        "end": 44.919,
+        "sentences": [
+          {
+            "start": 38.863,
+            "end": 40.701,
+            "text": "Step one shows the sources node."
+          },
+          {
+            "start": 41.001,
+            "end": 44.919,
+            "text": "Step two shows the storyboard node and the outline edge between them."
+          }
+        ]
+      },
+      {
+        "start": 45.569,
+        "end": 53.494,
+        "sentences": [
+          {
+            "start": 45.569,
+            "end": 48.783,
+            "text": "A step can also hide, highlight or relabel ids."
+          },
+          {
+            "start": 49.083,
+            "end": 53.494,
+            "text": "With continue set to true, the next beat keeps this diagram and builds on it."
+          }
+        ]
+      },
+      {
+        "start": 54.144,
+        "end": 60.677,
+        "sentences": [
+          {
+            "start": 54.144,
+            "end": 55.803,
+            "text": "Here are the first two steps again."
+          },
+          {
+            "start": 56.103,
+            "end": 60.677,
+            "text": "Write a third step that makes the storyboard node glow. Pause the video and try it."
+          }
+        ]
+      },
+      {
+        "start": 61.327,
+        "end": 66.838,
+        "sentences": [
+          {
+            "start": 61.327,
+            "end": 63.676,
+            "text": "The step is highlight, with the id sb."
+          },
+          {
+            "start": 63.976,
+            "end": 66.838,
+            "text": "Highlight makes an id glow during that step only."
+          }
+        ]
+      },
+      {
+        "start": 67.488,
+        "end": 71.719,
+        "sentences": [
+          {
+            "start": 67.488,
+            "end": 71.719,
+            "text": "The model fills a storyboard that always renders, never animation code."
+          }
+        ]
+      }
+    ]
+  },
+  "3": {
+    "leadIn": 1.8,
+    "duration": 68.751,
+    "audio": "audio/ch3.wav",
+    "beats": [
+      {
+        "start": 1.8,
+        "end": 7.776,
+        "sentences": [
+          {
+            "start": 1.8,
+            "end": 3.695,
+            "text": "Here is a beat a writer might send."
+          },
+          {
+            "start": 3.995,
+            "end": 7.776,
+            "text": "Its edge points at a node called sb, but no node has that id."
+          }
+        ]
+      },
+      {
+        "start": 8.426,
+        "end": 16.47,
+        "sentences": [
+          {
+            "start": 8.426,
+            "end": 12.878,
+            "text": "A validator checks every answer, and only valid ones become the storyboard."
+          },
+          {
+            "start": 13.178,
+            "end": 16.47,
+            "text": "Invalid output goes back to the writer with the list of errors."
+          }
+        ]
+      },
+      {
+        "start": 17.12,
+        "end": 23.399,
+        "sentences": [
+          {
+            "start": 17.12,
+            "end": 19.343,
+            "text": "The writer also gets a JSON Schema."
+          },
+          {
+            "start": 19.643,
+            "end": 23.399,
+            "text": "So could a beat with seven sentences still slip through? Predict first."
+          }
+        ]
+      },
+      {
+        "start": 24.049,
+        "end": 35.068,
+        "sentences": [
+          {
+            "start": 24.049,
+            "end": 25.274,
+            "text": "It slips through the schema."
+          },
+          {
+            "start": 25.574,
+            "end": 32.26,
+            "text": "Structured output backends support only part of JSON Schema, so the writer's copy has no size limits."
+          },
+          {
+            "start": 32.56,
+            "end": 35.068,
+            "text": "Zod still enforces every limit afterwards."
+          }
+        ]
+      },
+      {
+        "start": 36.468,
+        "end": 45.146,
+        "sentences": [
+          {
+            "start": 36.468,
+            "end": 38.433,
+            "text": "Some rules no schema can express."
+          },
+          {
+            "start": 38.733,
+            "end": 40.92,
+            "text": "Like our edge pointing at an unknown node."
+          },
+          {
+            "start": 41.22,
+            "end": 45.146,
+            "text": "Or continue set to true when the previous beat is not a diagram."
+          }
+        ]
+      },
+      {
+        "start": 45.796,
+        "end": 51.648,
+        "sentences": [
+          {
+            "start": 45.796,
+            "end": 48.757,
+            "text": "Every outline claim cites one to four chunk ids."
+          },
+          {
+            "start": 49.057,
+            "end": 51.648,
+            "text": "And every beat can list the chunk ids that back it."
+          }
+        ]
+      },
+      {
+        "start": 52.298,
+        "end": 58.475,
+        "sentences": [
+          {
+            "start": 52.298,
+            "end": 56.701,
+            "text": "A beat sets continue to true right after a code visual. Which check catches it?"
+          },
+          {
+            "start": 57.001,
+            "end": 58.475,
+            "text": "Pause the video and try it."
+          }
+        ]
+      },
+      {
+        "start": 59.125,
+        "end": 62.861,
+        "sentences": [
+          {
+            "start": 59.125,
+            "end": 62.861,
+            "text": "The cross-check: a schema sees one beat, never the beat before it."
+          }
+        ]
+      },
+      {
+        "start": 63.511,
+        "end": 66.901,
+        "sentences": [
+          {
+            "start": 63.511,
+            "end": 66.901,
+            "text": "Nothing reaches the storyboard until it passes every check."
+          }
+        ]
+      }
+    ]
+  },
+  "4": {
+    "leadIn": 1.8,
+    "duration": 96.865,
+    "audio": "audio/ch4.wav",
+    "beats": [
+      {
+        "start": 1.8,
+        "end": 8.518,
+        "sentences": [
+          {
+            "start": 1.8,
+            "end": 4.762,
+            "text": "Your sources go in, and the sources box appears."
+          },
+          {
+            "start": 5.062,
+            "end": 8.518,
+            "text": "A storyboard comes out, and the arrow and the storyboard follow."
+          }
+        ]
+      },
+      {
+        "start": 9.168,
+        "end": 14.045,
+        "sentences": [
+          {
+            "start": 9.168,
+            "end": 12.045,
+            "text": "In the storyboard, sentence one pairs with step one."
+          },
+          {
+            "start": 12.345,
+            "end": 14.045,
+            "text": "Sentence two pairs with step two."
+          }
+        ]
+      },
+      {
+        "start": 14.695,
+        "end": 24.248,
+        "sentences": [
+          {
+            "start": 14.695,
+            "end": 20.202,
+            "text": "That is the one timing rule for every primitive: item k appears when sentence k starts."
+          },
+          {
+            "start": 20.502,
+            "end": 24.248,
+            "text": "Items beyond the last sentence are spread across the last sentence."
+          }
+        ]
+      },
+      {
+        "start": 25.648,
+        "end": 32.474,
+        "sentences": [
+          {
+            "start": 25.648,
+            "end": 28.349,
+            "text": "So how does the renderer know when sentence two starts?"
+          },
+          {
+            "start": 28.649,
+            "end": 32.474,
+            "text": "Predict first: does it need a model that aligns the text to the audio?"
+          }
+        ]
+      },
+      {
+        "start": 33.124,
+        "end": 43.3,
+        "sentences": [
+          {
+            "start": 33.124,
+            "end": 35.617,
+            "text": "The voice stage speaks sentence one on its own."
+          },
+          {
+            "start": 35.916,
+            "end": 37.765,
+            "text": "Then it speaks sentence two on its own."
+          },
+          {
+            "start": 38.065,
+            "end": 43.3,
+            "text": "It records each sentence's start and end in seconds, and the renderer reads those timings."
+          }
+        ]
+      },
+      {
+        "start": 43.95,
+        "end": 55.301,
+        "sentences": [
+          {
+            "start": 43.95,
+            "end": 48.351,
+            "text": "So every sentence start is known exactly, and sync needs no alignment model."
+          },
+          {
+            "start": 48.651,
+            "end": 55.301,
+            "text": "If you predicted one, that guess assumes the starts are unknown, but they are recorded as each sentence is spoken."
+          }
+        ]
+      },
+      {
+        "start": 55.951,
+        "end": 62.934,
+        "sentences": [
+          {
+            "start": 55.951,
+            "end": 59.471,
+            "text": "A beat has three sentences and a diagram with five steps."
+          },
+          {
+            "start": 59.771,
+            "end": 61.16,
+            "text": "When does step four appear?"
+          },
+          {
+            "start": 61.46,
+            "end": 62.934,
+            "text": "Pause the video and try it."
+          }
+        ]
+      },
+      {
+        "start": 63.584,
+        "end": 71.44,
+        "sentences": [
+          {
+            "start": 63.584,
+            "end": 67.577,
+            "text": "Step four appears during sentence three, along with steps three and five."
+          },
+          {
+            "start": 67.877,
+            "end": 71.44,
+            "text": "Steps past the last sentence are spread across that last sentence."
+          }
+        ]
+      },
+      {
+        "start": 72.09,
+        "end": 76.499,
+        "sentences": [
+          {
+            "start": 72.09,
+            "end": 76.499,
+            "text": "Back to your three PDFs and the opening question: how could you check the video?"
+          }
+        ]
+      },
+      {
+        "start": 77.149,
+        "end": 95.015,
+        "sentences": [
+          {
+            "start": 77.149,
+            "end": 81.729,
+            "text": "Every picture renders, because the model only fills primitives that always render."
+          },
+          {
+            "start": 82.029,
+            "end": 84.819,
+            "text": "Bad output goes back to the writer with the error list."
+          },
+          {
+            "start": 85.119,
+            "end": 89.777,
+            "text": "Every claim cites real chunk ids, so each sentence traces back to a page."
+          },
+          {
+            "start": 90.077,
+            "end": 95.015,
+            "text": "And sentence k reveals item k, so each visual appears when the voice reaches it."
+          }
+        ]
+      }
+    ]
+  }
+}

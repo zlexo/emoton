@@ -1,0 +1,40 @@
+{
+  "title": "Sources in, video out",
+  "topic": "How Emoton turns a pile of sources into a narrated, animated explainer video: the five stages, why the model fills a fixed storyboard instead of writing animation code, how a validator sends bad output back, how every claim cites its source, and the one timing rule that keeps the visuals in step with the voice.",
+  "audience": "A developer who has used language models and wants output they can check, but has never seen how Emoton works.",
+  "minutes": 4,
+  "sources": [
+    {
+      "id": "readme",
+      "title": "README",
+      "path": "sources/README.md"
+    },
+    {
+      "id": "schema",
+      "title": "Storyboard schema",
+      "path": "sources/storyboard.ts"
+    }
+  ],
+  "rules": [
+    "Only say what the sources say. Do not invent features, numbers or benchmarks.",
+    "Explain the pipeline with one diagram that builds up stage by stage and carries over between beats.",
+    "Show at least one storyboard primitive the way the schema defines it, for example a diagram's steps."
+  ],
+  "voice": {
+    "engine": "kokoro",
+    "voice": "af_heart",
+    "speed": 1
+  },
+  "pronounce": {
+    "JSON": "jay-son",
+    "LLM": "L L M",
+    "TTS": "T T S",
+    "MP4": "M P four",
+    "KaTeX": "kay-tech",
+    "NotebookLM": "Notebook L M",
+    "3Blue1Brown": "three blue one brown"
+  },
+  "writerModel": "opus",
+  "captions": true,
+  "layout": "stage"
+}

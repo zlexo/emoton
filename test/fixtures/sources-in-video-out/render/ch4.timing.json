@@ -1,0 +1,1543 @@
+{
+  "leadIn": 1.8,
+  "duration": 96.865,
+  "audio": "audio/ch4.wav",
+  "beats": [
+    {
+      "start": 1.8,
+      "end": 8.518,
+      "sentences": [
+        {
+          "start": 1.8,
+          "end": 4.762,
+          "text": "Your sources go in, and the sources box appears.",
+          "words": [
+            {
+              "text": "Your",
+              "start": 1.826,
+              "end": 1.976
+            },
+            {
+              "text": "sources",
+              "start": 2.051,
+              "end": 2.451
+            },
+            {
+              "text": "go",
+              "start": 2.501,
+              "end": 2.676
+            },
+            {
+              "text": "in,",
+              "start": 2.726,
+              "end": 3.101
+            },
+            {
+              "text": "and",
+              "start": 3.226,
+              "end": 3.301
+            },
+            {
+              "text": "the",
+              "start": 3.326,
+              "end": 3.376
+            },
+            {
+              "text": "sources",
+              "start": 3.451,
+              "end": 3.851
+            },
+            {
+              "text": "box",
+              "start": 3.901,
+              "end": 4.226
+            },
+            {
+              "text": "appears.",
+              "start": 4.251,
+              "end": 4.722
+            }
+          ]
+        },
+        {
+          "start": 5.062,
+          "end": 8.518,
+          "text": "A storyboard comes out, and the arrow and the storyboard follow.",
+          "words": [
+            {
+              "text": "A",
+              "start": 5.095,
+              "end": 5.145
+            },
+            {
+              "text": "storyboard",
+              "start": 5.195,
+              "end": 5.77
+            },
+            {
+              "text": "comes",
+              "start": 5.82,
+              "end": 6.045
+            },
+            {
+              "text": "out,",
+              "start": 6.095,
+              "end": 6.545
+            },
+            {
+              "text": "and",
+              "start": 6.67,
+              "end": 6.745
+            },
+            {
+              "text": "the",
+              "start": 6.77,
+              "end": 6.845
+            },
+            {
+              "text": "arrow",
+              "start": 6.92,
+              "end": 7.245
+            },
+            {
+              "text": "and",
+              "start": 7.295,
+              "end": 7.37
+            },
+            {
+              "text": "the",
+              "start": 7.395,
+              "end": 7.445
+            },
+            {
+              "text": "storyboard",
+              "start": 7.495,
+              "end": 8.045
+            },
+            {
+              "text": "follow.",
+              "start": 8.095,
+              "end": 8.478
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 9.168,
+      "end": 14.045,
+      "sentences": [
+        {
+          "start": 9.168,
+          "end": 12.045,
+          "text": "In the storyboard, sentence one pairs with step one.",
+          "words": [
+            {
+              "text": "In",
+              "start": 9.201,
+              "end": 9.301
+            },
+            {
+              "text": "the",
+              "start": 9.301,
+              "end": 9.351
+            },
+            {
+              "text": "storyboard,",
+              "start": 9.401,
+              "end": 10.176
+            },
+            {
+              "text": "sentence",
+              "start": 10.301,
+              "end": 10.626
+            },
+            {
+              "text": "one",
+              "start": 10.701,
+              "end": 10.901
+            },
+            {
+              "text": "pairs",
+              "start": 10.951,
+              "end": 11.276
+            },
+            {
+              "text": "with",
+              "start": 11.301,
+              "end": 11.401
+            },
+            {
+              "text": "step",
+              "start": 11.451,
+              "end": 11.701
+            },
+            {
+              "text": "one.",
+              "start": 11.751,
+              "end": 12.005
+            }
+          ]
+        },
+        {
+          "start": 12.345,
+          "end": 14.045,
+          "text": "Sentence two pairs with step two.",
+          "words": [
+            {
+              "text": "Sentence",
+              "start": 12.42,
+              "end": 12.77
+            },
+            {
+              "text": "two",
+              "start": 12.845,
+              "end": 12.97
+            },
+            {
+              "text": "pairs",
+              "start": 13.02,
+              "end": 13.295
+            },
+            {
+              "text": "with",
+              "start": 13.32,
+              "end": 13.395
+            },
+            {
+              "text": "step",
+              "start": 13.445,
+              "end": 13.67
+            },
+            {
+              "text": "two.",
+              "start": 13.745,
+              "end": 14.005
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 14.695,
+      "end": 24.248,
+      "sentences": [
+        {
+          "start": 14.695,
+          "end": 20.202,
+          "text": "That is the one timing rule for every primitive: item k appears when sentence k starts.",
+          "words": [
+            {
+              "text": "That",
+              "start": 14.713,
+              "end": 14.938
+            },
+            {
+              "text": "is",
+              "start": 14.988,
+              "end": 15.088
+            },
+            {
+              "text": "the",
+              "start": 15.138,
+              "end": 15.213
+            },
+            {
+              "text": "one",
+              "start": 15.288,
+              "end": 15.513
+            },
+            {
+              "text": "timing",
+              "start": 15.588,
+              "end": 15.938
+            },
+            {
+              "text": "rule",
+              "start": 15.988,
+              "end": 16.238
+            },
+            {
+              "text": "for",
+              "start": 16.288,
+              "end": 16.413
+            },
+            {
+              "text": "every",
+              "start": 16.488,
+              "end": 16.738
+            },
+            {
+              "text": "primitive:",
+              "start": 16.788,
+              "end": 17.588
+            },
+            {
+              "text": "item",
+              "start": 17.788,
+              "end": 18.088
+            },
+            {
+              "text": "k",
+              "start": 18.138,
+              "end": 18.413
+            },
+            {
+              "text": "appears",
+              "start": 18.463,
+              "end": 18.838
+            },
+            {
+              "text": "when",
+              "start": 18.863,
+              "end": 18.988
+            },
+            {
+              "text": "sentence",
+              "start": 19.063,
+              "end": 19.438
+            },
+            {
+              "text": "k",
+              "start": 19.488,
+              "end": 19.688
+            },
+            {
+              "text": "starts.",
+              "start": 19.738,
+              "end": 20.162
+            }
+          ]
+        },
+        {
+          "start": 20.502,
+          "end": 24.248,
+          "text": "Items beyond the last sentence are spread across the last sentence.",
+          "words": [
+            {
+              "text": "Items",
+              "start": 20.539,
+              "end": 20.964
+            },
+            {
+              "text": "beyond",
+              "start": 21.014,
+              "end": 21.364
+            },
+            {
+              "text": "the",
+              "start": 21.389,
+              "end": 21.439
+            },
+            {
+              "text": "last",
+              "start": 21.489,
+              "end": 21.739
+            },
+            {
+              "text": "sentence",
+              "start": 21.789,
+              "end": 22.439
+            },
+            {
+              "text": "are",
+              "start": 22.539,
+              "end": 22.639
+            },
+            {
+              "text": "spread",
+              "start": 22.714,
+              "end": 22.964
+            },
+            {
+              "text": "across",
+              "start": 22.989,
+              "end": 23.289
+            },
+            {
+              "text": "the",
+              "start": 23.339,
+              "end": 23.389
+            },
+            {
+              "text": "last",
+              "start": 23.439,
+              "end": 23.689
+            },
+            {
+              "text": "sentence.",
+              "start": 23.739,
+              "end": 24.208
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 25.648,
+      "end": 32.474,
+      "sentences": [
+        {
+          "start": 25.648,
+          "end": 28.349,
+          "text": "So how does the renderer know when sentence two starts?",
+          "words": [
+            {
+              "text": "So",
+              "start": 25.702,
+              "end": 25.802
+            },
+            {
+              "text": "how",
+              "start": 25.852,
+              "end": 26.002
+            },
+            {
+              "text": "does",
+              "start": 26.027,
+              "end": 26.152
+            },
+            {
+              "text": "the",
+              "start": 26.177,
+              "end": 26.227
+            },
+            {
+              "text": "renderer",
+              "start": 26.277,
+              "end": 26.677
+            },
+            {
+              "text": "know",
+              "start": 26.727,
+              "end": 27.002
+            },
+            {
+              "text": "when",
+              "start": 27.052,
+              "end": 27.202
+            },
+            {
+              "text": "sentence",
+              "start": 27.252,
+              "end": 27.627
+            },
+            {
+              "text": "two",
+              "start": 27.677,
+              "end": 27.802
+            },
+            {
+              "text": "starts?",
+              "start": 27.852,
+              "end": 28.309
+            }
+          ]
+        },
+        {
+          "start": 28.649,
+          "end": 32.474,
+          "text": "Predict first: does it need a model that aligns the text to the audio?",
+          "words": [
+            {
+              "text": "Predict",
+              "start": 28.656,
+              "end": 29.006
+            },
+            {
+              "text": "first:",
+              "start": 29.056,
+              "end": 29.681
+            },
+            {
+              "text": "does",
+              "start": 29.831,
+              "end": 29.956
+            },
+            {
+              "text": "it",
+              "start": 29.981,
+              "end": 30.031
+            },
+            {
+              "text": "need",
+              "start": 30.056,
+              "end": 30.181
+            },
+            {
+              "text": "a",
+              "start": 30.206,
+              "end": 30.231
+            },
+            {
+              "text": "model",
+              "start": 30.281,
+              "end": 30.681
+            },
+            {
+              "text": "that",
+              "start": 30.731,
+              "end": 30.831
+            },
+            {
+              "text": "aligns",
+              "start": 30.881,
+              "end": 31.281
+            },
+            {
+              "text": "the",
+              "start": 31.306,
+              "end": 31.356
+            },
+            {
+              "text": "text",
+              "start": 31.431,
+              "end": 31.731
+            },
+            {
+              "text": "to",
+              "start": 31.781,
+              "end": 31.831
+            },
+            {
+              "text": "the",
+              "start": 31.856,
+              "end": 31.956
+            },
+            {
+              "text": "audio?",
+              "start": 32.006,
+              "end": 32.434
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 33.124,
+      "end": 43.3,
+      "sentences": [
+        {
+          "start": 33.124,
+          "end": 35.617,
+          "text": "The voice stage speaks sentence one on its own.",
+          "words": [
+            {
+              "text": "The",
+              "start": 33.149,
+              "end": 33.199
+            },
+            {
+              "text": "voice",
+              "start": 33.249,
+              "end": 33.474
+            },
+            {
+              "text": "stage",
+              "start": 33.499,
+              "end": 33.924
+            },
+            {
+              "text": "speaks",
+              "start": 33.999,
+              "end": 34.274
+            },
+            {
+              "text": "sentence",
+              "start": 34.324,
+              "end": 34.699
+            },
+            {
+              "text": "one",
+              "start": 34.774,
+              "end": 34.974
+            },
+            {
+              "text": "on",
+              "start": 35.024,
+              "end": 35.124
+            },
+            {
+              "text": "its",
+              "start": 35.149,
+              "end": 35.249
+            },
+            {
+              "text": "own.",
+              "start": 35.299,
+              "end": 35.576
+            }
+          ]
+        },
+        {
+          "start": 35.916,
+          "end": 37.765,
+          "text": "Then it speaks sentence two on its own.",
+          "words": [
+            {
+              "text": "Then",
+              "start": 35.955,
+              "end": 36.055
+            },
+            {
+              "text": "it",
+              "start": 36.08,
+              "end": 36.13
+            },
+            {
+              "text": "speaks",
+              "start": 36.18,
+              "end": 36.455
+            },
+            {
+              "text": "sentence",
+              "start": 36.505,
+              "end": 36.88
+            },
+            {
+              "text": "two",
+              "start": 36.955,
+              "end": 37.155
+            },
+            {
+              "text": "on",
+              "start": 37.18,
+              "end": 37.255
+            },
+            {
+              "text": "its",
+              "start": 37.28,
+              "end": 37.38
+            },
+            {
+              "text": "own.",
+              "start": 37.43,
+              "end": 37.725
+            }
+          ]
+        },
+        {
+          "start": 38.065,
+          "end": 43.3,
+          "text": "It records each sentence's start and end in seconds, and the renderer reads those timings.",
+          "words": [
+            {
+              "text": "It",
+              "start": 38.098,
+              "end": 38.173
+            },
+            {
+              "text": "records",
+              "start": 38.223,
+              "end": 38.723
+            },
+            {
+              "text": "each",
+              "start": 38.798,
+              "end": 38.973
+            },
+            {
+              "text": "sentence's",
+              "start": 39.023,
+              "end": 39.573
+            },
+            {
+              "text": "start",
+              "start": 39.648,
+              "end": 39.973
+            },
+            {
+              "text": "and",
+              "start": 40.023,
+              "end": 40.098
+            },
+            {
+              "text": "end",
+              "start": 40.173,
+              "end": 40.348
+            },
+            {
+              "text": "in",
+              "start": 40.373,
+              "end": 40.473
+            },
+            {
+              "text": "seconds,",
+              "start": 40.523,
+              "end": 41.248
+            },
+            {
+              "text": "and",
+              "start": 41.373,
+              "end": 41.448
+            },
+            {
+              "text": "the",
+              "start": 41.473,
+              "end": 41.523
+            },
+            {
+              "text": "renderer",
+              "start": 41.573,
+              "end": 42.048
+            },
+            {
+              "text": "reads",
+              "start": 42.123,
+              "end": 42.423
+            },
+            {
+              "text": "those",
+              "start": 42.473,
+              "end": 42.673
+            },
+            {
+              "text": "timings.",
+              "start": 42.723,
+              "end": 43.26
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 43.95,
+      "end": 55.301,
+      "sentences": [
+        {
+          "start": 43.95,
+          "end": 48.351,
+          "text": "So every sentence start is known exactly, and sync needs no alignment model.",
+          "words": [
+            {
+              "text": "So",
+              "start": 44.004,
+              "end": 44.129
+            },
+            {
+              "text": "every",
+              "start": 44.204,
+              "end": 44.454
+            },
+            {
+              "text": "sentence",
+              "start": 44.529,
+              "end": 44.879
+            },
+            {
+              "text": "start",
+              "start": 44.929,
+              "end": 45.204
+            },
+            {
+              "text": "is",
+              "start": 45.254,
+              "end": 45.354
+            },
+            {
+              "text": "known",
+              "start": 45.404,
+              "end": 45.554
+            },
+            {
+              "text": "exactly,",
+              "start": 45.604,
+              "end": 46.404
+            },
+            {
+              "text": "and",
+              "start": 46.554,
+              "end": 46.629
+            },
+            {
+              "text": "sync",
+              "start": 46.729,
+              "end": 46.979
+            },
+            {
+              "text": "needs",
+              "start": 47.029,
+              "end": 47.304
+            },
+            {
+              "text": "no",
+              "start": 47.379,
+              "end": 47.554
+            },
+            {
+              "text": "alignment",
+              "start": 47.604,
+              "end": 48.004
+            },
+            {
+              "text": "model.",
+              "start": 48.029,
+              "end": 48.311
+            }
+          ]
+        },
+        {
+          "start": 48.651,
+          "end": 55.301,
+          "text": "If you predicted one, that guess assumes the starts are unknown, but they are recorded as each sentence is spoken.",
+          "words": [
+            {
+              "text": "If",
+              "start": 48.684,
+              "end": 48.784
+            },
+            {
+              "text": "you",
+              "start": 48.834,
+              "end": 48.909
+            },
+            {
+              "text": "predicted",
+              "start": 48.959,
+              "end": 49.434
+            },
+            {
+              "text": "one,",
+              "start": 49.484,
+              "end": 49.984
+            },
+            {
+              "text": "that",
+              "start": 50.109,
+              "end": 50.259
+            },
+            {
+              "text": "guess",
+              "start": 50.309,
+              "end": 50.559
+            },
+            {
+              "text": "assumes",
+              "start": 50.609,
+              "end": 51.009
+            },
+            {
+              "text": "the",
+              "start": 51.059,
+              "end": 51.109
+            },
+            {
+              "text": "starts",
+              "start": 51.159,
+              "end": 51.534
+            },
+            {
+              "text": "are",
+              "start": 51.584,
+              "end": 51.684
+            },
+            {
+              "text": "unknown,",
+              "start": 51.759,
+              "end": 52.609
+            },
+            {
+              "text": "but",
+              "start": 52.734,
+              "end": 52.834
+            },
+            {
+              "text": "they",
+              "start": 52.884,
+              "end": 53.034
+            },
+            {
+              "text": "are",
+              "start": 53.084,
+              "end": 53.159
+            },
+            {
+              "text": "recorded",
+              "start": 53.209,
+              "end": 53.734
+            },
+            {
+              "text": "as",
+              "start": 53.809,
+              "end": 53.934
+            },
+            {
+              "text": "each",
+              "start": 54.009,
+              "end": 54.209
+            },
+            {
+              "text": "sentence",
+              "start": 54.259,
+              "end": 54.659
+            },
+            {
+              "text": "is",
+              "start": 54.709,
+              "end": 54.784
+            },
+            {
+              "text": "spoken.",
+              "start": 54.834,
+              "end": 55.261
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 55.951,
+      "end": 62.934,
+      "sentences": [
+        {
+          "start": 55.951,
+          "end": 59.471,
+          "text": "A beat has three sentences and a diagram with five steps.",
+          "words": [
+            {
+              "text": "A",
+              "start": 55.984,
+              "end": 56.034
+            },
+            {
+              "text": "beat",
+              "start": 56.109,
+              "end": 56.334
+            },
+            {
+              "text": "has",
+              "start": 56.384,
+              "end": 56.534
+            },
+            {
+              "text": "three",
+              "start": 56.584,
+              "end": 56.759
+            },
+            {
+              "text": "sentences",
+              "start": 56.809,
+              "end": 57.659
+            },
+            {
+              "text": "and",
+              "start": 57.759,
+              "end": 57.834
+            },
+            {
+              "text": "a",
+              "start": 57.859,
+              "end": 57.884
+            },
+            {
+              "text": "diagram",
+              "start": 57.934,
+              "end": 58.484
+            },
+            {
+              "text": "with",
+              "start": 58.509,
+              "end": 58.634
+            },
+            {
+              "text": "five",
+              "start": 58.684,
+              "end": 58.959
+            },
+            {
+              "text": "steps.",
+              "start": 59.009,
+              "end": 59.431
+            }
+          ]
+        },
+        {
+          "start": 59.771,
+          "end": 61.16,
+          "text": "When does step four appear?",
+          "words": [
+            {
+              "text": "When",
+              "start": 59.819,
+              "end": 60.019
+            },
+            {
+              "text": "does",
+              "start": 60.069,
+              "end": 60.219
+            },
+            {
+              "text": "step",
+              "start": 60.269,
+              "end": 60.494
+            },
+            {
+              "text": "four",
+              "start": 60.544,
+              "end": 60.694
+            },
+            {
+              "text": "appear?",
+              "start": 60.719,
+              "end": 61.12
+            }
+          ]
+        },
+        {
+          "start": 61.46,
+          "end": 62.934,
+          "text": "Pause the video and try it.",
+          "words": [
+            {
+              "text": "Pause",
+              "start": 61.493,
+              "end": 61.768
+            },
+            {
+              "text": "the",
+              "start": 61.793,
+              "end": 61.843
+            },
+            {
+              "text": "video",
+              "start": 61.893,
+              "end": 62.243
+            },
+            {
+              "text": "and",
+              "start": 62.293,
+              "end": 62.368
+            },
+            {
+              "text": "try",
+              "start": 62.418,
+              "end": 62.693
+            },
+            {
+              "text": "it.",
+              "start": 62.743,
+              "end": 62.894
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 63.584,
+      "end": 71.44,
+      "sentences": [
+        {
+          "start": 63.584,
+          "end": 67.577,
+          "text": "Step four appears during sentence three, along with steps three and five.",
+          "words": [
+            {
+              "text": "Step",
+              "start": 63.654,
+              "end": 63.879
+            },
+            {
+              "text": "four",
+              "start": 63.929,
+              "end": 64.179
+            },
+            {
+              "text": "appears",
+              "start": 64.229,
+              "end": 64.604
+            },
+            {
+              "text": "during",
+              "start": 64.654,
+              "end": 64.904
+            },
+            {
+              "text": "sentence",
+              "start": 64.954,
+              "end": 65.304
+            },
+            {
+              "text": "three,",
+              "start": 65.354,
+              "end": 65.879
+            },
+            {
+              "text": "along",
+              "start": 66.054,
+              "end": 66.329
+            },
+            {
+              "text": "with",
+              "start": 66.354,
+              "end": 66.429
+            },
+            {
+              "text": "steps",
+              "start": 66.479,
+              "end": 66.779
+            },
+            {
+              "text": "three",
+              "start": 66.829,
+              "end": 66.979
+            },
+            {
+              "text": "and",
+              "start": 67.004,
+              "end": 67.079
+            },
+            {
+              "text": "five.",
+              "start": 67.129,
+              "end": 67.537
+            }
+          ]
+        },
+        {
+          "start": 67.877,
+          "end": 71.44,
+          "text": "Steps past the last sentence are spread across that last sentence.",
+          "words": [
+            {
+              "text": "Steps",
+              "start": 67.931,
+              "end": 68.231
+            },
+            {
+              "text": "past",
+              "start": 68.281,
+              "end": 68.581
+            },
+            {
+              "text": "the",
+              "start": 68.606,
+              "end": 68.656
+            },
+            {
+              "text": "last",
+              "start": 68.706,
+              "end": 68.956
+            },
+            {
+              "text": "sentence",
+              "start": 69.006,
+              "end": 69.606
+            },
+            {
+              "text": "are",
+              "start": 69.706,
+              "end": 69.781
+            },
+            {
+              "text": "spread",
+              "start": 69.831,
+              "end": 70.081
+            },
+            {
+              "text": "across",
+              "start": 70.106,
+              "end": 70.406
+            },
+            {
+              "text": "that",
+              "start": 70.456,
+              "end": 70.606
+            },
+            {
+              "text": "last",
+              "start": 70.656,
+              "end": 70.906
+            },
+            {
+              "text": "sentence.",
+              "start": 70.956,
+              "end": 71.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 72.09,
+      "end": 76.499,
+      "sentences": [
+        {
+          "start": 72.09,
+          "end": 76.499,
+          "text": "Back to your three PDFs and the opening question: how could you check the video?",
+          "words": [
+            {
+              "text": "Back",
+              "start": 72.106,
+              "end": 72.331
+            },
+            {
+              "text": "to",
+              "start": 72.381,
+              "end": 72.431
+            },
+            {
+              "text": "your",
+              "start": 72.456,
+              "end": 72.556
+            },
+            {
+              "text": "three",
+              "start": 72.631,
+              "end": 72.831
+            },
+            {
+              "text": "PDFs",
+              "start": 72.881,
+              "end": 73.506
+            },
+            {
+              "text": "and",
+              "start": 73.681,
+              "end": 73.756
+            },
+            {
+              "text": "the",
+              "start": 73.781,
+              "end": 73.856
+            },
+            {
+              "text": "opening",
+              "start": 73.906,
+              "end": 74.231
+            },
+            {
+              "text": "question:",
+              "start": 74.281,
+              "end": 75.056
+            },
+            {
+              "text": "how",
+              "start": 75.231,
+              "end": 75.406
+            },
+            {
+              "text": "could",
+              "start": 75.456,
+              "end": 75.531
+            },
+            {
+              "text": "you",
+              "start": 75.556,
+              "end": 75.631
+            },
+            {
+              "text": "check",
+              "start": 75.681,
+              "end": 75.906
+            },
+            {
+              "text": "the",
+              "start": 75.956,
+              "end": 76.006
+            },
+            {
+              "text": "video?",
+              "start": 76.056,
+              "end": 76.459
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 77.149,
+      "end": 95.015,
+      "sentences": [
+        {
+          "start": 77.149,
+          "end": 81.729,
+          "text": "Every picture renders, because the model only fills primitives that always render.",
+          "words": [
+            {
+              "text": "Every",
+              "start": 77.181,
+              "end": 77.431
+            },
+            {
+              "text": "picture",
+              "start": 77.481,
+              "end": 77.781
+            },
+            {
+              "text": "renders,",
+              "start": 77.831,
+              "end": 78.506
+            },
+            {
+              "text": "because",
+              "start": 78.631,
+              "end": 78.906
+            },
+            {
+              "text": "the",
+              "start": 78.931,
+              "end": 78.981
+            },
+            {
+              "text": "model",
+              "start": 79.031,
+              "end": 79.381
+            },
+            {
+              "text": "only",
+              "start": 79.456,
+              "end": 79.706
+            },
+            {
+              "text": "fills",
+              "start": 79.781,
+              "end": 80.056
+            },
+            {
+              "text": "primitives",
+              "start": 80.106,
+              "end": 80.681
+            },
+            {
+              "text": "that",
+              "start": 80.731,
+              "end": 80.831
+            },
+            {
+              "text": "always",
+              "start": 80.881,
+              "end": 81.256
+            },
+            {
+              "text": "render.",
+              "start": 81.306,
+              "end": 81.689
+            }
+          ]
+        },
+        {
+          "start": 82.029,
+          "end": 84.819,
+          "text": "Bad output goes back to the writer with the error list.",
+          "words": [
+            {
+              "text": "Bad",
+              "start": 82.04,
+              "end": 82.265
+            },
+            {
+              "text": "output",
+              "start": 82.315,
+              "end": 82.74
+            },
+            {
+              "text": "goes",
+              "start": 82.79,
+              "end": 82.99
+            },
+            {
+              "text": "back",
+              "start": 83.04,
+              "end": 83.265
+            },
+            {
+              "text": "to",
+              "start": 83.315,
+              "end": 83.365
+            },
+            {
+              "text": "the",
+              "start": 83.39,
+              "end": 83.44
+            },
+            {
+              "text": "writer",
+              "start": 83.49,
+              "end": 83.89
+            },
+            {
+              "text": "with",
+              "start": 83.94,
+              "end": 84.065
+            },
+            {
+              "text": "the",
+              "start": 84.065,
+              "end": 84.165
+            },
+            {
+              "text": "error",
+              "start": 84.215,
+              "end": 84.44
+            },
+            {
+              "text": "list.",
+              "start": 84.49,
+              "end": 84.779
+            }
+          ]
+        },
+        {
+          "start": 85.119,
+          "end": 89.777,
+          "text": "Every claim cites real chunk ids, so each sentence traces back to a page.",
+          "words": [
+            {
+              "text": "Every",
+              "start": 85.148,
+              "end": 85.398
+            },
+            {
+              "text": "claim",
+              "start": 85.448,
+              "end": 85.723
+            },
+            {
+              "text": "cites",
+              "start": 85.773,
+              "end": 86.073
+            },
+            {
+              "text": "real",
+              "start": 86.148,
+              "end": 86.373
+            },
+            {
+              "text": "chunk",
+              "start": 86.423,
+              "end": 86.698
+            },
+            {
+              "text": "ids,",
+              "start": 86.748,
+              "end": 87.498
+            },
+            {
+              "text": "so",
+              "start": 87.623,
+              "end": 87.748
+            },
+            {
+              "text": "each",
+              "start": 87.823,
+              "end": 88.023
+            },
+            {
+              "text": "sentence",
+              "start": 88.073,
+              "end": 88.423
+            },
+            {
+              "text": "traces",
+              "start": 88.473,
+              "end": 88.823
+            },
+            {
+              "text": "back",
+              "start": 88.873,
+              "end": 89.098
+            },
+            {
+              "text": "to",
+              "start": 89.148,
+              "end": 89.198
+            },
+            {
+              "text": "a",
+              "start": 89.223,
+              "end": 89.248
+            },
+            {
+              "text": "page.",
+              "start": 89.298,
+              "end": 89.737
+            }
+          ]
+        },
+        {
+          "start": 90.077,
+          "end": 95.015,
+          "text": "And sentence k reveals item k, so each visual appears when the voice reaches it.",
+          "words": [
+            {
+              "text": "And",
+              "start": 90.113,
+              "end": 90.213
+            },
+            {
+              "text": "sentence",
+              "start": 90.288,
+              "end": 90.738
+            },
+            {
+              "text": "k",
+              "start": 90.813,
+              "end": 91.063
+            },
+            {
+              "text": "reveals",
+              "start": 91.113,
+              "end": 91.513
+            },
+            {
+              "text": "item",
+              "start": 91.588,
+              "end": 91.888
+            },
+            {
+              "text": "k,",
+              "start": 91.938,
+              "end": 92.463
+            },
+            {
+              "text": "so",
+              "start": 92.638,
+              "end": 92.763
+            },
+            {
+              "text": "each",
+              "start": 92.838,
+              "end": 93.063
+            },
+            {
+              "text": "visual",
+              "start": 93.113,
+              "end": 93.488
+            },
+            {
+              "text": "appears",
+              "start": 93.538,
+              "end": 93.988
+            },
+            {
+              "text": "when",
+              "start": 94.013,
+              "end": 94.088
+            },
+            {
+              "text": "the",
+              "start": 94.113,
+              "end": 94.163
+            },
+            {
+              "text": "voice",
+              "start": 94.213,
+              "end": 94.463
+            },
+            {
+              "text": "reaches",
+              "start": 94.513,
+              "end": 94.863
+            },
+            {
+              "text": "it.",
+              "start": 94.938,
+              "end": 94.975
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

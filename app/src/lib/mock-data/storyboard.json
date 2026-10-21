@@ -1,0 +1,1404 @@
+{
+  "title": "Sources in, video out",
+  "chapters": [
+    {
+      "title": "Five stages, one diagram",
+      "beats": [
+        {
+          "say": [
+            "You give a language model three PDFs and ask for an animated explainer.",
+            "How could you check every picture renders and every sentence traces to a page?",
+            "And that each visual lands exactly when the voice does?"
+          ],
+          "visual": {
+            "type": "title",
+            "title": "Sources in, video out",
+            "subtitle": "renders? traced? in sync?"
+          }
+        },
+        {
+          "say": [
+            "Follow one page: page 6 of your notes.",
+            "Ingest makes it one chunk, id notes p6, in chunks.json.",
+            "Plain text is cut every 2,500 characters."
+          ],
+          "visual": {
+            "type": "diagram",
+            "nodes": [
+              {
+                "id": "pdf",
+                "label": "notes.pdf p6",
+                "col": 0,
+                "row": 1,
+                "shape": "box"
+              },
+              {
+                "id": "chunks",
+                "label": "chunks.json",
+                "col": 1,
+                "row": 1,
+                "shape": "stack"
+              }
+            ],
+            "edges": [
+              {
+                "id": "e1",
+                "from": "pdf",
+                "to": "chunks",
+                "label": "ingest"
+              }
+            ],
+            "steps": [
+              {
+                "show": [
+                  "pdf"
+                ]
+              },
+              {
+                "show": [
+                  "chunks",
+                  "e1"
+                ],
+                "relabel": [
+                  {
+                    "id": "chunks",
+                    "label": "notes:p6"
+                  }
+                ]
+              },
+              {
+                "highlight": [
+                  "chunks"
+                ],
+                "relabel": [
+                  {
+                    "id": "chunks",
+                    "label": "chunks.json"
+                  }
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "say": [
+            "Next, the model writes chapters of claims into outline.json.",
+            "Each claim must cite a real chunk id, like notes p6."
+          ],
+          "visual": {
+            "type": "diagram",
+            "continue": true,
+            "nodes": [
+              {
+                "id": "outline",
+                "label": "outline.json",
+                "col": 2,
+                "row": 1,
+                "shape": "box"
+              }
+            ],
+            "edges": [
+              {
+                "id": "e2",
+                "from": "chunks",
+                "to": "outline",
+                "label": "outline"
+              }
+            ],
+            "steps": [
+              {
+                "show": [
+                  "outline",
+                  "e2"
+                ]
+              },
+              {
+                "highlight": [
+                  "e2"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "say": [
+            "Then it fills a fixed storyboard schema, chapter by chapter."
+          ],
+          "visual": {
+            "type": "diagram",
+            "continue": true,
+            "nodes": [
+              {
+                "id": "sb",
+                "label": "storyboard.json",
+                "col": 3,
+                "row": 1,
+                "shape": "box"
+              }
+            ],
+            "edges": [
+              {
+                "id": "e3",
+                "from": "outline",
+                "to": "sb",
+                "label": "storyboard"
+              }
+            ],
+            "steps": [
+              {
+                "show": [
+                  "sb",
+                  "e3"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "say": [
+            "Kokoro speaks the narration locally, one sentence at a time.",
+            "Remotion renders one MP4 per chapter, joined with chapter markers."
+          ],
+          "visual": {
+            "type": "diagram",
+            "continue": true,
+            "nodes": [
+              {
+                "id": "audio",
+                "label": "audio/chN.wav",
+                "col": 3,
+                "row": 2,
+                "shape": "stack"
+              },
+              {
+                "id": "mp4",
+                "label": "out/slug.mp4",
+                "col": 4,
+                "row": 1,
+                "shape": "box"
+              }
+            ],
+            "edges": [
+              {
+                "id": "e4",
+                "from": "sb",
+                "to": "audio",
+                "label": "voice"
+              },
+              {
+                "id": "e5",
+                "from": "sb",
+                "to": "mp4",
+                "label": "render"
+              },
+              {
+                "id": "e6",
+                "from": "audio",
+                "to": "mp4"
+              }
+            ],
+            "steps": [
+              {
+                "show": [
+                  "audio",
+                  "e4"
+                ]
+              },
+              {
+                "show": [
+                  "mp4",
+                  "e5",
+                  "e6"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "say": [
+            "state.json records a hash of each stage's inputs.",
+            "So a command runs only what is missing or stale.",
+            "Rewrite one chapter, and the rest stay byte-identical."
+          ],
+          "visual": {
+            "type": "diagram",
+            "continue": true,
+            "nodes": [
+              {
+                "id": "state",
+                "label": "state.json",
+                "col": 1,
+                "row": 0,
+                "shape": "pill"
+              }
+            ],
+            "edges": [],
+            "steps": [
+              {
+                "show": [
+                  "state"
+                ]
+              },
+              {
+                "highlight": [
+                  "state"
+                ]
+              },
+              {
+                "highlight": [
+                  "mp4"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "readme:s1",
+            "readme:s2"
+          ],
+          "aha": true
+        },
+        {
+          "say": [
+            "Which file does outline read, and which does it write?",
+            "Pause the video and try it."
+          ],
+          "visual": {
+            "type": "title",
+            "title": "outline: reads ? writes ?"
+          }
+        },
+        {
+          "say": [
+            "It reads chunks.json and writes outline.json.",
+            "So every claim points back to a page."
+          ],
+          "visual": {
+            "type": "diagram",
+            "nodes": [
+              {
+                "id": "ck",
+                "label": "chunks.json",
+                "col": 1,
+                "row": 1,
+                "shape": "stack"
+              },
+              {
+                "id": "ol",
+                "label": "outline.json",
+                "col": 3,
+                "row": 1,
+                "shape": "box"
+              }
+            ],
+            "edges": [
+              {
+                "id": "r1",
+                "from": "ck",
+                "to": "ol",
+                "label": "outline"
+              }
+            ],
+            "steps": [
+              {
+                "show": [
+                  "ck",
+                  "ol",
+                  "r1"
+                ]
+              },
+              {
+                "highlight": [
+                  "ck"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "say": [
+            "Five stages, five files, each built from the last."
+          ],
+          "visual": {
+            "type": "title",
+            "title": "Five stages, five files"
+          },
+          "cite": [
+            "readme:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Fill a storyboard, not code",
+      "beats": [
+        {
+          "say": [
+            "Here is the writer, a language model.",
+            "To draw a pipeline, what does it produce? Most people guess animation code."
+          ],
+          "visual": {
+            "type": "diagram",
+            "nodes": [
+              {
+                "id": "llm",
+                "label": "writer model",
+                "col": 0,
+                "row": 1,
+                "shape": "pill"
+              },
+              {
+                "id": "out",
+                "label": "animation code?",
+                "col": 2,
+                "row": 1
+              }
+            ],
+            "edges": [
+              {
+                "id": "e1",
+                "from": "llm",
+                "to": "out",
+                "label": "writes"
+              }
+            ],
+            "steps": [
+              {
+                "show": [
+                  "llm"
+                ]
+              },
+              {
+                "show": [
+                  "out",
+                  "e1"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "say": [
+            "It never does.",
+            "It fills a declarative storyboard instead.",
+            "The renderer draws that storyboard."
+          ],
+          "visual": {
+            "type": "diagram",
+            "continue": true,
+            "nodes": [
+              {
+                "id": "rend",
+                "label": "renderer",
+                "col": 4,
+                "row": 1,
+                "shape": "pill"
+              }
+            ],
+            "edges": [
+              {
+                "id": "e2",
+                "from": "out",
+                "to": "rend",
+                "label": "draws"
+              }
+            ],
+            "steps": [
+              {
+                "highlight": [
+                  "out"
+                ]
+              },
+              {
+                "highlight": [
+                  "out"
+                ],
+                "relabel": [
+                  {
+                    "id": "out",
+                    "label": "storyboard"
+                  }
+                ]
+              },
+              {
+                "show": [
+                  "rend",
+                  "e2"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "readme:s1",
+            "schema:s1"
+          ],
+          "aha": true
+        },
+        {
+          "say": [
+            "Every visual is one of seven primitives: title, bullets, diagram, sequence, equation, code and graph.",
+            "So the wrong belief is that animation needs generated code: here every primitive always renders."
+          ],
+          "visual": {
+            "type": "diagram",
+            "nodes": [
+              {
+                "id": "p1",
+                "label": "title",
+                "col": 0,
+                "row": 0,
+                "shape": "pill"
+              },
+              {
+                "id": "p2",
+                "label": "bullets",
+                "col": 1,
+                "row": 0,
+                "shape": "pill"
+              },
+              {
+                "id": "p3",
+                "label": "diagram",
+                "col": 2,
+                "row": 0,
+                "shape": "pill"
+              },
+              {
+                "id": "p4",
+                "label": "sequence",
+                "col": 3,
+                "row": 0,
+                "shape": "pill"
+              },
+              {
+                "id": "p5",
+                "label": "equation",
+                "col": 4,
+                "row": 0,
+                "shape": "pill"
+              },
+              {
+                "id": "p6",
+                "label": "code",
+                "col": 1,
+                "row": 2,
+                "shape": "pill"
+              },
+              {
+                "id": "p7",
+                "label": "graph",
+                "col": 3,
+                "row": 2,
+                "shape": "pill"
+              }
+            ],
+            "edges": [],
+            "steps": [
+              {
+                "show": [
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4",
+                  "p5",
+                  "p6",
+                  "p7"
+                ]
+              },
+              {
+                "highlight": [
+                  "p1",
+                  "p2",
+                  "p3",
+                  "p4",
+                  "p5",
+                  "p6",
+                  "p7"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "readme:s1",
+            "schema:s1"
+          ]
+        },
+        {
+          "say": [
+            "A diagram has nodes, here sources and storyboard.",
+            "It has edges, here one arrow labeled outline.",
+            "And it has an ordered list of steps."
+          ],
+          "visual": {
+            "type": "code",
+            "language": "javascript",
+            "code": "\"visual\": { \"type\": \"diagram\",\n  \"nodes\": [{ \"id\": \"src\", \"label\": \"sources\" },\n            { \"id\": \"sb\", \"label\": \"storyboard\" }],\n  \"edges\": [{ \"id\": \"e\", \"from\": \"src\",\n              \"to\": \"sb\", \"label\": \"outline\" }],\n  \"steps\": [{ \"show\": [\"src\"] },\n            { \"show\": [\"sb\", \"e\"] }] }",
+            "steps": [
+              {
+                "lines": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "lines": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "lines": [
+                  6,
+                  7
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "schema:s1",
+            "readme:s1"
+          ]
+        },
+        {
+          "say": [
+            "Step one shows the sources node.",
+            "Step two shows the storyboard node and the outline edge between them."
+          ],
+          "visual": {
+            "type": "diagram",
+            "nodes": [
+              {
+                "id": "src",
+                "label": "sources",
+                "col": 0,
+                "row": 1
+              },
+              {
+                "id": "sb",
+                "label": "storyboard",
+                "col": 2,
+                "row": 1
+              }
+            ],
+            "edges": [
+              {
+                "id": "e",
+                "from": "src",
+                "to": "sb",
+                "label": "outline"
+              }
+            ],
+            "steps": [
+              {
+                "show": [
+                  "src"
+                ]
+              },
+              {
+                "show": [
+                  "sb",
+                  "e"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "say": [
+            "A step can also hide, highlight or relabel ids.",
+            "With continue set to true, the next beat keeps this diagram and builds on it."
+          ],
+          "visual": {
+            "type": "diagram",
+            "continue": true,
+            "nodes": [
+              {
+                "id": "vid",
+                "label": "video",
+                "col": 4,
+                "row": 1
+              }
+            ],
+            "edges": [
+              {
+                "id": "e3",
+                "from": "sb",
+                "to": "vid",
+                "label": "render"
+              }
+            ],
+            "steps": [
+              {
+                "highlight": [
+                  "sb"
+                ]
+              },
+              {
+                "show": [
+                  "vid",
+                  "e3"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "schema:s1"
+          ]
+        },
+        {
+          "say": [
+            "Here are the first two steps again.",
+            "Write a third step that makes the storyboard node glow. Pause the video and try it."
+          ],
+          "visual": {
+            "type": "code",
+            "language": "javascript",
+            "code": "\"steps\": [\n  { \"show\": [\"src\"] },\n  { \"show\": [\"sb\", \"e\"] },\n  { ??? }\n]",
+            "steps": [
+              {
+                "lines": [
+                  1,
+                  2,
+                  3
+                ]
+              },
+              {
+                "lines": [
+                  4
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "schema:s1"
+          ]
+        },
+        {
+          "say": [
+            "The step is highlight, with the id sb.",
+            "Highlight makes an id glow during that step only."
+          ],
+          "visual": {
+            "type": "code",
+            "language": "javascript",
+            "code": "\"steps\": [\n  { \"show\": [\"src\"] },\n  { \"show\": [\"sb\", \"e\"] },\n  { \"highlight\": [\"sb\"] }\n]",
+            "steps": [
+              {
+                "lines": [
+                  4
+                ]
+              },
+              {
+                "lines": [
+                  4
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "schema:s1"
+          ]
+        },
+        {
+          "say": [
+            "The model fills a storyboard that always renders, never animation code."
+          ],
+          "visual": {
+            "type": "title",
+            "title": "Fill fields, not code"
+          },
+          "cite": [
+            "readme:s1",
+            "schema:s1"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Bad output goes back",
+      "beats": [
+        {
+          "say": [
+            "Here is a beat a writer might send.",
+            "Its edge points at a node called sb, but no node has that id."
+          ],
+          "visual": {
+            "type": "code",
+            "language": "javascript",
+            "code": "{ \"say\": [\"Sources go in.\", \"A storyboard comes out.\"],\n  \"visual\": { \"type\": \"diagram\",\n    \"nodes\": [{ \"id\": \"src\", \"label\": \"sources\" }],\n    \"edges\": [{ \"id\": \"e\", \"from\": \"src\", \"to\": \"sb\" }],\n    \"steps\": [{ \"show\": [\"src\"] }, { \"show\": [\"e\"] }] } }",
+            "steps": [
+              {
+                "lines": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ]
+              },
+              {
+                "lines": [
+                  3,
+                  4
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "schema:s5"
+          ]
+        },
+        {
+          "say": [
+            "A validator checks every answer, and only valid ones become the storyboard.",
+            "Invalid output goes back to the writer with the list of errors."
+          ],
+          "visual": {
+            "type": "diagram",
+            "nodes": [
+              {
+                "id": "writer",
+                "label": "writer",
+                "col": 0,
+                "row": 1
+              },
+              {
+                "id": "val",
+                "label": "validator",
+                "col": 2,
+                "row": 1,
+                "shape": "pill"
+              },
+              {
+                "id": "sb",
+                "label": "storyboard",
+                "col": 4,
+                "row": 1
+              },
+              {
+                "id": "errs",
+                "label": "error list",
+                "col": 1,
+                "row": 2,
+                "shape": "stack"
+              }
+            ],
+            "edges": [
+              {
+                "id": "ans",
+                "from": "writer",
+                "to": "val",
+                "label": "answer"
+              },
+              {
+                "id": "ok",
+                "from": "val",
+                "to": "sb",
+                "label": "valid"
+              },
+              {
+                "id": "bad",
+                "from": "val",
+                "to": "errs",
+                "label": "invalid"
+              },
+              {
+                "id": "back",
+                "from": "errs",
+                "to": "writer"
+              }
+            ],
+            "steps": [
+              {
+                "show": [
+                  "writer",
+                  "val",
+                  "sb",
+                  "ans",
+                  "ok"
+                ]
+              },
+              {
+                "show": [
+                  "errs",
+                  "bad",
+                  "back"
+                ],
+                "highlight": [
+                  "back"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "readme:s1",
+            "schema:s6"
+          ]
+        },
+        {
+          "say": [
+            "The writer also gets a JSON Schema.",
+            "So could a beat with seven sentences still slip through? Predict first."
+          ],
+          "visual": {
+            "type": "diagram",
+            "continue": true,
+            "nodes": [
+              {
+                "id": "schema",
+                "label": "JSON Schema",
+                "col": 0,
+                "row": 0
+              }
+            ],
+            "edges": [
+              {
+                "id": "s1",
+                "from": "schema",
+                "to": "writer"
+              }
+            ],
+            "steps": [
+              {
+                "show": [
+                  "schema",
+                  "s1"
+                ]
+              },
+              {
+                "highlight": [
+                  "ans"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "schema:s6"
+          ]
+        },
+        {
+          "say": [
+            "It slips through the schema.",
+            "Structured output backends support only part of JSON Schema, so the writer's copy has no size limits.",
+            "Zod still enforces every limit afterwards."
+          ],
+          "visual": {
+            "type": "diagram",
+            "continue": true,
+            "nodes": [],
+            "edges": [],
+            "steps": [
+              {
+                "highlight": [
+                  "schema"
+                ]
+              },
+              {
+                "highlight": [
+                  "schema"
+                ],
+                "relabel": [
+                  {
+                    "id": "schema",
+                    "label": "no size limits"
+                  }
+                ]
+              },
+              {
+                "highlight": [
+                  "val"
+                ],
+                "relabel": [
+                  {
+                    "id": "val",
+                    "label": "zod limits"
+                  }
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "schema:s6",
+            "schema:s3"
+          ],
+          "aha": true
+        },
+        {
+          "say": [
+            "Some rules no schema can express.",
+            "Like our edge pointing at an unknown node.",
+            "Or continue set to true when the previous beat is not a diagram."
+          ],
+          "visual": {
+            "type": "diagram",
+            "continue": true,
+            "nodes": [
+              {
+                "id": "cross",
+                "label": "cross-check",
+                "col": 3,
+                "row": 2,
+                "shape": "pill"
+              }
+            ],
+            "edges": [
+              {
+                "id": "c1",
+                "from": "val",
+                "to": "cross"
+              }
+            ],
+            "steps": [
+              {
+                "show": [
+                  "cross",
+                  "c1"
+                ]
+              },
+              {
+                "highlight": [
+                  "cross"
+                ],
+                "relabel": [
+                  {
+                    "id": "cross",
+                    "label": "unknown node"
+                  }
+                ]
+              },
+              {
+                "highlight": [
+                  "cross"
+                ],
+                "relabel": [
+                  {
+                    "id": "cross",
+                    "label": "continue, no diagram"
+                  }
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "schema:s5"
+          ]
+        },
+        {
+          "say": [
+            "Every outline claim cites one to four chunk ids.",
+            "And every beat can list the chunk ids that back it."
+          ],
+          "visual": {
+            "type": "diagram",
+            "nodes": [
+              {
+                "id": "chunk",
+                "label": "readme:s1",
+                "col": 0,
+                "row": 1,
+                "shape": "stack"
+              },
+              {
+                "id": "claim",
+                "label": "outline claim",
+                "col": 2,
+                "row": 1
+              },
+              {
+                "id": "beat",
+                "label": "beat",
+                "col": 4,
+                "row": 1
+              }
+            ],
+            "edges": [
+              {
+                "id": "k1",
+                "from": "chunk",
+                "to": "claim",
+                "label": "cite 1 to 4"
+              },
+              {
+                "id": "k2",
+                "from": "chunk",
+                "to": "beat",
+                "label": "cite"
+              }
+            ],
+            "steps": [
+              {
+                "show": [
+                  "chunk",
+                  "claim",
+                  "k1"
+                ]
+              },
+              {
+                "show": [
+                  "beat",
+                  "k2"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "schema:s3"
+          ]
+        },
+        {
+          "say": [
+            "A beat sets continue to true right after a code visual. Which check catches it?",
+            "Pause the video and try it."
+          ],
+          "visual": {
+            "type": "diagram",
+            "nodes": [
+              {
+                "id": "b1",
+                "label": "beat 1: code",
+                "col": 0,
+                "row": 1
+              },
+              {
+                "id": "b2",
+                "label": "beat 2: continue",
+                "col": 2,
+                "row": 1
+              }
+            ],
+            "edges": [
+              {
+                "id": "n1",
+                "from": "b1",
+                "to": "b2"
+              }
+            ],
+            "steps": [
+              {
+                "show": [
+                  "b1",
+                  "b2",
+                  "n1"
+                ]
+              },
+              {
+                "highlight": [
+                  "b2"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "schema:s5"
+          ]
+        },
+        {
+          "say": [
+            "The cross-check: a schema sees one beat, never the beat before it."
+          ],
+          "visual": {
+            "type": "diagram",
+            "continue": true,
+            "nodes": [
+              {
+                "id": "cc",
+                "label": "cross-check",
+                "col": 4,
+                "row": 1,
+                "shape": "pill"
+              }
+            ],
+            "edges": [
+              {
+                "id": "n2",
+                "from": "cc",
+                "to": "b2",
+                "label": "looks back"
+              }
+            ],
+            "steps": [
+              {
+                "show": [
+                  "cc",
+                  "n2"
+                ],
+                "highlight": [
+                  "cc"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "schema:s5"
+          ]
+        },
+        {
+          "say": [
+            "Nothing reaches the storyboard until it passes every check."
+          ],
+          "visual": {
+            "type": "title",
+            "title": "Nothing reaches the storyboard until it passes every check"
+          },
+          "cite": [
+            "readme:s1",
+            "schema:s6"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sentence k reveals item k",
+      "beats": [
+        {
+          "say": [
+            "Your sources go in, and the sources box appears.",
+            "A storyboard comes out, and the arrow and the storyboard follow."
+          ],
+          "visual": {
+            "type": "diagram",
+            "nodes": [
+              {
+                "id": "src",
+                "label": "sources",
+                "col": 1,
+                "row": 1
+              },
+              {
+                "id": "sb",
+                "label": "storyboard",
+                "col": 3,
+                "row": 1
+              }
+            ],
+            "edges": [
+              {
+                "id": "e",
+                "from": "src",
+                "to": "sb",
+                "label": "outline"
+              }
+            ],
+            "steps": [
+              {
+                "show": [
+                  "src"
+                ]
+              },
+              {
+                "show": [
+                  "sb",
+                  "e"
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "say": [
+            "In the storyboard, sentence one pairs with step one.",
+            "Sentence two pairs with step two."
+          ],
+          "visual": {
+            "type": "code",
+            "language": "javascript",
+            "code": "{ \"say\": [\n    \"Your sources go in.\",\n    \"A storyboard comes out.\" ],\n  \"visual\": { \"type\": \"diagram\",\n    \"steps\": [\n      { \"show\": [\"src\"] },\n      { \"show\": [\"sb\", \"e\"] } ] } }",
+            "steps": [
+              {
+                "lines": [
+                  2,
+                  6
+                ]
+              },
+              {
+                "lines": [
+                  3,
+                  7
+                ]
+              }
+            ]
+          },
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "say": [
+            "That is the one timing rule for every primitive: item k appears when sentence k starts.",
+            "Items beyond the last sentence are spread across the last sentence."
+          ],
+          "visual": {
+            "type": "equation",
+            "lines": [
+              "t(\\textcolor{#F4D345}{\\text{item}_k}) = t_{\\text{start}}(\\textcolor{#58C4DD}{\\text{sentence}_k})",
+              "k > n:\\ \\textcolor{#F4D345}{\\text{item}_k} \\in \\textcolor{#58C4DD}{\\text{sentence}_n}"
+            ],
+            "caption": "item in yellow, sentence in blue"
+          },
+          "cite": [
+            "schema:s1",
+            "readme:s1"
+          ],
+          "aha": true
+        },
+        {
+          "say": [
+            "So how does the renderer know when sentence two starts?",
+            "Predict first: does it need a model that aligns the text to the audio?"
+          ],
+          "visual": {
+            "type": "title",
+            "title": "sentence 2 starts at ?",
+            "subtitle": "alignment model?"
+          },
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "say": [
+            "The voice stage speaks sentence one on its own.",
+            "Then it speaks sentence two on its own.",
+            "It records each sentence's start and end in seconds, and the renderer reads those timings."
+          ],
+          "visual": {
+            "type": "sequence",
+            "lanes": [
+              "storyboard",
+              "voice",
+              "renderer"
+            ],
+            "messages": [
+              {
+                "from": "storyboard",
+                "to": "voice",
+                "label": "sentence 1"
+              },
+              {
+                "from": "storyboard",
+                "to": "voice",
+                "label": "sentence 2"
+              },
+              {
+                "from": "voice",
+                "to": "renderer",
+                "label": "start, end in seconds"
+              }
+            ]
+          },
+          "cite": [
+            "readme:s1",
+            "schema:s4"
+          ]
+        },
+        {
+          "say": [
+            "So every sentence start is known exactly, and sync needs no alignment model.",
+            "If you predicted one, that guess assumes the starts are unknown, but they are recorded as each sentence is spoken."
+          ],
+          "visual": {
+            "type": "title",
+            "title": "start times: known",
+            "subtitle": "alignment model: none"
+          },
+          "cite": [
+            "readme:s1",
+            "schema:s4"
+          ]
+        },
+        {
+          "say": [
+            "A beat has three sentences and a diagram with five steps.",
+            "When does step four appear?",
+            "Pause the video and try it."
+          ],
+          "visual": {
+            "type": "equation",
+            "lines": [
+              "n = 3 \\ \\textcolor{#58C4DD}{\\text{sentences}}",
+              "5 \\ \\textcolor{#F4D345}{\\text{steps}}",
+              "\\textcolor{#F4D345}{\\text{step } 4} \\to\\ ?"
+            ]
+          },
+          "cite": [
+            "schema:s1"
+          ]
+        },
+        {
+          "say": [
+            "Step four appears during sentence three, along with steps three and five.",
+            "Steps past the last sentence are spread across that last sentence."
+          ],
+          "visual": {
+            "type": "equation",
+            "lines": [
+              "\\textcolor{#F4D345}{\\text{steps } 1, 2} \\to \\textcolor{#58C4DD}{\\text{sentences } 1, 2}",
+              "\\textcolor{#F4D345}{\\text{steps } 3, 4, 5} \\to \\textcolor{#58C4DD}{\\text{sentence } 3}"
+            ]
+          },
+          "cite": [
+            "schema:s1"
+          ]
+        },
+        {
+          "say": [
+            "Back to your three PDFs and the opening question: how could you check the video?"
+          ],
+          "visual": {
+            "type": "title",
+            "title": "3 PDFs in",
+            "subtitle": "renders? traces? in sync?"
+          },
+          "cite": [
+            "readme:s1"
+          ]
+        },
+        {
+          "say": [
+            "Every picture renders, because the model only fills primitives that always render.",
+            "Bad output goes back to the writer with the error list.",
+            "Every claim cites real chunk ids, so each sentence traces back to a page.",
+            "And sentence k reveals item k, so each visual appears when the voice reaches it."
+          ],
+          "visual": {
+            "type": "bullets",
+            "heading": "checkable",
+            "items": [
+              "primitives always render",
+              "validator sends errors back",
+              "cited chunk ids",
+              "sentence k reveals item k"
+            ]
+          },
+          "cite": [
+            "readme:s1",
+            "schema:s3"
+          ]
+        }
+      ]
+    }
+  ]
+}

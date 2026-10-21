@@ -1,0 +1,158 @@
+{
+  "title": "perdix-ep1",
+  "voice": {
+    "engine": "kokoro",
+    "voice": "am_fenrir",
+    "speed": 1.08
+  },
+  "gaps": {
+    "leadIn": 0.3,
+    "sentence": 0.22,
+    "beat": 0.45,
+    "aha": 0.7,
+    "tail": 2.6
+  },
+  "chapters": [
+    {
+      "say": [
+        "This is Minecraft. Except I built it.",
+        "From scratch. No game engine. No Mojang. Just me and C plus plus, a language that hates me personally. [boom]",
+        "Here's how it started."
+      ],
+      "shot": {
+        "name": "intro",
+        "kind": "fly",
+        "env": {
+          "CX0": 4,
+          "CX1": 40,
+          "CZ0": -14,
+          "CZ1": 16,
+          "AX": 482,
+          "AY": 118,
+          "AZ": -120,
+          "BX": 484,
+          "BY": 126,
+          "BZ": -30,
+          "CX": 486,
+          "CY": 138,
+          "CZ": 60,
+          "DX": 488,
+          "DY": 150,
+          "DZ": 140,
+          "PITCH0": -0.1,
+          "PITCH1": -0.02,
+          "YAW_OFFSET": 0.32,
+          "ROLL": -0.05,
+          "EASE": 1
+        }
+      }
+    },
+    {
+      "big": "DAY 1",
+      "say": [
+        "Day one. The goal: one cube, on the screen. That's it.",
+        "Sounds easy. It is not. [scratch]",
+        "To draw anything, you have to talk to the graphics card. I picked a language for that called Vulkan.",
+        "In Vulkan, just saying hello takes about a thousand lines of code.",
+        "So after a full day of yelling at my laptop: behold. A cube. [boom]",
+        "It's red, it's green, it's checkered. It looks like a Rubik's cube that gave up on life.",
+        "I have never been prouder of anything. [ding]"
+      ],
+      "shot": {
+        "name": "cube",
+        "kind": "cube",
+        "env": {
+          "RADIUS": 2.9,
+          "RISE": 1.3,
+          "START": 0.785,
+          "SPIN": 0.55,
+          "DOLLY_FROM": 18,
+          "DOLLY_TIME": "s[4] + 1.6",
+          "TUMBLE": 0.3
+        }
+      }
+    },
+    {
+      "big": "DAY 5",
+      "say": [
+        "But Minecraft isn't one cube. It's millions.",
+        "So I made a cube, out of cubes. [boom]",
+        "Every block has six faces. But a face pressed against another block can never be seen, so I just don't draw it.",
+        "Free performance. The best kind of performance. [boom]"
+      ],
+      "shot": {
+        "name": "blocks",
+        "kind": "blocks",
+        "env": {
+          "LINES": 1,
+          "WHITE": 1,
+          "WIREFRAME": 1,
+          "MINECRAFT": 1,
+          "MERGE": 0,
+          "N": 5,
+          "BUILD": "s[1] + 2.2",
+          "RADIUS": 15,
+          "RISE": 7,
+          "START": 0.6,
+          "SPIN": 0.3
+        }
+      }
+    },
+    {
+      "say": [
+        "Minecraft cuts its world into chunks. Mine are thirty-two blocks wide, tall and deep.",
+        "This one has three thousand, four hundred and fifteen faces.",
+        "Minecraft shows hundreds of these at once. Do the math. Actually, don't. [scratch]"
+      ],
+      "shot": {
+        "name": "chunk-build",
+        "kind": "chunk",
+        "orbit": 0.15,
+        "env": {
+          "LINES": 1,
+          "WHITE": 1,
+          "WIREFRAME": 1,
+          "MINECRAFT": 1,
+          "MERGE": 0,
+          "RADIUS": 50,
+          "RISE": 28,
+          "BUILD_LAYERS": "s[1]"
+        }
+      }
+    },
+    {
+      "say": [
+        "So, a trick. If two faces next to each other look the same, glue them into one big face.",
+        "Two hundred and seventy-five. Same chunk. Twelve times fewer faces. [boom]",
+        "Is that cheating? Yes. Am I going to stop? No. [boom]",
+        "Next time: making it actually look like Minecraft. Follow, or the cube gets it. [scratch]"
+      ],
+      "shot": {
+        "name": "chunk-merge",
+        "kind": "chunk",
+        "orbit": 0.15,
+        "env": {
+          "LINES": 1,
+          "WHITE": 1,
+          "WIREFRAME": 1,
+          "MINECRAFT": 1,
+          "RADIUS": 50,
+          "RISE": 28,
+          "MERGE_SWEEP": 1.2,
+          "MERGE_FROM": "s[0] + 2.4"
+        }
+      }
+    }
+  ],
+  "end": {
+    "big": "PART 1",
+    "small": "building Minecraft from scratch",
+    "seconds": 2.4
+  },
+  "music": {
+    "bpm": 84,
+    "volume": 0.13,
+    "duck": 0.35,
+    "hold": 1.0
+  }
+}

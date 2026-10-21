@@ -1,0 +1,152 @@
+{
+  "title": "perdix-ep3",
+  "voice": {
+    "engine": "kokoro",
+    "voice": "am_puck",
+    "speed": 1.08
+  },
+  "gaps": {
+    "leadIn": 0.3,
+    "sentence": 0.22,
+    "beat": 0.45,
+    "aha": 0.7,
+    "tail": 3.2
+  },
+  "chapters": [
+    {
+      "say": [
+        "Last time, this world got its textures. Today, it gets someone to live in it.",
+        "So I added a player. [ding]"
+      ],
+      "shot": {
+        "name": "world",
+        "kind": "stream",
+        "env": {
+          "GROW": 1.6,
+          "VIEW": 8
+        }
+      }
+    },
+    {
+      "say": [
+        "He spawned magenta. Like everything I make, at first. [boom]",
+        "Let's get a closer look. [scratch]",
+        "No face. No name. No idea where he is. Honestly? Relatable.",
+        "Every legend needs a name. I named him after the engine, because creativity is expensive. [ding]",
+        "Perdix. [boom]",
+        "And a face. [boom]"
+      ],
+      "shot": {
+        "name": "born",
+        "kind": "perdix-born",
+        "env": {
+          "PERDIX_X": 60.5,
+          "PERDIX_Z": 40.5,
+          "PERDIX_YAW": 0.785,
+          "CX0": -4,
+          "CX1": 12,
+          "CZ0": -4,
+          "CZ1": 10,
+          "PUSH": "e[1]",
+          "FAR": 12,
+          "NEAR": 1.6,
+          "TAG_AT": "s[4]",
+          "SKIN_AT": "s[5]"
+        }
+      }
+    },
+    {
+      "say": [
+        "Then I taught him to walk, at Minecraft's exact speeds.",
+        "Walk.",
+        "Sprint.",
+        "Sprint-jump."
+      ],
+      "shot": {
+        "name": "walk",
+        "kind": "perdix-walk",
+        "env": {
+          "PERDIX_X": 60.5,
+          "PERDIX_Z": 40.5,
+          "PERDIX_YAW": -1.5708,
+          "CX0": -4,
+          "CX1": 20,
+          "CZ0": -4,
+          "CZ1": 10,
+          "WALK_FROM": "s[1]",
+          "SPRINT_FROM": "s[2]",
+          "JUMP_FROM": "s[3]"
+        }
+      }
+    },
+    {
+      "say": [
+        "This is what he sees."
+      ],
+      "shot": {
+        "name": "pov",
+        "kind": "walk",
+        "env": {
+          "WALK_X": 60.5,
+          "WALK_Z": 40.5,
+          "WALK_YAW": -1.5708,
+          "SPRINT_FROM": 0,
+          "JUMP_FROM": 0.35,
+          "CX0": -4,
+          "CX1": 24,
+          "CZ0": -4,
+          "CZ1": 10
+        }
+      }
+    },
+    {
+      "say": [
+        "And then, he met a block. One block. [scratch]",
+        "He just stands there. His legs don't even move: Minecraft only swings your legs when you actually get somewhere. [boom]"
+      ],
+      "shot": {
+        "name": "stuck",
+        "kind": "perdix-stuck",
+        "env": {
+          "PERDIX_X": 256.5,
+          "PERDIX_Z": -299.5,
+          "PERDIX_YAW": 1.5708,
+          "SIDE": -5,
+          "BACK": -0.5,
+          "UP": 2.0,
+          "LEAD": 0.3,
+          "CX0": 4,
+          "CX1": 14,
+          "CZ0": -14,
+          "CZ1": -6
+        }
+      }
+    },
+    {
+      "say": [
+        "Lucky for him, this world never ends. He has forever to figure it out.",
+        "What should Perdix learn next? Tell me in the comments. Follow. [scratch]"
+      ],
+      "shot": {
+        "name": "horizon",
+        "kind": "stream",
+        "env": {
+          "GROW": 0.5,
+          "VIEW": 12,
+          "RISE": 40
+        }
+      }
+    }
+  ],
+  "end": {
+    "big": "PART 3",
+    "small": "building Minecraft from scratch",
+    "seconds": 3
+  },
+  "music": {
+    "bpm": 84,
+    "volume": 0.13,
+    "duck": 0.35,
+    "hold": 1
+  }
+}

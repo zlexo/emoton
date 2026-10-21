@@ -1,0 +1,1079 @@
+{
+  "leadIn": 1.8,
+  "duration": 76.008,
+  "audio": "audio/ch1.wav",
+  "beats": [
+    {
+      "start": 1.8,
+      "end": 13.894,
+      "sentences": [
+        {
+          "start": 1.8,
+          "end": 6.125,
+          "text": "You give a language model three PDFs and ask for an animated explainer.",
+          "words": [
+            {
+              "text": "You",
+              "start": 1.828,
+              "end": 1.903
+            },
+            {
+              "text": "give",
+              "start": 1.953,
+              "end": 2.078
+            },
+            {
+              "text": "a",
+              "start": 2.103,
+              "end": 2.128
+            },
+            {
+              "text": "language",
+              "start": 2.178,
+              "end": 2.553
+            },
+            {
+              "text": "model",
+              "start": 2.603,
+              "end": 2.903
+            },
+            {
+              "text": "three",
+              "start": 3.003,
+              "end": 3.228
+            },
+            {
+              "text": "PDFs",
+              "start": 3.278,
+              "end": 3.903
+            },
+            {
+              "text": "and",
+              "start": 4.328,
+              "end": 4.428
+            },
+            {
+              "text": "ask",
+              "start": 4.503,
+              "end": 4.753
+            },
+            {
+              "text": "for",
+              "start": 4.803,
+              "end": 4.903
+            },
+            {
+              "text": "an",
+              "start": 4.903,
+              "end": 4.978
+            },
+            {
+              "text": "animated",
+              "start": 5.053,
+              "end": 5.478
+            },
+            {
+              "text": "explainer.",
+              "start": 5.528,
+              "end": 6.085
+            }
+          ]
+        },
+        {
+          "start": 6.425,
+          "end": 10.551,
+          "text": "How could you check every picture renders and every sentence traces to a page?",
+          "words": [
+            {
+              "text": "How",
+              "start": 6.469,
+              "end": 6.644
+            },
+            {
+              "text": "could",
+              "start": 6.694,
+              "end": 6.769
+            },
+            {
+              "text": "you",
+              "start": 6.794,
+              "end": 6.869
+            },
+            {
+              "text": "check",
+              "start": 6.919,
+              "end": 7.144
+            },
+            {
+              "text": "every",
+              "start": 7.219,
+              "end": 7.469
+            },
+            {
+              "text": "picture",
+              "start": 7.519,
+              "end": 7.819
+            },
+            {
+              "text": "renders",
+              "start": 7.869,
+              "end": 8.519
+            },
+            {
+              "text": "and",
+              "start": 8.619,
+              "end": 8.694
+            },
+            {
+              "text": "every",
+              "start": 8.744,
+              "end": 8.994
+            },
+            {
+              "text": "sentence",
+              "start": 9.069,
+              "end": 9.444
+            },
+            {
+              "text": "traces",
+              "start": 9.494,
+              "end": 9.844
+            },
+            {
+              "text": "to",
+              "start": 9.894,
+              "end": 9.969
+            },
+            {
+              "text": "a",
+              "start": 9.994,
+              "end": 10.019
+            },
+            {
+              "text": "page?",
+              "start": 10.069,
+              "end": 10.511
+            }
+          ]
+        },
+        {
+          "start": 10.851,
+          "end": 13.894,
+          "text": "And that each visual lands exactly when the voice does?",
+          "words": [
+            {
+              "text": "And",
+              "start": 10.881,
+              "end": 10.956
+            },
+            {
+              "text": "that",
+              "start": 10.981,
+              "end": 11.131
+            },
+            {
+              "text": "each",
+              "start": 11.181,
+              "end": 11.381
+            },
+            {
+              "text": "visual",
+              "start": 11.431,
+              "end": 11.731
+            },
+            {
+              "text": "lands",
+              "start": 11.781,
+              "end": 12.331
+            },
+            {
+              "text": "exactly",
+              "start": 12.431,
+              "end": 12.981
+            },
+            {
+              "text": "when",
+              "start": 13.006,
+              "end": 13.081
+            },
+            {
+              "text": "the",
+              "start": 13.106,
+              "end": 13.156
+            },
+            {
+              "text": "voice",
+              "start": 13.206,
+              "end": 13.456
+            },
+            {
+              "text": "does?",
+              "start": 13.506,
+              "end": 13.854
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 14.544,
+      "end": 25.718,
+      "sentences": [
+        {
+          "start": 14.544,
+          "end": 17.052,
+          "text": "Follow one page: page 6 of your notes.",
+          "words": [
+            {
+              "text": "Follow",
+              "start": 14.604,
+              "end": 14.929
+            },
+            {
+              "text": "one",
+              "start": 14.979,
+              "end": 15.154
+            },
+            {
+              "text": "page:",
+              "start": 15.204,
+              "end": 15.729
+            },
+            {
+              "text": "page",
+              "start": 15.854,
+              "end": 16.129
+            },
+            {
+              "text": "6",
+              "start": 16.204,
+              "end": 16.404
+            },
+            {
+              "text": "of",
+              "start": 16.429,
+              "end": 16.479
+            },
+            {
+              "text": "your",
+              "start": 16.504,
+              "end": 16.579
+            },
+            {
+              "text": "notes.",
+              "start": 16.629,
+              "end": 17.012
+            }
+          ]
+        },
+        {
+          "start": 17.352,
+          "end": 21.849,
+          "text": "Ingest makes it one chunk, id notes p6, in chunks.json.",
+          "words": [
+            {
+              "text": "Ingest",
+              "start": 17.389,
+              "end": 17.814
+            },
+            {
+              "text": "makes",
+              "start": 17.839,
+              "end": 18.014
+            },
+            {
+              "text": "it",
+              "start": 18.039,
+              "end": 18.089
+            },
+            {
+              "text": "one",
+              "start": 18.139,
+              "end": 18.314
+            },
+            {
+              "text": "chunk,",
+              "start": 18.364,
+              "end": 18.789
+            },
+            {
+              "text": "id",
+              "start": 18.939,
+              "end": 19.189
+            },
+            {
+              "text": "notes",
+              "start": 19.214,
+              "end": 19.489
+            },
+            {
+              "text": "p6,",
+              "start": 19.539,
+              "end": 20.114
+            },
+            {
+              "text": "in",
+              "start": 20.189,
+              "end": 20.289
+            },
+            {
+              "text": "chunks.json.",
+              "start": 20.339,
+              "end": 21.809
+            }
+          ]
+        },
+        {
+          "start": 22.149,
+          "end": 25.718,
+          "text": "Plain text is cut every 2,500 characters.",
+          "words": [
+            {
+              "text": "Plain",
+              "start": 22.157,
+              "end": 22.432
+            },
+            {
+              "text": "text",
+              "start": 22.482,
+              "end": 22.832
+            },
+            {
+              "text": "is",
+              "start": 22.907,
+              "end": 23.007
+            },
+            {
+              "text": "cut",
+              "start": 23.082,
+              "end": 23.332
+            },
+            {
+              "text": "every",
+              "start": 23.407,
+              "end": 23.682
+            },
+            {
+              "text": "2,500",
+              "start": 23.757,
+              "end": 25.007
+            },
+            {
+              "text": "characters.",
+              "start": 25.057,
+              "end": 25.678
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 26.368,
+      "end": 34.403,
+      "sentences": [
+        {
+          "start": 26.368,
+          "end": 30.335,
+          "text": "Next, the model writes chapters of claims into outline.json.",
+          "words": [
+            {
+              "text": "Next,",
+              "start": 26.442,
+              "end": 26.842
+            },
+            {
+              "text": "the",
+              "start": 26.917,
+              "end": 26.967
+            },
+            {
+              "text": "model",
+              "start": 27.017,
+              "end": 27.342
+            },
+            {
+              "text": "writes",
+              "start": 27.392,
+              "end": 27.642
+            },
+            {
+              "text": "chapters",
+              "start": 27.692,
+              "end": 28.092
+            },
+            {
+              "text": "of",
+              "start": 28.117,
+              "end": 28.167
+            },
+            {
+              "text": "claims",
+              "start": 28.217,
+              "end": 28.542
+            },
+            {
+              "text": "into",
+              "start": 28.567,
+              "end": 28.767
+            },
+            {
+              "text": "outline.json.",
+              "start": 28.817,
+              "end": 30.295
+            }
+          ]
+        },
+        {
+          "start": 30.635,
+          "end": 34.403,
+          "text": "Each claim must cite a real chunk id, like notes p6.",
+          "words": [
+            {
+              "text": "Each",
+              "start": 30.664,
+              "end": 30.889
+            },
+            {
+              "text": "claim",
+              "start": 30.939,
+              "end": 31.214
+            },
+            {
+              "text": "must",
+              "start": 31.264,
+              "end": 31.414
+            },
+            {
+              "text": "cite",
+              "start": 31.464,
+              "end": 31.664
+            },
+            {
+              "text": "a",
+              "start": 31.714,
+              "end": 31.764
+            },
+            {
+              "text": "real",
+              "start": 31.839,
+              "end": 32.089
+            },
+            {
+              "text": "chunk",
+              "start": 32.139,
+              "end": 32.414
+            },
+            {
+              "text": "id,",
+              "start": 32.464,
+              "end": 33.064
+            },
+            {
+              "text": "like",
+              "start": 33.189,
+              "end": 33.339
+            },
+            {
+              "text": "notes",
+              "start": 33.389,
+              "end": 33.664
+            },
+            {
+              "text": "p6.",
+              "start": 33.714,
+              "end": 34.363
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 35.053,
+      "end": 38.405,
+      "sentences": [
+        {
+          "start": 35.053,
+          "end": 38.405,
+          "text": "Then it fills a fixed storyboard schema, chapter by chapter.",
+          "words": [
+            {
+              "text": "Then",
+              "start": 35.102,
+              "end": 35.252
+            },
+            {
+              "text": "it",
+              "start": 35.277,
+              "end": 35.327
+            },
+            {
+              "text": "fills",
+              "start": 35.377,
+              "end": 35.552
+            },
+            {
+              "text": "a",
+              "start": 35.577,
+              "end": 35.627
+            },
+            {
+              "text": "fixed",
+              "start": 35.702,
+              "end": 35.927
+            },
+            {
+              "text": "storyboard",
+              "start": 35.977,
+              "end": 36.502
+            },
+            {
+              "text": "schema,",
+              "start": 36.552,
+              "end": 37.102
+            },
+            {
+              "text": "chapter",
+              "start": 37.252,
+              "end": 37.627
+            },
+            {
+              "text": "by",
+              "start": 37.677,
+              "end": 37.827
+            },
+            {
+              "text": "chapter.",
+              "start": 37.877,
+              "end": 38.365
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 39.055,
+      "end": 47.513,
+      "sentences": [
+        {
+          "start": 39.055,
+          "end": 42.652,
+          "text": "Kokoro speaks the narration locally, one sentence at a time.",
+          "words": [
+            {
+              "text": "Kokoro",
+              "start": 39.088,
+              "end": 39.538
+            },
+            {
+              "text": "speaks",
+              "start": 39.588,
+              "end": 39.888
+            },
+            {
+              "text": "the",
+              "start": 39.913,
+              "end": 39.963
+            },
+            {
+              "text": "narration",
+              "start": 39.988,
+              "end": 40.513
+            },
+            {
+              "text": "locally,",
+              "start": 40.563,
+              "end": 41.213
+            },
+            {
+              "text": "one",
+              "start": 41.388,
+              "end": 41.588
+            },
+            {
+              "text": "sentence",
+              "start": 41.663,
+              "end": 42.038
+            },
+            {
+              "text": "at",
+              "start": 42.088,
+              "end": 42.113
+            },
+            {
+              "text": "a",
+              "start": 42.113,
+              "end": 42.213
+            },
+            {
+              "text": "time.",
+              "start": 42.263,
+              "end": 42.612
+            }
+          ]
+        },
+        {
+          "start": 42.952,
+          "end": 47.513,
+          "text": "Remotion renders one MP4 per chapter, joined with chapter markers.",
+          "words": [
+            {
+              "text": "Remotion",
+              "start": 42.986,
+              "end": 43.486
+            },
+            {
+              "text": "renders",
+              "start": 43.536,
+              "end": 43.936
+            },
+            {
+              "text": "one",
+              "start": 44.036,
+              "end": 44.236
+            },
+            {
+              "text": "MP4",
+              "start": 44.311,
+              "end": 44.961
+            },
+            {
+              "text": "per",
+              "start": 45.011,
+              "end": 45.111
+            },
+            {
+              "text": "chapter,",
+              "start": 45.161,
+              "end": 45.861
+            },
+            {
+              "text": "joined",
+              "start": 46.036,
+              "end": 46.411
+            },
+            {
+              "text": "with",
+              "start": 46.436,
+              "end": 46.536
+            },
+            {
+              "text": "chapter",
+              "start": 46.586,
+              "end": 46.936
+            },
+            {
+              "text": "markers.",
+              "start": 46.961,
+              "end": 47.473
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 48.163,
+      "end": 57.992,
+      "sentences": [
+        {
+          "start": 48.163,
+          "end": 51.535,
+          "text": "state.json records a hash of each stage's inputs.",
+          "words": [
+            {
+              "text": "state.json",
+              "start": 48.217,
+              "end": 49.342
+            },
+            {
+              "text": "records",
+              "start": 49.392,
+              "end": 49.717
+            },
+            {
+              "text": "a",
+              "start": 49.742,
+              "end": 49.767
+            },
+            {
+              "text": "hash",
+              "start": 49.817,
+              "end": 50.117
+            },
+            {
+              "text": "of",
+              "start": 50.142,
+              "end": 50.217
+            },
+            {
+              "text": "each",
+              "start": 50.267,
+              "end": 50.442
+            },
+            {
+              "text": "stage's",
+              "start": 50.492,
+              "end": 50.967
+            },
+            {
+              "text": "inputs.",
+              "start": 51.017,
+              "end": 51.495
+            }
+          ]
+        },
+        {
+          "start": 51.835,
+          "end": 54.67,
+          "text": "So a command runs only what is missing or stale.",
+          "words": [
+            {
+              "text": "So",
+              "start": 51.889,
+              "end": 51.989
+            },
+            {
+              "text": "a",
+              "start": 52.014,
+              "end": 52.039
+            },
+            {
+              "text": "command",
+              "start": 52.089,
+              "end": 52.439
+            },
+            {
+              "text": "runs",
+              "start": 52.489,
+              "end": 52.964
+            },
+            {
+              "text": "only",
+              "start": 53.064,
+              "end": 53.314
+            },
+            {
+              "text": "what",
+              "start": 53.364,
+              "end": 53.464
+            },
+            {
+              "text": "is",
+              "start": 53.489,
+              "end": 53.589
+            },
+            {
+              "text": "missing",
+              "start": 53.639,
+              "end": 54.014
+            },
+            {
+              "text": "or",
+              "start": 54.064,
+              "end": 54.189
+            },
+            {
+              "text": "stale.",
+              "start": 54.264,
+              "end": 54.63
+            }
+          ]
+        },
+        {
+          "start": 54.97,
+          "end": 57.992,
+          "text": "Rewrite one chapter, and the rest stay byte-identical.",
+          "words": [
+            {
+              "text": "Rewrite",
+              "start": 55.007,
+              "end": 55.332
+            },
+            {
+              "text": "one",
+              "start": 55.382,
+              "end": 55.532
+            },
+            {
+              "text": "chapter,",
+              "start": 55.582,
+              "end": 56.207
+            },
+            {
+              "text": "and",
+              "start": 56.332,
+              "end": 56.407
+            },
+            {
+              "text": "the",
+              "start": 56.432,
+              "end": 56.482
+            },
+            {
+              "text": "rest",
+              "start": 56.532,
+              "end": 56.807
+            },
+            {
+              "text": "stay",
+              "start": 56.857,
+              "end": 57.082
+            },
+            {
+              "text": "byte-identical.",
+              "start": 57.132,
+              "end": 57.952
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 59.392,
+      "end": 63.916,
+      "sentences": [
+        {
+          "start": 59.392,
+          "end": 62.141,
+          "text": "Which file does outline read, and which does it write?",
+          "words": [
+            {
+              "text": "Which",
+              "start": 59.4,
+              "end": 59.6
+            },
+            {
+              "text": "file",
+              "start": 59.65,
+              "end": 59.95
+            },
+            {
+              "text": "does",
+              "start": 60,
+              "end": 60.15
+            },
+            {
+              "text": "outline",
+              "start": 60.225,
+              "end": 60.65
+            },
+            {
+              "text": "read,",
+              "start": 60.7,
+              "end": 61.175
+            },
+            {
+              "text": "and",
+              "start": 61.3,
+              "end": 61.375
+            },
+            {
+              "text": "which",
+              "start": 61.4,
+              "end": 61.55
+            },
+            {
+              "text": "does",
+              "start": 61.575,
+              "end": 61.675
+            },
+            {
+              "text": "it",
+              "start": 61.7,
+              "end": 61.75
+            },
+            {
+              "text": "write?",
+              "start": 61.8,
+              "end": 62.101
+            }
+          ]
+        },
+        {
+          "start": 62.441,
+          "end": 63.916,
+          "text": "Pause the video and try it.",
+          "words": [
+            {
+              "text": "Pause",
+              "start": 62.474,
+              "end": 62.749
+            },
+            {
+              "text": "the",
+              "start": 62.774,
+              "end": 62.824
+            },
+            {
+              "text": "video",
+              "start": 62.874,
+              "end": 63.224
+            },
+            {
+              "text": "and",
+              "start": 63.274,
+              "end": 63.349
+            },
+            {
+              "text": "try",
+              "start": 63.399,
+              "end": 63.674
+            },
+            {
+              "text": "it.",
+              "start": 63.724,
+              "end": 63.876
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 64.566,
+      "end": 70.321,
+      "sentences": [
+        {
+          "start": 64.566,
+          "end": 67.962,
+          "text": "It reads chunks.json and writes outline.json.",
+          "words": [
+            {
+              "text": "It",
+              "start": 64.598,
+              "end": 64.673
+            },
+            {
+              "text": "reads",
+              "start": 64.723,
+              "end": 64.998
+            },
+            {
+              "text": "chunks.json",
+              "start": 65.048,
+              "end": 66.298
+            },
+            {
+              "text": "and",
+              "start": 66.323,
+              "end": 66.398
+            },
+            {
+              "text": "writes",
+              "start": 66.423,
+              "end": 66.623
+            },
+            {
+              "text": "outline.json.",
+              "start": 66.673,
+              "end": 67.922
+            }
+          ]
+        },
+        {
+          "start": 68.262,
+          "end": 70.321,
+          "text": "So every claim points back to a page.",
+          "words": [
+            {
+              "text": "So",
+              "start": 68.333,
+              "end": 68.458
+            },
+            {
+              "text": "every",
+              "start": 68.508,
+              "end": 68.758
+            },
+            {
+              "text": "claim",
+              "start": 68.808,
+              "end": 69.083
+            },
+            {
+              "text": "points",
+              "start": 69.133,
+              "end": 69.383
+            },
+            {
+              "text": "back",
+              "start": 69.433,
+              "end": 69.658
+            },
+            {
+              "text": "to",
+              "start": 69.708,
+              "end": 69.758
+            },
+            {
+              "text": "a",
+              "start": 69.783,
+              "end": 69.808
+            },
+            {
+              "text": "page.",
+              "start": 69.858,
+              "end": 70.281
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 70.971,
+      "end": 74.158,
+      "sentences": [
+        {
+          "start": 70.971,
+          "end": 74.158,
+          "text": "Five stages, five files, each built from the last.",
+          "words": [
+            {
+              "text": "Five",
+              "start": 70.987,
+              "end": 71.237
+            },
+            {
+              "text": "stages,",
+              "start": 71.287,
+              "end": 71.887
+            },
+            {
+              "text": "five",
+              "start": 71.987,
+              "end": 72.262
+            },
+            {
+              "text": "files,",
+              "start": 72.312,
+              "end": 72.812
+            },
+            {
+              "text": "each",
+              "start": 72.937,
+              "end": 73.162
+            },
+            {
+              "text": "built",
+              "start": 73.212,
+              "end": 73.387
+            },
+            {
+              "text": "from",
+              "start": 73.437,
+              "end": 73.587
+            },
+            {
+              "text": "the",
+              "start": 73.587,
+              "end": 73.637
+            },
+            {
+              "text": "last.",
+              "start": 73.687,
+              "end": 74.118
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

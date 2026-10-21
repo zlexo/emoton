@@ -1,0 +1,601 @@
+{
+ "props": {
+  "segs": [
+   {
+    "src": "gen/perdix-ep1-intro.mp4",
+    "from": 0,
+    "seconds": 9.941,
+    "cont": true,
+    "zoom": [
+     1,
+     1.02
+    ]
+   },
+   {
+    "src": "gen/perdix-ep1-cube.mp4",
+    "from": 0,
+    "seconds": 24.692,
+    "big": "DAY 1",
+    "cont": false,
+    "zoom": [
+     1,
+     1.02
+    ]
+   },
+   {
+    "src": "gen/perdix-ep1-blocks.mp4",
+    "from": 0,
+    "seconds": 13.445,
+    "big": "DAY 5",
+    "cont": false,
+    "zoom": [
+     1,
+     1.02
+    ]
+   },
+   {
+    "src": "gen/perdix-ep1-chunk-build.mp4",
+    "from": 0,
+    "seconds": 13.231,
+    "cont": true,
+    "zoom": [
+     1,
+     1.02
+    ]
+   },
+   {
+    "src": "gen/perdix-ep1-chunk-merge.mp4",
+    "from": 0,
+    "seconds": 19.827,
+    "cont": true,
+    "zoom": [
+     1,
+     1.02
+    ]
+   }
+  ],
+  "end": {
+   "big": "PART 1",
+   "small": "building Minecraft from scratch",
+   "seconds": 2.4
+  },
+  "subs": [
+   {
+    "text": "This is Minecraft",
+    "from": 0.3,
+    "to": 1.274
+   },
+   {
+    "text": "Except I built",
+    "from": 1.274,
+    "to": 2.032
+   },
+   {
+    "text": "it",
+    "from": 2.032,
+    "to": 2.194
+   },
+   {
+    "text": "From scratch",
+    "from": 2.414,
+    "to": 3.239
+   },
+   {
+    "text": "No game engine",
+    "from": 3.239,
+    "to": 4.191
+   },
+   {
+    "text": "No Mojang",
+    "from": 4.191,
+    "to": 4.825
+   },
+   {
+    "text": "Just me and",
+    "from": 4.825,
+    "to": 5.523
+   },
+   {
+    "text": "C plus plus",
+    "from": 5.523,
+    "to": 6.285
+   },
+   {
+    "text": "a language that",
+    "from": 6.285,
+    "to": 7.237
+   },
+   {
+    "text": "hates me personally",
+    "from": 7.237,
+    "to": 8.506
+   },
+   {
+    "text": "Here's how it",
+    "from": 8.726,
+    "to": 9.354
+   },
+   {
+    "text": "started",
+    "from": 9.354,
+    "to": 9.741
+   },
+   {
+    "text": "Day one",
+    "from": 10.191,
+    "to": 10.602
+   },
+   {
+    "text": "The goal",
+    "from": 10.602,
+    "to": 11.065
+   },
+   {
+    "text": "one cube",
+    "from": 11.065,
+    "to": 11.527
+   },
+   {
+    "text": "on the screen",
+    "from": 11.527,
+    "to": 12.247
+   },
+   {
+    "text": "That's it",
+    "from": 12.247,
+    "to": 12.761
+   },
+   {
+    "text": "Sounds easy",
+    "from": 12.981,
+    "to": 13.746
+   },
+   {
+    "text": "It is not",
+    "from": 13.746,
+    "to": 14.383
+   },
+   {
+    "text": "To draw anything",
+    "from": 14.603,
+    "to": 15.586
+   },
+   {
+    "text": "you have to",
+    "from": 15.586,
+    "to": 16.223
+   },
+   {
+    "text": "talk to the",
+    "from": 16.223,
+    "to": 16.859
+   },
+   {
+    "text": "graphics card",
+    "from": 16.859,
+    "to": 17.669
+   },
+   {
+    "text": "I picked a",
+    "from": 17.669,
+    "to": 18.248
+   },
+   {
+    "text": "language for that",
+    "from": 18.248,
+    "to": 19.231
+   },
+   {
+    "text": "called Vulkan",
+    "from": 19.231,
+    "to": 20.041
+   },
+   {
+    "text": "In Vulkan",
+    "from": 20.261,
+    "to": 20.846
+   },
+   {
+    "text": "just saying hello",
+    "from": 20.846,
+    "to": 21.84
+   },
+   {
+    "text": "takes about a",
+    "from": 21.84,
+    "to": 22.6
+   },
+   {
+    "text": "thousand lines of",
+    "from": 22.6,
+    "to": 23.594
+   },
+   {
+    "text": "code",
+    "from": 23.594,
+    "to": 23.886
+   },
+   {
+    "text": "So after a",
+    "from": 24.106,
+    "to": 24.761
+   },
+   {
+    "text": "full day of",
+    "from": 24.761,
+    "to": 25.481
+   },
+   {
+    "text": "yelling at my",
+    "from": 25.481,
+    "to": 26.332
+   },
+   {
+    "text": "laptop",
+    "from": 26.332,
+    "to": 26.79
+   },
+   {
+    "text": "behold",
+    "from": 26.79,
+    "to": 27.249
+   },
+   {
+    "text": "A cube",
+    "from": 27.249,
+    "to": 27.707
+   },
+   {
+    "text": "It's red",
+    "from": 27.927,
+    "to": 28.441
+   },
+   {
+    "text": "it's green",
+    "from": 28.441,
+    "to": 29.07
+   },
+   {
+    "text": "it's checkered",
+    "from": 29.07,
+    "to": 29.927
+   },
+   {
+    "text": "It looks like",
+    "from": 29.927,
+    "to": 30.669
+   },
+   {
+    "text": "a Rubik's cube",
+    "from": 30.669,
+    "to": 31.469
+   },
+   {
+    "text": "that gave up",
+    "from": 31.469,
+    "to": 32.155
+   },
+   {
+    "text": "on life",
+    "from": 32.155,
+    "to": 32.612
+   },
+   {
+    "text": "I have never",
+    "from": 32.832,
+    "to": 33.366
+   },
+   {
+    "text": "been prouder of",
+    "from": 33.366,
+    "to": 34.033
+   },
+   {
+    "text": "anything",
+    "from": 34.033,
+    "to": 34.433
+   },
+   {
+    "text": "But Minecraft isn't",
+    "from": 34.883,
+    "to": 35.966
+   },
+   {
+    "text": "one cube",
+    "from": 35.966,
+    "to": 36.48
+   },
+   {
+    "text": "It's millions",
+    "from": 36.48,
+    "to": 37.278
+   },
+   {
+    "text": "So I made",
+    "from": 37.498,
+    "to": 37.951
+   },
+   {
+    "text": "a cube",
+    "from": 37.951,
+    "to": 38.304
+   },
+   {
+    "text": "out of cubes",
+    "from": 38.304,
+    "to": 38.959
+   },
+   {
+    "text": "Every block has",
+    "from": 39.179,
+    "to": 40.091
+   },
+   {
+    "text": "six faces",
+    "from": 40.091,
+    "to": 40.7
+   },
+   {
+    "text": "But a face",
+    "from": 40.7,
+    "to": 41.308
+   },
+   {
+    "text": "pressed against another",
+    "from": 41.308,
+    "to": 42.707
+   },
+   {
+    "text": "block can never",
+    "from": 42.707,
+    "to": 43.619
+   },
+   {
+    "text": "be seen",
+    "from": 43.619,
+    "to": 44.106
+   },
+   {
+    "text": "so I just",
+    "from": 44.106,
+    "to": 44.653
+   },
+   {
+    "text": "don't draw it",
+    "from": 44.653,
+    "to": 45.505
+   },
+   {
+    "text": "Free performance",
+    "from": 45.725,
+    "to": 46.538
+   },
+   {
+    "text": "The best kind",
+    "from": 46.538,
+    "to": 47.16
+   },
+   {
+    "text": "of performance",
+    "from": 47.16,
+    "to": 47.878
+   },
+   {
+    "text": "Minecraft cuts its",
+    "from": 48.328,
+    "to": 49.485
+   },
+   {
+    "text": "world into chunks",
+    "from": 49.485,
+    "to": 50.643
+   },
+   {
+    "text": "Mine are thirty-two",
+    "from": 50.643,
+    "to": 51.864
+   },
+   {
+    "text": "blocks wide",
+    "from": 51.864,
+    "to": 52.636
+   },
+   {
+    "text": "tall and deep",
+    "from": 52.636,
+    "to": 53.536
+   },
+   {
+    "text": "This one has",
+    "from": 53.756,
+    "to": 54.436
+   },
+   {
+    "text": "three thousand",
+    "from": 54.436,
+    "to": 55.286
+   },
+   {
+    "text": "four hundred and",
+    "from": 55.286,
+    "to": 56.193
+   },
+   {
+    "text": "fifteen faces",
+    "from": 56.193,
+    "to": 56.986
+   },
+   {
+    "text": "Minecraft shows hundreds",
+    "from": 57.206,
+    "to": 58.604
+   },
+   {
+    "text": "of these at",
+    "from": 58.604,
+    "to": 59.245
+   },
+   {
+    "text": "once",
+    "from": 59.245,
+    "to": 59.536
+   },
+   {
+    "text": "Do the math",
+    "from": 59.536,
+    "to": 60.235
+   },
+   {
+    "text": "Actually",
+    "from": 60.235,
+    "to": 60.759
+   },
+   {
+    "text": "don't",
+    "from": 60.759,
+    "to": 61.109
+   },
+   {
+    "text": "So",
+    "from": 61.559,
+    "to": 61.741
+   },
+   {
+    "text": "a trick",
+    "from": 61.741,
+    "to": 62.225
+   },
+   {
+    "text": "If two faces",
+    "from": 62.225,
+    "to": 62.951
+   },
+   {
+    "text": "next to each",
+    "from": 62.951,
+    "to": 63.677
+   },
+   {
+    "text": "other look the",
+    "from": 63.677,
+    "to": 64.524
+   },
+   {
+    "text": "same",
+    "from": 64.524,
+    "to": 64.826
+   },
+   {
+    "text": "glue them into",
+    "from": 64.826,
+    "to": 65.673
+   },
+   {
+    "text": "one big face",
+    "from": 65.673,
+    "to": 66.46
+   },
+   {
+    "text": "Two hundred and",
+    "from": 66.68,
+    "to": 67.664
+   },
+   {
+    "text": "seventy-five",
+    "from": 67.664,
+    "to": 68.517
+   },
+   {
+    "text": "Same chunk",
+    "from": 68.517,
+    "to": 69.239
+   },
+   {
+    "text": "Twelve times fewer",
+    "from": 69.239,
+    "to": 70.419
+   },
+   {
+    "text": "faces",
+    "from": 70.419,
+    "to": 70.813
+   },
+   {
+    "text": "Is that cheating?",
+    "from": 71.033,
+    "to": 72.032
+   },
+   {
+    "text": "Yes",
+    "from": 72.032,
+    "to": 72.266
+   },
+   {
+    "text": "Am I going",
+    "from": 72.266,
+    "to": 72.854
+   },
+   {
+    "text": "to stop?",
+    "from": 72.854,
+    "to": 73.324
+   },
+   {
+    "text": "No",
+    "from": 73.324,
+    "to": 73.5
+   },
+   {
+    "text": "Next time",
+    "from": 73.72,
+    "to": 74.31
+   },
+   {
+    "text": "making it actually",
+    "from": 74.31,
+    "to": 75.372
+   },
+   {
+    "text": "look like Minecraft",
+    "from": 75.372,
+    "to": 76.552
+   },
+   {
+    "text": "Follow",
+    "from": 76.552,
+    "to": 76.965
+   },
+   {
+    "text": "or the cube",
+    "from": 76.965,
+    "to": 77.614
+   },
+   {
+    "text": "gets it",
+    "from": 77.614,
+    "to": 78.086
+   }
+  ],
+  "punches": [
+   8.526,
+   27.727,
+   38.979,
+   47.898,
+   70.833,
+   73.52
+  ],
+  "voice": {
+   "src": "gen/perdix-ep1-voice.wav",
+   "volume": 1
+  },
+  "music": {
+   "src": "gen/perdix-ep1-score.wav",
+   "volume": 0.13
+  },
+  "sfx": {
+   "src": "gen/perdix-ep1-sfx.wav",
+   "volume": 0.7
+  }
+ },
+ "shots": {}
+}

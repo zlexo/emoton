@@ -1,0 +1,18 @@
+{
+  "title": "perdix-milestones",
+  "hook": { "text": "Building my own Minecraft from scratch", "seconds": 2 },
+  "segs": [
+    { "clip": "../shots/perdix/out/hook.mp4", "from": 0.25, "seconds": 2 },
+    { "clip": "../shots/perdix/out/cube.mp4", "seconds": 2, "big": "DAY 1", "small": "one cube" },
+    { "clip": "../shots/perdix/out/blocks.mp4", "seconds": 1.5, "big": "DAY 5", "small": "blocks: every face drawn" },
+    { "clip": "../shots/perdix/out/chunk-build.mp4", "seconds": 1.5, "big": "DAY 5", "small": "one chunk: 3,415 faces", "cont": true },
+    { "clip": "../shots/perdix/out/chunk-merge.mp4", "seconds": 1.0, "big": "DAY 5", "small": "faces merged: 275", "cont": true },
+    { "clip": "../shots/perdix/out/chunk-texture.mp4", "seconds": 2, "big": "DAY 7", "small": "Minecraft's own textures" },
+    { "clip": "../shots/perdix/out/walk.mp4", "seconds": 1.2, "big": "DAY 8", "small": "walking: Minecraft's physics", "zoom": [1, 1] },
+    { "clip": "../shots/perdix/out/walk.mp4", "from": 1.2, "seconds": 1.2, "big": "DAY 8", "small": "sprinting", "cont": true, "zoom": [1, 1] },
+    { "clip": "../shots/perdix/out/walk.mp4", "from": 2.4, "seconds": 1.6, "big": "DAY 8", "small": "sprint-jumping", "cont": true, "zoom": [1, 1] },
+    { "clip": "../shots/perdix/out/stream.mp4", "seconds": 8.3, "big": "TODAY", "small": "an endless world, loading as you fly", "drop": true, "zoom": [1, 1.03] }
+  ],
+  "end": { "big": "C++ and Vulkan", "small": "no game engine · follow to see it grow", "seconds": 2.3 },
+  "music": { "bpm": 120, "seed": 7 }
+}

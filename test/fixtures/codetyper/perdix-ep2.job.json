@@ -1,0 +1,160 @@
+{
+  "title": "perdix-ep2",
+  "voice": {
+    "engine": "kokoro",
+    "voice": "am_puck",
+    "speed": 1.08
+  },
+  "gaps": {
+    "leadIn": 0.3,
+    "sentence": 0.22,
+    "beat": 0.45,
+    "aha": 0.7,
+    "tail": 3.2
+  },
+  "codeflash": {
+    "yoink": {
+      "files": [
+        {
+          "repo": "~/yt/perdix",
+          "ref": "cfc6ee8",
+          "path": "engine/minecraft/src/install.cpp",
+          "lines": [
+            [
+              67,
+              125
+            ],
+            [
+              192,
+              206
+            ]
+          ]
+        },
+        {
+          "repo": "~/yt/perdix",
+          "ref": "cfc6ee8",
+          "path": "engine/core/src/archive.cpp",
+          "lines": [
+            [
+              31,
+              45
+            ],
+            [
+              224,
+              273
+            ]
+          ]
+        },
+        {
+          "repo": "~/yt/perdix",
+          "ref": "cfc6ee8",
+          "path": "engine/minecraft/src/made_textures.cpp",
+          "lines": [
+            [
+              75,
+              130
+            ],
+            [
+              176,
+              232
+            ]
+          ]
+        }
+      ],
+      "seconds": 5,
+      "seed": 7,
+      "caption": "Yoinking Minecraft's textures"
+    }
+  },
+  "chapters": [
+    {
+      "say": [
+        "Last time, I built a chunk out of two hundred and seventy-five faces.",
+        "It looked like this. Like the blueprint for a house nobody will ever build. [boom]",
+        "Today: making it look like Minecraft."
+      ],
+      "shot": {
+        "name": "wire",
+        "kind": "chunk",
+        "orbit": 0.15,
+        "env": {
+          "LINES": 1,
+          "WHITE": 1,
+          "WIREFRAME": 1,
+          "MINECRAFT": 1,
+          "MERGE": 1,
+          "RADIUS": 50,
+          "RISE": 28
+        }
+      }
+    },
+    {
+      "say": [
+        "Step one: turn textures on, without any textures. [scratch]",
+        "You get this. The magenta checkerboard. The universal sign for: something has gone horribly wrong. [boom]"
+      ],
+      "shot": {
+        "name": "missing",
+        "kind": "chunk",
+        "orbit": 0.15,
+        "env": {
+          "TEXTURES": 0,
+          "MERGE": 1,
+          "RADIUS": 50,
+          "RISE": 28
+        }
+      }
+    },
+    {
+      "say": [
+        "So I generated my own. Eleven textures, sixteen by sixteen pixels, sixty-four colours to pick from.",
+        "They look like Minecraft if you squint. Hard. With your eyes closed. [boom]",
+        "So now, I'm gonna yoink the real ones."
+      ],
+      "shot": {
+        "name": "placeholder",
+        "kind": "chunk",
+        "orbit": 0.15,
+        "env": {
+          "MINECRAFT": 0,
+          "MERGE": 1,
+          "RADIUS": 50,
+          "RISE": 28
+        }
+      }
+    },
+    {
+      "code": "yoink"
+    },
+    {
+      "say": [
+        "Is that legal? Well, Perdix only reads them out of your own copy of Minecraft, every time it starts.",
+        "I never ship a single one. So technically, you're the one yoinking. I'm just the getaway driver. [boom]",
+        "Same blocks. Same faces. They just finally look like they belong somewhere.",
+        "Next time: teaching a player to walk. It does not go well. Follow. [scratch]"
+      ],
+      "shot": {
+        "name": "real",
+        "kind": "chunk",
+        "orbit": 0.15,
+        "env": {
+          "RADIUS": 50,
+          "RISE": 28,
+          "MINECRAFT": 1,
+          "MERGE": 1
+        }
+      }
+    }
+  ],
+  "end": {
+    "big": "PART 2",
+    "small": "building Minecraft from scratch",
+    "seconds": 3
+  },
+  "music": {
+    "bpm": 84,
+    "volume": 0.13,
+    "duck": 0.35,
+    "hold": 1
+  }
+}

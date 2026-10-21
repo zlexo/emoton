@@ -1,0 +1,1099 @@
+{
+  "leadIn": 1.8,
+  "duration": 73.569,
+  "audio": "audio/ch2.wav",
+  "beats": [
+    {
+      "start": 1.8,
+      "end": 8.458,
+      "sentences": [
+        {
+          "start": 1.8,
+          "end": 4.006,
+          "text": "Here is the writer, a language model.",
+          "words": [
+            {
+              "text": "Here",
+              "start": 1.854,
+              "end": 2.104
+            },
+            {
+              "text": "is",
+              "start": 2.154,
+              "end": 2.254
+            },
+            {
+              "text": "the",
+              "start": 2.279,
+              "end": 2.329
+            },
+            {
+              "text": "writer,",
+              "start": 2.379,
+              "end": 2.879
+            },
+            {
+              "text": "a",
+              "start": 3.054,
+              "end": 3.104
+            },
+            {
+              "text": "language",
+              "start": 3.154,
+              "end": 3.604
+            },
+            {
+              "text": "model.",
+              "start": 3.654,
+              "end": 3.966
+            }
+          ]
+        },
+        {
+          "start": 4.306,
+          "end": 8.458,
+          "text": "To draw a pipeline, what does it produce? Most people guess animation code.",
+          "words": [
+            {
+              "text": "To",
+              "start": 4.339,
+              "end": 4.414
+            },
+            {
+              "text": "draw",
+              "start": 4.464,
+              "end": 4.664
+            },
+            {
+              "text": "a",
+              "start": 4.689,
+              "end": 4.714
+            },
+            {
+              "text": "pipeline,",
+              "start": 4.764,
+              "end": 5.439
+            },
+            {
+              "text": "what",
+              "start": 5.539,
+              "end": 5.639
+            },
+            {
+              "text": "does",
+              "start": 5.664,
+              "end": 5.764
+            },
+            {
+              "text": "it",
+              "start": 5.789,
+              "end": 5.839
+            },
+            {
+              "text": "produce?",
+              "start": 5.889,
+              "end": 6.589
+            },
+            {
+              "text": "Most",
+              "start": 6.764,
+              "end": 6.989
+            },
+            {
+              "text": "people",
+              "start": 7.039,
+              "end": 7.314
+            },
+            {
+              "text": "guess",
+              "start": 7.364,
+              "end": 7.539
+            },
+            {
+              "text": "animation",
+              "start": 7.589,
+              "end": 8.064
+            },
+            {
+              "text": "code.",
+              "start": 8.114,
+              "end": 8.418
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 9.108,
+      "end": 14.899,
+      "sentences": [
+        {
+          "start": 9.108,
+          "end": 10.012,
+          "text": "It never does.",
+          "words": [
+            {
+              "text": "It",
+              "start": 9.152,
+              "end": 9.252
+            },
+            {
+              "text": "never",
+              "start": 9.302,
+              "end": 9.552
+            },
+            {
+              "text": "does.",
+              "start": 9.602,
+              "end": 9.972
+            }
+          ]
+        },
+        {
+          "start": 10.312,
+          "end": 12.669,
+          "text": "It fills a declarative storyboard instead.",
+          "words": [
+            {
+              "text": "It",
+              "start": 10.345,
+              "end": 10.445
+            },
+            {
+              "text": "fills",
+              "start": 10.495,
+              "end": 10.72
+            },
+            {
+              "text": "a",
+              "start": 10.745,
+              "end": 10.77
+            },
+            {
+              "text": "declarative",
+              "start": 10.82,
+              "end": 11.495
+            },
+            {
+              "text": "storyboard",
+              "start": 11.545,
+              "end": 12.12
+            },
+            {
+              "text": "instead.",
+              "start": 12.17,
+              "end": 12.629
+            }
+          ]
+        },
+        {
+          "start": 12.969,
+          "end": 14.899,
+          "text": "The renderer draws that storyboard.",
+          "words": [
+            {
+              "text": "The",
+              "start": 12.995,
+              "end": 13.07
+            },
+            {
+              "text": "renderer",
+              "start": 13.12,
+              "end": 13.62
+            },
+            {
+              "text": "draws",
+              "start": 13.695,
+              "end": 13.995
+            },
+            {
+              "text": "that",
+              "start": 14.045,
+              "end": 14.195
+            },
+            {
+              "text": "storyboard.",
+              "start": 14.245,
+              "end": 14.859
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 16.299,
+      "end": 29.436,
+      "sentences": [
+        {
+          "start": 16.299,
+          "end": 22.976,
+          "text": "Every visual is one of seven primitives: title, bullets, diagram, sequence, equation, code and graph.",
+          "words": [
+            {
+              "text": "Every",
+              "start": 16.331,
+              "end": 16.581
+            },
+            {
+              "text": "visual",
+              "start": 16.631,
+              "end": 17.031
+            },
+            {
+              "text": "is",
+              "start": 17.081,
+              "end": 17.156
+            },
+            {
+              "text": "one",
+              "start": 17.181,
+              "end": 17.281
+            },
+            {
+              "text": "of",
+              "start": 17.306,
+              "end": 17.381
+            },
+            {
+              "text": "seven",
+              "start": 17.456,
+              "end": 17.731
+            },
+            {
+              "text": "primitives:",
+              "start": 17.781,
+              "end": 18.681
+            },
+            {
+              "text": "title,",
+              "start": 18.856,
+              "end": 19.306
+            },
+            {
+              "text": "bullets,",
+              "start": 19.456,
+              "end": 19.856
+            },
+            {
+              "text": "diagram,",
+              "start": 19.931,
+              "end": 20.581
+            },
+            {
+              "text": "sequence,",
+              "start": 20.706,
+              "end": 21.206
+            },
+            {
+              "text": "equation,",
+              "start": 21.306,
+              "end": 21.931
+            },
+            {
+              "text": "code",
+              "start": 22.056,
+              "end": 22.381
+            },
+            {
+              "text": "and",
+              "start": 22.406,
+              "end": 22.481
+            },
+            {
+              "text": "graph.",
+              "start": 22.531,
+              "end": 22.936
+            }
+          ]
+        },
+        {
+          "start": 23.276,
+          "end": 29.436,
+          "text": "So the wrong belief is that animation needs generated code: here every primitive always renders.",
+          "words": [
+            {
+              "text": "So",
+              "start": 23.33,
+              "end": 23.43
+            },
+            {
+              "text": "the",
+              "start": 23.455,
+              "end": 23.505
+            },
+            {
+              "text": "wrong",
+              "start": 23.555,
+              "end": 23.83
+            },
+            {
+              "text": "belief",
+              "start": 23.88,
+              "end": 24.33
+            },
+            {
+              "text": "is",
+              "start": 24.405,
+              "end": 24.505
+            },
+            {
+              "text": "that",
+              "start": 24.555,
+              "end": 24.705
+            },
+            {
+              "text": "animation",
+              "start": 24.78,
+              "end": 25.43
+            },
+            {
+              "text": "needs",
+              "start": 25.48,
+              "end": 25.78
+            },
+            {
+              "text": "generated",
+              "start": 25.88,
+              "end": 26.455
+            },
+            {
+              "text": "code:",
+              "start": 26.505,
+              "end": 27.205
+            },
+            {
+              "text": "here",
+              "start": 27.405,
+              "end": 27.605
+            },
+            {
+              "text": "every",
+              "start": 27.68,
+              "end": 27.93
+            },
+            {
+              "text": "primitive",
+              "start": 27.98,
+              "end": 28.405
+            },
+            {
+              "text": "always",
+              "start": 28.455,
+              "end": 28.805
+            },
+            {
+              "text": "renders.",
+              "start": 28.855,
+              "end": 29.396
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 30.086,
+      "end": 38.213,
+      "sentences": [
+        {
+          "start": 30.086,
+          "end": 33.209,
+          "text": "A diagram has nodes, here sources and storyboard.",
+          "words": [
+            {
+              "text": "A",
+              "start": 30.118,
+              "end": 30.168
+            },
+            {
+              "text": "diagram",
+              "start": 30.218,
+              "end": 30.743
+            },
+            {
+              "text": "has",
+              "start": 30.793,
+              "end": 30.943
+            },
+            {
+              "text": "nodes,",
+              "start": 30.993,
+              "end": 31.543
+            },
+            {
+              "text": "here",
+              "start": 31.668,
+              "end": 31.843
+            },
+            {
+              "text": "sources",
+              "start": 31.893,
+              "end": 32.368
+            },
+            {
+              "text": "and",
+              "start": 32.418,
+              "end": 32.493
+            },
+            {
+              "text": "storyboard.",
+              "start": 32.543,
+              "end": 33.169
+            }
+          ]
+        },
+        {
+          "start": 33.509,
+          "end": 36.193,
+          "text": "It has edges, here one arrow labeled outline.",
+          "words": [
+            {
+              "text": "It",
+              "start": 33.539,
+              "end": 33.614
+            },
+            {
+              "text": "has",
+              "start": 33.639,
+              "end": 33.789
+            },
+            {
+              "text": "edges,",
+              "start": 33.839,
+              "end": 34.439
+            },
+            {
+              "text": "here",
+              "start": 34.564,
+              "end": 34.739
+            },
+            {
+              "text": "one",
+              "start": 34.789,
+              "end": 34.964
+            },
+            {
+              "text": "arrow",
+              "start": 35.014,
+              "end": 35.289
+            },
+            {
+              "text": "labeled",
+              "start": 35.339,
+              "end": 35.664
+            },
+            {
+              "text": "outline.",
+              "start": 35.714,
+              "end": 36.153
+            }
+          ]
+        },
+        {
+          "start": 36.493,
+          "end": 38.213,
+          "text": "And it has an ordered list of steps.",
+          "words": [
+            {
+              "text": "And",
+              "start": 36.54,
+              "end": 36.64
+            },
+            {
+              "text": "it",
+              "start": 36.665,
+              "end": 36.715
+            },
+            {
+              "text": "has",
+              "start": 36.765,
+              "end": 36.94
+            },
+            {
+              "text": "an",
+              "start": 36.965,
+              "end": 37.04
+            },
+            {
+              "text": "ordered",
+              "start": 37.14,
+              "end": 37.415
+            },
+            {
+              "text": "list",
+              "start": 37.44,
+              "end": 37.615
+            },
+            {
+              "text": "of",
+              "start": 37.64,
+              "end": 37.69
+            },
+            {
+              "text": "steps.",
+              "start": 37.74,
+              "end": 38.173
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 38.863,
+      "end": 44.919,
+      "sentences": [
+        {
+          "start": 38.863,
+          "end": 40.701,
+          "text": "Step one shows the sources node.",
+          "words": [
+            {
+              "text": "Step",
+              "start": 38.917,
+              "end": 39.142
+            },
+            {
+              "text": "one",
+              "start": 39.192,
+              "end": 39.517
+            },
+            {
+              "text": "shows",
+              "start": 39.592,
+              "end": 39.792
+            },
+            {
+              "text": "the",
+              "start": 39.817,
+              "end": 39.867
+            },
+            {
+              "text": "sources",
+              "start": 39.917,
+              "end": 40.292
+            },
+            {
+              "text": "node.",
+              "start": 40.342,
+              "end": 40.661
+            }
+          ]
+        },
+        {
+          "start": 41.001,
+          "end": 44.919,
+          "text": "Step two shows the storyboard node and the outline edge between them.",
+          "words": [
+            {
+              "text": "Step",
+              "start": 41.074,
+              "end": 41.324
+            },
+            {
+              "text": "two",
+              "start": 41.399,
+              "end": 41.724
+            },
+            {
+              "text": "shows",
+              "start": 41.799,
+              "end": 42.049
+            },
+            {
+              "text": "the",
+              "start": 42.074,
+              "end": 42.124
+            },
+            {
+              "text": "storyboard",
+              "start": 42.174,
+              "end": 42.649
+            },
+            {
+              "text": "node",
+              "start": 42.699,
+              "end": 43.249
+            },
+            {
+              "text": "and",
+              "start": 43.349,
+              "end": 43.424
+            },
+            {
+              "text": "the",
+              "start": 43.449,
+              "end": 43.524
+            },
+            {
+              "text": "outline",
+              "start": 43.599,
+              "end": 44.049
+            },
+            {
+              "text": "edge",
+              "start": 44.099,
+              "end": 44.324
+            },
+            {
+              "text": "between",
+              "start": 44.374,
+              "end": 44.674
+            },
+            {
+              "text": "them.",
+              "start": 44.699,
+              "end": 44.879
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 45.569,
+      "end": 53.494,
+      "sentences": [
+        {
+          "start": 45.569,
+          "end": 48.783,
+          "text": "A step can also hide, highlight or relabel ids.",
+          "words": [
+            {
+              "text": "A",
+              "start": 45.602,
+              "end": 45.652
+            },
+            {
+              "text": "step",
+              "start": 45.702,
+              "end": 45.952
+            },
+            {
+              "text": "can",
+              "start": 46.002,
+              "end": 46.077
+            },
+            {
+              "text": "also",
+              "start": 46.102,
+              "end": 46.402
+            },
+            {
+              "text": "hide,",
+              "start": 46.452,
+              "end": 46.977
+            },
+            {
+              "text": "highlight",
+              "start": 47.102,
+              "end": 47.602
+            },
+            {
+              "text": "or",
+              "start": 47.677,
+              "end": 47.777
+            },
+            {
+              "text": "relabel",
+              "start": 47.827,
+              "end": 48.177
+            },
+            {
+              "text": "ids.",
+              "start": 48.227,
+              "end": 48.743
+            }
+          ]
+        },
+        {
+          "start": 49.083,
+          "end": 53.494,
+          "text": "With continue set to true, the next beat keeps this diagram and builds on it.",
+          "words": [
+            {
+              "text": "With",
+              "start": 49.1,
+              "end": 49.25
+            },
+            {
+              "text": "continue",
+              "start": 49.3,
+              "end": 49.725
+            },
+            {
+              "text": "set",
+              "start": 49.775,
+              "end": 49.925
+            },
+            {
+              "text": "to",
+              "start": 49.975,
+              "end": 50.05
+            },
+            {
+              "text": "true,",
+              "start": 50.125,
+              "end": 50.725
+            },
+            {
+              "text": "the",
+              "start": 50.875,
+              "end": 50.925
+            },
+            {
+              "text": "next",
+              "start": 50.975,
+              "end": 51.225
+            },
+            {
+              "text": "beat",
+              "start": 51.275,
+              "end": 51.5
+            },
+            {
+              "text": "keeps",
+              "start": 51.55,
+              "end": 51.8
+            },
+            {
+              "text": "this",
+              "start": 51.825,
+              "end": 51.975
+            },
+            {
+              "text": "diagram",
+              "start": 52.025,
+              "end": 52.625
+            },
+            {
+              "text": "and",
+              "start": 52.7,
+              "end": 52.775
+            },
+            {
+              "text": "builds",
+              "start": 52.825,
+              "end": 53.075
+            },
+            {
+              "text": "on",
+              "start": 53.125,
+              "end": 53.275
+            },
+            {
+              "text": "it.",
+              "start": 53.325,
+              "end": 53.454
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 54.144,
+      "end": 60.677,
+      "sentences": [
+        {
+          "start": 54.144,
+          "end": 55.803,
+          "text": "Here are the first two steps again.",
+          "words": [
+            {
+              "text": "Here",
+              "start": 54.189,
+              "end": 54.389
+            },
+            {
+              "text": "are",
+              "start": 54.414,
+              "end": 54.489
+            },
+            {
+              "text": "the",
+              "start": 54.514,
+              "end": 54.564
+            },
+            {
+              "text": "first",
+              "start": 54.639,
+              "end": 54.914
+            },
+            {
+              "text": "two",
+              "start": 54.964,
+              "end": 55.089
+            },
+            {
+              "text": "steps",
+              "start": 55.139,
+              "end": 55.414
+            },
+            {
+              "text": "again.",
+              "start": 55.439,
+              "end": 55.763
+            }
+          ]
+        },
+        {
+          "start": 56.103,
+          "end": 60.677,
+          "text": "Write a third step that makes the storyboard node glow. Pause the video and try it.",
+          "words": [
+            {
+              "text": "Write",
+              "start": 56.146,
+              "end": 56.321
+            },
+            {
+              "text": "a",
+              "start": 56.346,
+              "end": 56.396
+            },
+            {
+              "text": "third",
+              "start": 56.496,
+              "end": 56.746
+            },
+            {
+              "text": "step",
+              "start": 56.796,
+              "end": 57.071
+            },
+            {
+              "text": "that",
+              "start": 57.121,
+              "end": 57.221
+            },
+            {
+              "text": "makes",
+              "start": 57.246,
+              "end": 57.471
+            },
+            {
+              "text": "the",
+              "start": 57.496,
+              "end": 57.546
+            },
+            {
+              "text": "storyboard",
+              "start": 57.596,
+              "end": 58.171
+            },
+            {
+              "text": "node",
+              "start": 58.221,
+              "end": 58.446
+            },
+            {
+              "text": "glow.",
+              "start": 58.496,
+              "end": 59.046
+            },
+            {
+              "text": "Pause",
+              "start": 59.221,
+              "end": 59.496
+            },
+            {
+              "text": "the",
+              "start": 59.521,
+              "end": 59.571
+            },
+            {
+              "text": "video",
+              "start": 59.621,
+              "end": 59.996
+            },
+            {
+              "text": "and",
+              "start": 60.046,
+              "end": 60.121
+            },
+            {
+              "text": "try",
+              "start": 60.171,
+              "end": 60.446
+            },
+            {
+              "text": "it.",
+              "start": 60.496,
+              "end": 60.637
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 61.327,
+      "end": 66.838,
+      "sentences": [
+        {
+          "start": 61.327,
+          "end": 63.676,
+          "text": "The step is highlight, with the id sb.",
+          "words": [
+            {
+              "text": "The",
+              "start": 61.356,
+              "end": 61.406
+            },
+            {
+              "text": "step",
+              "start": 61.456,
+              "end": 61.681
+            },
+            {
+              "text": "is",
+              "start": 61.706,
+              "end": 61.781
+            },
+            {
+              "text": "highlight,",
+              "start": 61.831,
+              "end": 62.406
+            },
+            {
+              "text": "with",
+              "start": 62.506,
+              "end": 62.631
+            },
+            {
+              "text": "the",
+              "start": 62.631,
+              "end": 62.731
+            },
+            {
+              "text": "id",
+              "start": 62.806,
+              "end": 63.156
+            },
+            {
+              "text": "sb.",
+              "start": 63.206,
+              "end": 63.636
+            }
+          ]
+        },
+        {
+          "start": 63.976,
+          "end": 66.838,
+          "text": "Highlight makes an id glow during that step only.",
+          "words": [
+            {
+              "text": "Highlight",
+              "start": 64.019,
+              "end": 64.569
+            },
+            {
+              "text": "makes",
+              "start": 64.619,
+              "end": 64.819
+            },
+            {
+              "text": "an",
+              "start": 64.844,
+              "end": 64.894
+            },
+            {
+              "text": "id",
+              "start": 64.969,
+              "end": 65.294
+            },
+            {
+              "text": "glow",
+              "start": 65.344,
+              "end": 65.644
+            },
+            {
+              "text": "during",
+              "start": 65.694,
+              "end": 65.919
+            },
+            {
+              "text": "that",
+              "start": 65.969,
+              "end": 66.119
+            },
+            {
+              "text": "step",
+              "start": 66.169,
+              "end": 66.419
+            },
+            {
+              "text": "only.",
+              "start": 66.469,
+              "end": 66.798
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "start": 67.488,
+      "end": 71.719,
+      "sentences": [
+        {
+          "start": 67.488,
+          "end": 71.719,
+          "text": "The model fills a storyboard that always renders, never animation code.",
+          "words": [
+            {
+              "text": "The",
+              "start": 67.5,
+              "end": 67.55
+            },
+            {
+              "text": "model",
+              "start": 67.6,
+              "end": 67.95
+            },
+            {
+              "text": "fills",
+              "start": 68.025,
+              "end": 68.25
+            },
+            {
+              "text": "a",
+              "start": 68.275,
+              "end": 68.3
+            },
+            {
+              "text": "storyboard",
+              "start": 68.35,
+              "end": 69
+            },
+            {
+              "text": "that",
+              "start": 69.05,
+              "end": 69.15
+            },
+            {
+              "text": "always",
+              "start": 69.2,
+              "end": 69.575
+            },
+            {
+              "text": "renders,",
+              "start": 69.625,
+              "end": 70.375
+            },
+            {
+              "text": "never",
+              "start": 70.55,
+              "end": 70.75
+            },
+            {
+              "text": "animation",
+              "start": 70.85,
+              "end": 71.325
+            },
+            {
+              "text": "code.",
+              "start": 71.375,
+              "end": 71.679
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

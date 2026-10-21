@@ -1,0 +1,31 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "remote-ui",
+  "description": "The Emoton UI served by the local server on http://127.0.0.1:8891 gets exactly what shared/native.ts lists and app/src/lib/native.ts calls: event listen/unlisten (menu events, webview drag-drop), window dragging for the title bar, dialog open/save, opener reveal/open, notifications. open_path is limited to source files inside a video bundle (*.emoton/sources/), by extension, so it can never launch a program.",
+  "windows": ["main"],
+  "remote": {
+    "urls": ["http://127.0.0.1:8891"]
+  },
+  "permissions": [
+    "core:event:allow-listen",
+    "core:event:allow-unlisten",
+    "core:window:allow-start-dragging",
+    "core:window:allow-internal-toggle-maximize",
+    "dialog:allow-open",
+    "dialog:allow-save",
+    "opener:allow-reveal-item-in-dir",
+    {
+      "identifier": "opener:allow-open-path",
+      "allow": [
+        { "path": "/**/*.emoton/sources/*.pdf" },
+        { "path": "/**/*.emoton/sources/*.PDF" },
+        { "path": "/**/*.emoton/sources/*.md" },
+        { "path": "/**/*.emoton/sources/*.markdown" },
+        { "path": "/**/*.emoton/sources/*.txt" }
+      ]
+    },
+    "notification:allow-is-permission-granted",
+    "notification:allow-request-permission",
+    "notification:allow-notify"
+  ]
+}

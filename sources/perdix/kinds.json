@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "kinds": {
+    "cube": { "about": "M1: the renderer's own cube, orbited", "knobs": {
+      "RADIUS": { "default": 3.4, "unit": "blocks" }, "RISE": { "default": 1.5, "unit": "blocks" }, "START": { "default": 0.785, "unit": "rad" },
+      "TURN": { "default": 0.25, "unit": "turns" }, "DOLLY_FROM": { "default": 3.4, "unit": "blocks" }, "DOLLY_TIME": { "default": 0.5, "unit": "s", "time": true },
+      "TUMBLE": { "default": 0 }, "FOV": { "default": 70, "unit": "deg" } } },
+    "blocks": { "about": "M2: an N-cube of blocks put down one at a time", "knobs": {
+      "N": { "default": 4, "min": 1, "max": 16, "step": 1 }, "BUILD": { "default": 1, "unit": "s", "time": true }, "RADIUS": { "default": 56, "unit": "blocks" },
+      "RISE": { "default": 30, "unit": "blocks" }, "START": { "default": 0.785, "unit": "rad" }, "TURN": { "default": 0.25, "unit": "turns" },
+      "MERGE": { "default": 1, "switch": true }, "FOV": { "default": 70, "unit": "deg" } } },
+    "chunk": { "about": "M2 and M2.5: the demo chunk, orbited; builds up, merges faces", "knobs": {
+      "BUILD_LAYERS": { "default": 1, "unit": "s", "time": true }, "MERGE_SWEEP": { "default": 1, "unit": "s", "time": true }, "MERGE_FROM": { "default": 0, "unit": "s", "time": true },
+      "MERGE": { "default": 1, "switch": true }, "MINECRAFT": { "default": 1, "switch": true, "about": "Minecraft's textures (off: the core pack's)" },
+      "TEXTURES": { "default": 1, "switch": true }, "WIREFRAME": { "default": 0, "switch": true }, "RADIUS": { "default": 56, "unit": "blocks" },
+      "RISE": { "default": 30, "unit": "blocks" }, "START": { "default": 0.785, "unit": "rad" }, "TURN": { "default": 0.25, "unit": "turns" },
+      "DOLLY_FROM": { "default": 56, "unit": "blocks" }, "DOLLY_TIME": { "default": 0.5, "unit": "s", "time": true }, "TUMBLE": { "default": 0 } } },
+    "walk": { "about": "M2.75: walking the hills with the app's camera (sprint FOV, bobbing)", "knobs": {
+      "WALK_X": { "default": 60.5, "unit": "x" }, "WALK_Z": { "default": 40.5, "unit": "z" }, "WALK_YAW": { "default": -1.5708, "unit": "rad" },
+      "SPRINT_FROM": { "default": 0, "unit": "s", "time": true }, "JUMP_FROM": { "default": 0.35, "unit": "s", "time": true },
+      "WALK_PITCH": { "default": -0.1, "unit": "rad" }, "CX0": { "default": -8 }, "CX1": { "default": 40 }, "CZ0": { "default": -14 }, "CZ1": { "default": 16 },
+      "MINECRAFT": { "default": 1, "switch": true } } },
+    "fly": { "about": "M3: a flight over the hills and spires", "knobs": {
+      "X0": { "default": 0 }, "Z0": { "default": 40 }, "Y0": { "default": 120 }, "PITCH0": { "default": -0.3, "unit": "rad" }, "PITCH1": { "default": -0.16, "unit": "rad" },
+      "ROLL": { "default": 0.06, "unit": "rad" }, "YAW_OFFSET": { "default": 0, "unit": "rad" }, "EASE": { "default": 0, "switch": true },
+      "SHIFT_X": { "default": 0, "unit": "blocks", "about": "the flight and its world this far east, to a chunk: 1000000 flies a million blocks out" },
+      "MINECRAFT": { "default": 1, "switch": true } } },
+    "stream": { "about": "M3: the world loading in around the camera", "knobs": {
+      "GROW": { "default": 1.6, "unit": "s", "time": true }, "VIEW": { "default": 8, "unit": "chunks", "min": 2, "max": 32, "step": 1 }, "SPEED": { "default": 70, "unit": "blocks/s" },
+      "DRIFT": { "default": 6, "unit": "blocks/s" }, "Y0": { "default": 120 }, "Z0": { "default": 40 }, "RISE": { "default": 25, "unit": "blocks" },
+      "SWING": { "default": 18, "unit": "blocks" }, "PITCH": { "default": -0.36, "unit": "rad" }, "GROW_FROM": { "default": 96, "unit": "blocks" },
+      "PER_FRAME": { "default": 40, "step": 1 }, "MINECRAFT": { "default": 1, "switch": true } } },
+    "horizon": { "about": "M3: how far the world reaches: the view distance growing from START to VIEW chunks (32 blocks each) while the camera rises; no fog yet, the world ends at an edge", "knobs": {
+      "START": { "default": 16, "unit": "chunks", "min": 2, "max": 64, "step": 1, "about": "the view distance at first: 16 is Minecraft's farthest, 512 blocks" },
+      "VIEW": { "default": 64, "unit": "chunks", "min": 4, "max": 64, "step": 1, "about": "the view distance it grows to: 64 is Perdix's farthest, 2,048 blocks" },
+      "GROW_AT": { "default": 1.5, "unit": "s", "time": true, "about": "the edge starts racing out" }, "GROW": { "default": 3, "unit": "s", "about": "how long the edge takes to reach VIEW" },
+      "X0": { "default": 0, "unit": "x" }, "Z0": { "default": 0, "unit": "z" }, "Y0": { "default": 140, "about": "the camera's height at first" },
+      "RISE": { "default": 900, "unit": "blocks", "about": "how far it rises while the edge races out" }, "YAW": { "default": 0, "unit": "rad" }, "TURN": { "default": 0.05, "unit": "rad/s" },
+      "PITCH0": { "default": -0.12, "unit": "rad" }, "PITCH1": { "default": -0.55, "unit": "rad", "about": "the look down once risen" },
+      "MINECRAFT": { "default": 1, "switch": true } } },
+    "horizon-lod": { "about": "M9: RFC 0011's levels around a still camera, terrain to VIEW chunks, coarser with distance at quality K (needs Perdix 66f3ea1 or later; no fog, and a seam can show where levels meet)", "knobs": {
+      "X0": { "default": 0.5, "unit": "x" }, "Y0": { "default": 300, "about": "the camera's height" }, "Z0": { "default": 0.5, "unit": "z" },
+      "YAW": { "default": 0, "unit": "rad" }, "TURN": { "default": 0.05, "unit": "rad/s" }, "PITCH": { "default": -0.3, "unit": "rad" },
+      "VIEW": { "default": 512, "unit": "chunks", "min": 4, "max": 512, "step": 1, "about": "512 reaches 16,384 blocks" },
+      "K": { "default": 4, "min": 2, "max": 8, "about": "pixels a cell spans where its level starts: 2 sharp, 8 fast" },
+      "H": { "default": 1440, "unit": "rows", "about": "the window height the rings are made for, as the app at that size" },
+      "MINECRAFT": { "default": 1, "switch": true } } },
+    "perdix-born": { "about": "M3.5: Perdix on a hill, the camera pushing in to his face; magenta, then his tag, then his skin", "knobs": {
+      "PERDIX_X": { "default": 60.5, "unit": "x" }, "PERDIX_Z": { "default": 40.5, "unit": "z" }, "PERDIX_YAW": { "default": 0, "unit": "rad" },
+      "PUSH": { "default": 6, "unit": "s", "time": true }, "TAG_AT": { "default": 0, "unit": "s", "time": true }, "SKIN_AT": { "default": 0, "unit": "s", "time": true },
+      "LOOK_AT": { "default": 1000000000, "unit": "s", "time": true }, "LOOK_YAW": { "default": 0.6, "unit": "rad" }, "LOOK_PITCH": { "default": 0, "unit": "rad" },
+      "FAR": { "default": 12, "unit": "blocks" }, "NEAR": { "default": 1.4, "unit": "blocks" }, "FAR_UP": { "default": 5, "unit": "blocks" }, "NEAR_UP": { "default": 1.64, "unit": "blocks" },
+      "AROUND": { "default": 0, "unit": "rad" }, "AIM_FAR": { "default": 1, "unit": "blocks" }, "AIM_NEAR": { "default": 1.64, "unit": "blocks" },
+      "CX0": { "default": -12 }, "CX1": { "default": 44 }, "CZ0": { "default": -14 }, "CZ1": { "default": 16 }, "MINECRAFT": { "default": 1, "switch": true } } },
+    "perdix-walk": { "about": "M3.5: Perdix walking, sprinting and jumping, the camera beside him", "knobs": {
+      "PERDIX_X": { "default": 60.5, "unit": "x" }, "PERDIX_Z": { "default": 40.5, "unit": "z" }, "PERDIX_YAW": { "default": 0, "unit": "rad" },
+      "WALK_FROM": { "default": 0, "unit": "s", "time": true }, "SPRINT_FROM": { "default": 1000000000, "unit": "s", "time": true }, "JUMP_FROM": { "default": 1000000000, "unit": "s", "time": true },
+      "SIDE": { "default": 4.5, "unit": "blocks" }, "BACK": { "default": 1.5, "unit": "blocks" }, "UP": { "default": 1.4, "unit": "blocks" }, "LEAD": { "default": 0.8, "unit": "blocks" },
+      "CX0": { "default": -12 }, "CX1": { "default": 44 }, "CZ0": { "default": -14 }, "CZ1": { "default": 16 }, "MINECRAFT": { "default": 1, "switch": true } } },
+    "perdix-stuck": { "about": "M3.5: Perdix walking into a one block step and standing there (start from Find a start)", "knobs": {
+      "PERDIX_X": { "default": 60.5, "unit": "x" }, "PERDIX_Z": { "default": 40.5, "unit": "z" }, "PERDIX_YAW": { "default": 0, "unit": "rad" },
+      "WALK_FROM": { "default": 0, "unit": "s", "time": true }, "SIDE": { "default": 4.5, "unit": "blocks" }, "BACK": { "default": 1.5, "unit": "blocks" },
+      "UP": { "default": 1.4, "unit": "blocks" }, "LEAD": { "default": 0.8, "unit": "blocks" },
+      "CX0": { "default": -12 }, "CX1": { "default": 44 }, "CZ0": { "default": -14 }, "CZ1": { "default": 16 }, "MINECRAFT": { "default": 1, "switch": true } } },
+    "perdix-life": { "about": "M4: Perdix living his life from a seed: strolls, looks around and at you, follows you, auto-jumps steps", "knobs": {
+      "PERDIX_X": { "default": 60.5, "unit": "x" }, "PERDIX_Z": { "default": 40.5, "unit": "z" }, "PERDIX_YAW": { "default": 0, "unit": "rad" },
+      "SEED": { "default": 1, "step": 1, "about": "which life: Find a start lists what each does" },
+      "MODE": { "default": 0, "min": 0, "max": 2, "step": 1, "about": "0 his life, 1 following you, 2 standing still" },
+      "YOU_AHEAD": { "default": 4, "unit": "blocks", "about": "where you stand: in front of where he starts" }, "YOU_SIDE": { "default": 0, "unit": "blocks", "about": "and to his right" },
+      "YOU_SNEAK": { "default": 0, "switch": true, "about": "you sneak: he sees you from 4.8 blocks, not 6" },
+      "WARMUP": { "default": 0, "unit": "s", "about": "his life runs this long before the shot starts" },
+      "CAM": { "default": 0, "min": 0, "max": 2, "step": 1, "about": "0 beside him, 1 from your eyes, 2 a god's orbit" },
+      "STARE_FROM": { "default": 1000000000, "unit": "s", "time": true, "about": "his head turns to the camera" }, "STARE_FOR": { "default": 2.5, "unit": "s" },
+      "SIDE": { "default": 4.5, "unit": "blocks" }, "BACK": { "default": 1.5, "unit": "blocks" }, "UP": { "default": 1.4, "unit": "blocks" }, "LEAD": { "default": 0.8, "unit": "blocks" },
+      "CAM_LAG": { "default": 0.8, "unit": "s", "about": "how slowly the camera swings after his turns" }, "AIM_LAG": { "default": 0.12, "unit": "s" },
+      "RADIUS": { "default": 9, "unit": "blocks", "about": "the god's orbit" }, "RISE": { "default": 9, "unit": "blocks" }, "START": { "default": 0.785, "unit": "rad" }, "SPIN": { "default": 0.15, "unit": "rad/s" },
+      "CX0": { "default": -4 }, "CX1": { "default": 12 }, "CZ0": { "default": -4 }, "CZ1": { "default": 10 },
+      "MINECRAFT": { "default": 1, "switch": true }
+    } }
+  },
+  "searches": {
+    "walk-search": { "for": ["walk"], "about": "starts and headings that walk without hitting a step before the jumping starts" },
+    "stuck-search": { "for": ["perdix-stuck"], "about": "starts that walk into a one block step and stand there" },
+    "life-search": { "for": ["perdix-life"], "about": "seeds of his life and what each does: when he strolls, looks at you, jumps" }
+  }
+}

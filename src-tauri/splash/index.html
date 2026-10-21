@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Emoton</title>
+<meta name="color-scheme" content="dark">
+<style>
+  @font-face {
+    font-family: "KaTeX_Main";
+    src: url("KaTeX_Main-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+  :root {
+    --bg: #0E0E10;
+    --ink: #ECECEE;
+    --muted: #8A8A93;
+    --blue: #58C4DD;
+    --red: #FC6255;
+    --line: #232328;
+  }
+  html, body {
+    margin: 0;
+    height: 100%;
+    background: var(--bg);
+    color: var(--ink);
+    font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+    overflow: hidden;
+  }
+  /* The window has an overlay title bar; this strip is where it is dragged. */
+  .bar { position: fixed; inset: 0 0 auto 0; height: 48px; }
+  main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+    padding: 0 48px;
+    box-sizing: border-box;
+  }
+  h1 {
+    margin: 0;
+    font: 400 64px/1 "KaTeX_Main", "Latin Modern Roman", "Iowan Old Style", Georgia, serif;
+    letter-spacing: 0.01em;
+  }
+  .track {
+    width: 160px;
+    height: 2px;
+    background: var(--line);
+    border-radius: 1px;
+    overflow: hidden;
+  }
+  .track i {
+    display: block;
+    width: 40%;
+    height: 100%;
+    background: var(--blue);
+    border-radius: 1px;
+    animation: slide 1.4s cubic-bezier(.45, 0, .2, 1) infinite;
+  }
+  @keyframes slide { from { transform: translateX(-100%); } to { transform: translateX(250%); } }
+  .status { color: var(--muted); min-height: 1.5em; text-align: center; }
+  .status small { display: block; font-size: 12px; opacity: .75; }
+  .error { display: none; max-width: 560px; text-align: center; }
+  .error h2 { margin: 0 0 8px; font-size: 15px; font-weight: 600; color: var(--red); }
+  .error p { margin: 0 0 14px; color: var(--ink); }
+  .error .log { color: var(--muted); }
+  .error code {
+    font: 12px/1.4 ui-monospace, "SF Mono", Menlo, monospace;
+    color: var(--ink);
+    background: #18181C;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 2px 7px;
+    -webkit-user-select: text;
+    user-select: text;
+    cursor: text;
+  }
+  button {
+    margin-top: 18px;
+    font: 500 13px/1 -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--bg);
+    background: var(--blue);
+    border: 0;
+    border-radius: 6px;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  button:hover { filter: brightness(1.08); }
+  button:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+  body.failed .track, body.failed .status { display: none; }
+  body.failed .error { display: block; }
+  @media (prefers-reduced-motion: reduce) { .track i { animation: none; width: 100%; opacity: .5; } }
+</style>
+</head>
+<body>
+  <div class="bar" data-tauri-drag-region></div>
+  <main>
+    <h1>emoton</h1>
+    <div class="track"><i></i></div>
+    <div class="status" id="status">Starting Emoton...<small id="detail"></small></div>
+    <div class="error" id="error">
+      <h2>Emoton could not start</h2>
+      <p id="message"></p>
+      <div class="log">Server log: <code id="log">~/Library/Logs/Emoton/server.log</code></div>
+      <button id="retry" type="button">Try again</button>
+    </div>
+  </main>
+<script>
+  document.getElementById("retry").addEventListener("click", function () {
+    var t = window.__TAURI__;
+    if (t) t.core.invoke("retry");
+  });
+  // The shell calls this with {state: "starting", detail} or
+  // {state: "error", message, log} (src-tauri/src/lib.rs, Splash).
+  window.__emotonSplash = function (s) {
+    if (s.state === "error") {
+      document.getElementById("message").textContent = s.message;
+      document.getElementById("log").textContent = s.log;
+      document.body.classList.add("failed");
+      document.getElementById("retry").focus();
+    } else {
+      document.getElementById("detail").textContent = s.detail || "";
+      document.body.classList.remove("failed");
+    }
+  };
+</script>
+</body>
+</html>

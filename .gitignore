@@ -1,0 +1,22 @@
+node_modules/
+out/
+.venv/
+tts/models/
+*.log
+.DS_Store
+.remotion/
+*.emoton/
+node_modules
+tts/.venv
+tts/models
+src-tauri/target
+app/dist
+
+# v0 layout leftovers: videos live in the library (~/Emoton) now
+videos/
+
+# the shot tool built against Perdix (sources/perdix/build.sh)
+sources/perdix/bin/
+
+# names the privacy scan and the public export refuse (shape: safety.example.json)
+safety.local.json
